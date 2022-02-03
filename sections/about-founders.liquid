@@ -1,0 +1,82 @@
+<div class="background__white padding-top-5" style="position:relative"> 
+  <div class="white-wave"></div>
+  <div class="aboutus-blob-2"></div>
+  <h2 class="mainheading_black padding-bottom-2">Meet our Founders</h2>
+  <div class="aboutus__ctn-1 padding-bottom-10">
+    <div class="aboutus__img-ctn-2">
+      <div class="aboutus__img-founders" style="background-image: url({{ section.settings.image | img_url: "1080x1080" }})">
+      </div>
+    </div>
+    <div class="aboutus__ctn-inner">
+      <p class="aboutus__text-1">
+        Inventors, Sean and Alisha, grew up in an area of water stress 
+        and were tired of heating 100L of water during their shower and 
+        seeing it literally go down the drain, each and every time. 
+        When speaking with others, they learned a lot of people were 
+        upset about the situation too so they decided to do something 
+        about it. With collective backgrounds in business, water management 
+        and engineering, they are on a mission of making saving water 
+        irresistible. When not developing RainStick and trying to save the 
+        world one revolutionized shower at a time, Sean and Alisha are avid 
+        mountain bikers, travellers and music lovers.
+      </p>
+      <p class="aboutus__text-1">Connect with them on LinkedIn here:</p>
+      <div class="aboutus__inventor-ctn">
+        <div class="aboutus__inventor-name-ctn">
+          <a href="{{ section.settings.url_one }}" class="aboutus__inventor-name">{{ section.settings.link_one }}</a>
+        </div>
+        <div class="aboutus__inventor-name-ctn">
+          <a href="{{ section.settings.url_two }}" class="aboutus__inventor-name">{{ section.settings.link_two }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Founders",
+    "settings": [
+	  {
+        "id": "image",
+		"type": "image_picker",
+		"label": "Image"
+      },
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Header"
+      },
+	  {
+        "id": "content",
+		"type": "textarea",
+		"label": "Content"
+      },
+	  {
+        "id": "url_one",
+		"type": "url",
+		"label": "Link one"
+      },
+	  {
+        "id": "link_one",
+		"type": "text",
+		"label": "Label one"
+      },
+	  {
+        "id": "url_two",
+		"type": "url",
+		"label": "Link Two"
+      },
+	  {
+        "id": "link_two",
+		"type": "text",
+		"label": "Label two"
+      }
+	],
+    "presets": [
+      {
+      "name": "About Founders"
+      }
+    ]
+  }
+{% endschema %}

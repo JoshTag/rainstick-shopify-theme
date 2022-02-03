@@ -1,0 +1,143 @@
+{% for block in section.blocks%}
+  {% if block.type == 'top_block' %}
+    <div class="background__grey padding-bottom-5 padding-top-5" style="position:relative">
+      <div class="grey-wave"></div>
+      <div class="aboutus-blob-4"></div>
+      <div class="aboutus__ctn-1">
+        <div class="aboutus__img-ctn-mission-section">
+          <div class="aboutus__mission-img" style="background-image: url({{ block.settings.image | img_url: "1080x1080"}})">
+          </div>
+        </div>
+        <div class="aboutus__ctn-mission">
+          <h3 class="mainheading_white">{{ block.settings.title }}</h3>
+          <p class="aboutus__mission-text">
+            {{ block.settings.content }}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% elsif block.type == 'middle_block' %}
+    <div class="background__beige padding-bottom-5 padding-top-5">
+      <div class="aboutus__ctn-1">
+        <div class="aboutus__ctn-values">
+          <h3 class="aboutus__values-heading">{{ block.settings.title }}</h3>
+          <div class="aboutus__values-text">
+            {{ block.settings.content }}
+          </div>
+        </div>
+        <div class="aboutus__img-ctn-mission-section-2">
+          <div class="aboutus__values-img" style="background-image: url({{ block.settings.image | img_url: "1080x1080"}})">
+          </div>
+        </div>
+      </div>
+    </div>
+  {% elsif block.type == 'bottom_block' %}
+    <div class="background__grey padding-bottom-5 padding-top-5">
+      <div class="aboutus__rs-diff">
+        <div class="aboutus__ctn-inner-rs-diff">
+          <p class="aboutus__advantages-text">{{ block.settings.line_one }}</p>
+          <p class="aboutus__advantages-text">{{ block.settings.line_two }}</p>
+          <p class="aboutus__advantages-text">{{ block.settings.line_three }}</p>
+          <p class="aboutus__advantages-text">{{ block.settings.line_four }}</p>
+          <p class="aboutus__advantages-text">{{ block.settings.line_five }}</p>
+          <p class="aboutus__advantages-text-bold">{{ block.settings.line_six }}</p>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+
+{% schema %}
+  {
+    "name": "Large text box",
+    "blocks": [
+      {
+        "type": "top_block",
+        "name": "Top block",
+		"limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "content"
+          }
+        ]
+      },
+	  {
+        "type": "middle_block",
+        "name": "Middle block",
+		"limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "content"
+          }
+        ]
+      },
+	  {
+        "type": "bottom_block",
+        "name": "Bottom block",
+		"limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "line_one",
+            "label": "Line one"
+          },
+          {
+            "type": "text",
+            "id": "line_two",
+            "label": "Line two"
+          },
+          {
+            "type": "text",
+            "id": "line_three",
+            "label": "Line three"
+          },
+          {
+            "type": "text",
+            "id": "line_four",
+            "label": "Line four"
+          },
+          {
+            "type": "text",
+            "id": "line_five",
+            "label": "Line five"
+          },
+          {
+            "type": "text",
+            "id": "line_six",
+            "label": "Line six"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+      "name": "About - Values"
+      }
+    ]
+  }
+{% endschema %}

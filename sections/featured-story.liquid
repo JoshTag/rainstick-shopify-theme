@@ -1,0 +1,42 @@
+{% style %}
+  #section-id--{{ section.id }} .blog__img-1 {
+    background-image: url({{ section.settings.article.image.src | img_url: "700x" }});
+  }
+{% endstyle %}
+
+<div class="background__white padding-bottom-5-desktop" style="position:relative" id="section-id--{{ section.id }}">
+     <div class="stories-blob-1"></div>
+ <div class="aboutus__ctn-1 padding-top-7">
+  <div class="blog__ctn-inner">
+    <h3 class="mainheading_black padding-bottom-2">{{ section.settings.article.title }}</h3>
+    <p class="aboutus__text-1">
+	  {{ section.settings.article.excerpt }}
+    </p>
+   <a href="{{ section.settings.article.url }}" class="button__standard margin-top-2">
+     Read blog post
+   </a>
+  </div>
+  <div class="aboutus__img-ctn-1">
+    <div class="blog__img-1">
+    </div>
+  </div>
+</div>
+</div>
+
+{% schema %}
+  {
+    "name": "Featured story",
+    "settings": [
+	  {
+        "id": "article",
+		"type": "article",
+		"label": "Featured article"
+      }
+	],
+    "presets": [
+      {
+      "name": "Featured story"
+      }
+    ]
+  }
+{% endschema %}

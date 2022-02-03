@@ -1,0 +1,154 @@
+<script
+  type="application/json"
+  data-section-type="static-cart"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<div class="module-wrapper cart--bg-color" style="position: relative;">
+  <div class="homepage-blob"></div>
+  <div class="module cart">
+    <div class="module-header cart-header">
+      <h1 class="module-title cart">
+        {% if cart.item_count > 0 %}{{ 'cart.general.header' | t }}{% else%}Your Cart is Empty{% endif %}
+      </h1>
+    </div>
+    <div class="module-body">
+      <div class="module-content">
+        {% if cart.item_count > 0 %}
+          <form action="{{ routes.cart_url }}" method="post" data-cart-form>
+            <div class="cart-items-container">
+              {% include 'cart-table' %}
+            </div>
+            <div class="cart-tools">
+              <div class="cart-totals">
+                <div class="cart-price-info">
+                  <ul class="cart-discounts" data-cart-discounts>
+                    {% include 'cart-discounts' %}
+                  </ul>
+                  <p class="cart-price">
+                    <span class="visually-hidden">
+                      {{ 'general.general.subtotal' | t }}
+                    </span>
+                    <span class="money" data-cart-subtotal>
+                      {{ cart.total_price | money }}
+                    </span>
+                  </p>
+<!--                   <p class="cart-message meta">
+                    {{ 'cart.general.tax_and_shipping' | t }}
+                  </p> -->
+                  <p class="cart-message refundable">
+                    This refundable deposit goes towards the price of your RainStick Shower.
+                  </p>
+                  <p style="cart-message">
+                    <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+                    <label style="display:inline; float:none" for="agree">
+                      By placing a fully refundable preorder, I agree to the <a class="checkout-link" href="https://rainstickshower.com/policies/terms-of-service">Terms & Conditions</a><br> and consent to RainStick’s Terms and <a class="checkout-link" href="https://rainstickshower.com/policies/privacy-policy">Privacy Policy</a>
+					  <a style="text-decoration:underline" href="{{ section.settings.tc_link }}">
+                        {{ section.settings.tc_link_text }}
+                      </a>.
+                    </label>
+                  </p>
+                </div>
+                <div class="cart-cta">
+                  <button
+                    type="submit"
+                    name="checkout"
+                    value="{{ 'cart.general.submit' | t }}"
+                    class="button secondary inverse cart-button"
+                  >
+                    {% if section.settings.enable_checkout_lock_icon %}
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 11.1667C2.5 10.0622 3.39543 9.16675 4.5 9.16675H15.5C16.6046 9.16675 17.5 10.0622 17.5 11.1667V16.3334C17.5 17.438 16.6046 18.3334 15.5 18.3334H4.5C3.39543 18.3334 2.5 17.438 2.5 16.3334V11.1667Z" fill="currentColor"/>
+                        <path d="M5.83337 9.16675V5.83341C5.83337 3.53223 7.69885 1.66675 10 1.66675C12.3012 1.66675 14.1667 3.53223 14.1667 5.83341V9.16675" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    {% endif %}
+                    <span>{{ 'cart.general.submit' | t }}</span>
+                  </button>
+
+                  {% if additional_checkout_buttons %}
+                    <div class="additional-checkout-buttons">
+                      {{ content_for_additional_checkout_buttons }}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+              {% if section.settings.order_notes %}
+                <div class="cart-instructions">
+                  <p><label for="cart-notes">{{ 'cart.general.instructions_title' | t }}</label></p>
+                  <textarea rows="6" name="note" id="cart-notes" placeholder="{{ 'cart.general.instructions_placeholder' | t }}">{{ cart.note }}</textarea>
+                </div>
+              {% endif %}
+            </div>
+          </form>
+
+          <div class="cart-modal-wrapper">
+            <div class="cart-modal">
+              <h3 class="cart-modal-title" data-modal-title></h3>
+              <div class="cart-modal-message" data-modal-message></div>
+              <div class="cart-modal-action">
+                <button class='button dismiss' data-modal-action></button>
+              </div>
+            </div>
+          </div>
+
+          {% if section.settings.show_shipping_calculator and cart.requires_shipping %}
+            {% include 'shipping-calculator' %}
+          {% endif %}
+        {% else %}
+          <form method="post" action="/cart/add" class="empty cart-buttons">
+            <a href="/products/rainstick-shower">DISCOVER RAINSTICK</a>
+            <input type="hidden" name="id" value="{{ all_products["rainstick-shower"].variants.first.id }}" />
+          </form>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/json" data-cart-strings>
+  {
+    "cartQuantityError": {
+      "title": {{ 'cart.quantity_error.title' | t | json }},
+      "message": {{ 'cart.quantity_error.message' | t: quantity: '** quantity **', title: '** title **' | json }},
+      "button": {{ 'cart.quantity_error.button' | t | json }}
+    }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Cart page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_checkout_lock_icon",
+      "label": "Show lock icon on checkout button",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "order_notes",
+      "label": "Enable order notes",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Shipping calculator"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_calculator",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "shipping_calculator_default_country",
+      "label": "Default country",
+      "default": "United States"
+    }
+  ]
+}
+
+{% endschema %}

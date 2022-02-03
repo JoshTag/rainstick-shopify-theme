@@ -1,0 +1,75 @@
+<style>
+  button.needsclick {
+    width: 200px;
+    height: 30px;
+  }
+  
+  input[type=text].needsclick,
+  input[type=email].needsclick{
+    border: 2px solid #000000 !important;
+    border-radius: 7px !important;
+  }
+  
+  .DropdownComponents__DropdownField-sc-1mxqjnw-2.needsclick {
+    border: 2px solid #000000 !important;
+    border-radius: 7px !important;
+  }
+  .hXGcth.hXGcth.hXGcth.hXGcth.hXGcth.hXGcth {
+    transition: 0.3s;
+  }
+</style>
+
+<div class="module-wrapper style-{{ section.settings.style }}">
+  <div class="module side contact crop one-child">
+    <div class="preorder module-body">
+<!--       <img src="https://cdn.shopify.com/s/files/1/0412/1028/2140/files/RainStick_-_Pre-Order1.png?v=1593971643" > -->
+      <div class="side-wrapper">
+        <div class="side-section right">
+          <div class="side-text-wrapper">
+              <div class="module-title side-title contact-form-title">
+                <h1 class="product-title">RainStick Circular Shower</h1>
+                <p style="font-size:16px;">Thanks for your interest! We're working hard to make RainStick great and are currently in the final stages of regulatory approvals in your area. Join the waitlist to be contacted when RainStick is available in your region.</p>
+              </div>
+            <div class="module-text side-text">
+              <div class="contact-item contact-form">
+                <div class="klaviyo-form-XGP82s"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact form",
+  "settings": [
+    {
+      "type": "select",
+      "id": "style",
+      "label": "Background style",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "light",
+          "label": "Light"
+        },
+        {
+          "value": "color",
+          "label": "Color"
+        },
+        {
+          "value": "gradient",
+          "label": "Gradient"
+        }
+      ],
+      "default": "light"
+    }
+  ]
+}
+{% endschema %}

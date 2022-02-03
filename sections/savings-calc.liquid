@@ -1,0 +1,77 @@
+<style>
+  .calc-ctn {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    color: #fff;
+  }
+  .calc-ctn > h2 {
+    font-size: 24px;
+    padding-top: 60px;
+  }
+  .calc-ctn > p {
+    max-width: 80%;
+    padding: 10px 0;
+  }
+  @media screen and (max-width: 767px) {
+    .calc-ctn > p {
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+  .saving-calc__blog-img {
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    display: flex;
+  }
+  .saving-calc__blog-title {
+    color: #fff; 
+    background: rgba(18,18,18,0.8);
+    border-radius: 0 0 6px 6px;
+    padding: 15px 0;
+    font-size: 14px !important;
+    font-weight: 400;
+    text-align: left !important;
+    padding-left: 20px;
+    width: 100%;
+    display: block;
+    height: 50px;
+    margin: auto 0 0;
+  } 
+  #saving-calc {
+    display: block;
+  }
+  @media screen and (min-width: 900px) {
+    #saving-calc {
+      padding-left: 50px;
+    }
+  }
+</style>
+
+<a href="{{section.settings.featured_article.url  }}" id="saving-calc">
+  <div class="saving-calc__blog-img" style="background-image: url({{ section.settings.featured_article.image.src | img_url: '500x' }})" >
+    <span class="saving-calc__blog-title">{{ section.settings.featured_article.title }}</span>
+  </div>
+</a>
+
+{% schema %}
+  {
+    "name": "Savings calc",
+    "settings": [
+      {
+        "type": "article",
+        "id": "featured_article",
+        "label": "Featured article"
+      }
+	],
+    "presets": [
+      {
+        "name": "Savings calc"
+      }
+    ]
+  }
+{% endschema %}

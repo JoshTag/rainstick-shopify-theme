@@ -1,0 +1,82 @@
+{% assign rainstick = all_products["rainstick-shower"] %}
+
+<style>
+  .klaviyo-form-RvQda9 form > div > div:nth-child(-n+3) input.needsclick {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0 !important; 
+  }
+  .klaviyo-form-RvQda9 form > div > div:nth-child(4) div > div > div > div > div.go3959024032,
+  .klaviyo-form-RvQda9 form > div > div:nth-child(5) div > div > div > div > div.go3959024032 {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0 !important;
+      
+  }
+  .klaviyo-form-RvQda9 label.needsclick {
+    font-weight: 300 !important;
+  }
+  .klaviyo-form-RvQda9 form > div > div:nth-child(7) button.needsclick {
+  	width: 200px !important;
+    transition: 0.3s;
+  } 
+  .flickity-page-dots .dot.is-selected {
+    background: #ff9040;
+  }
+  .flickity-page-dots .dot {
+    opacity: 1; 
+  }
+  .shop-btn {
+    color: #f4f2f1;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 10px;
+    letter-spacing: 1px;
+    background-color: rgb(9, 198, 198);
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+  .shop-btn:hover {
+    background-color: #F6EDE2;
+    color: #000000;
+    cursor: pointer;
+  }
+</style>
+
+<div class="module-wrapper waitlist-bg">
+  <div class="module module-default-page">
+    <div class="waitlist-page__container">
+      <img class="waitlist-page__blob-1" src="{{ 'blob-waitlist.svg' | asset_url }}"/>
+      <img class="waitlist-page__blob-2" src="{{ 'blob-destination-2.svg' | asset_url }}"/>
+      <div class="waitlist-page__carousel-wrapper">
+        <div class="carousel-waitlist">
+          {% for image in all_products["rainstick-shower"].images %}
+            <div class="carousel-waitlist__item">
+               	{%- capture bg_image -%}
+                  {%
+                    include 'rimg'
+                    background: true,
+                    img: image.src,
+                    lazy: true,
+                  %}
+                {%- endcapture -%}
+              <div class="carousel-waitlist__image" {{ bg_image }}></div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="waitlist-page__waitlist-wrapper">
+        <img class="waitlist-page__logo-img" src="{{ 'logo-black.png' | asset_url }}"/>
+        <p>{{ page.content }}</p>
+        <div class="klaviyo-form-RvQda9"></div>
+<!--         <a href="/products/rainstick-shower" class="shop-btn">view rainstick</a> -->
+      </div>
+    </div>
+  </div>
+</div>

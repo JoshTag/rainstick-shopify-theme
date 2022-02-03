@@ -1,0 +1,42 @@
+<div class="background__white padding-bottom-10 padding-top-2" style="position:relative">
+  <div class="aboutus__ctn-1 padding-top-4">
+    <div class="aboutus__ctn-inner">
+      <h1 class="mainheading_black padding-bottom-2">{{ section.settings.header }}</h1>
+      <div class="aboutus__text-1">
+        {{ section.settings.content }}
+      </div>
+    </div>
+    <div class="aboutus__img-ctn-1">
+      <div class="aboutus__img" style="background-image: url({{ section.settings.image | img_url: "1080x1080" }})">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About hero",
+    "settings": [
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Header"
+      },
+	  {
+        "id": "content",
+		"type": "richtext",
+		"label": "Content"
+      },
+	  {
+        "id": "image",
+		"type": "image_picker",
+		"label": "Image"
+      }
+	],
+    "presets": [
+      {
+      "name": "About hero"
+      }
+    ]
+  }
+{% endschema %}

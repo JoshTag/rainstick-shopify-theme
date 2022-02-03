@@ -1,0 +1,240 @@
+<style>
+.beige-wave {
+  background-image: url({{ 'Beige_Wave.svg' | asset_url }});
+  width: 100%;
+  height: 119px;
+  position: absolute;
+  top: -72px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+@media screen and (min-width: 1440px){
+ .beige-wave{
+  top: -119px;
+    }}
+  
+.dynamic-faq {
+  background-color: #F7EDE2;
+  position:relative;
+}
+  
+@media screen and (min-width: 490px) {
+  .dynamic-faq {
+  }
+}
+.dynamic-faq__question {
+  text-decoration: underline;
+  margin: 20px 0;
+}
+.dynamic-faq__answer >  *,
+.dynamic-faq__question {
+  font-size: 14px;
+}
+.dynamic-faq__question:hover {
+  cursor: pointer;
+}
+.faq__title {
+  font-size: 20px !important;
+  text-align: left !important;
+}
+@media screen and (max-width: 1024px){
+  .faq__title{
+    padding-left:1rem
+  }}
+  
+@media screen and (max-width: 1024px){
+  .faq__sub-title{
+    padding-left:1rem
+  }}  
+.faq__sub-title {
+  font-size: 18px !important;
+  text-align: left !important;
+  margin-bottom: 10px;
+  font-weight: 300;
+  display: block;
+}
+.faq__content {
+  margin: 20px 1rem 40px;
+}
+.faq__answers {
+  border: 1px solid #2A2725;
+  border-radius: 6px;
+  padding: 20px 10px;
+}
+.faq-contact {
+  padding: 0 1rem 60px;
+}
+.faq-contact-input > input {
+  background: transparent;
+}
+.faq-contact-input.second > input,
+.faq-contact-input.last > input {
+  margin-top: 10px;
+}
+.faq-contact-input.last > input {
+  padding: 0 15px;
+  height: 50px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #09C6C6;
+  text-align: left;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  #faq-questions {
+    column-count: 2;
+  } 
+  .dynamic-faq__question {
+    padding-right: 30px;
+    margin: 0 0 20px 0;
+  }
+  .dynamic-faq__question:not(:first-of-type) {
+    margin: 20px 0;
+  }
+  .faq-contact-input.second > input,
+  .faq-contact-input.last > input {
+    margin-top: 0;
+  }
+  .faq-contact-input.first {
+    width: 55%;
+  }
+  .faq-contact-input.second {
+    width: 25%;
+  }
+  .faq-contact-input.last {
+    width: 15%;
+  }
+  .faq-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .faq-contact {
+    padding: 0 0 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dynamic-faq {
+    padding: 0;
+  }
+  .dynamic-faq > div:not(:nth-of-type(1)) {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .faq__content {
+    display: flex;
+	flex-direction: row;
+  }
+  #faq-questions {
+    width: 66.66%;
+  }
+  .faq__answers {
+    width: 33.33%;
+    border: none;
+  }
+}
+  .custom-success-msg-form {
+    background-color: transparent;
+    color: green;
+    padding-top: 20px;
+  }
+</style>
+
+
+<div class="beige-wave"></div>
+<div>
+  <h2 class="faq__title" style="padding-top: 40px;">Frequently Asked Questions</h2>
+  <span class="faq__sub-title">Pick a question below.</span>
+</div>
+<div class="faq__content">
+  <ul id="faq-questions">
+    {% for block in section.blocks %}
+      <li class="dynamic-faq__question" data-id="{{ block.id }}">{{ block.settings.question }}</li>
+    {% endfor %}
+  </ul>
+  <div class="faq__answers">
+    <h3 class="faq__title">Answer</h3>
+    <span class="faq__sub-title">Your answer will appear below.</span>
+    <div id="faq-answers">
+      {% for block in section.blocks %}
+        <div class="dynamic-faq__answer" data-id="{{ block.id }}">{{ block.settings.answer }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+    
+<div class="faq_ctn">
+  <span class="faq__sub-title">Submit your own question below.</span>
+  {% form 'contact', id: 'faq-form', class: 'faq-contact' %}
+  {% if form.errors %}
+    <div class="contact-form-error-message">
+      {{ 'contact.error' | t }}
+    </div>
+  {% endif %}
+    <div class="faq-contact-input first">
+      <input
+             type="text"
+             id="contact[body]"
+             placeholder="What's your question?"
+             aria-label="What's your question?"
+             value=""
+             name="contact[body]"
+             class="{% if form.errors contains 'body' %}error{% endif %}">
+    </div>
+    <div class="faq-contact-input second">
+      <input
+             type="text"
+             id="contact[email]"
+             placeholder="Email Address"
+             aria-label="Email Address"
+             value=""
+             name="contact[email]"
+             class="{% if form.errors contains 'email' %}error{% endif %}">
+    </div>
+    <div class="faq-contact-input last">
+      <input
+             class="button outline contact-form-button"
+             type="submit"
+             value="{{ 'general.general.submit' | t }}"
+             aria-label="{{ 'general.general.submit' | t }}"
+             >
+    </div>
+    {% if form.posted_successfully? %}
+      <div class="custom-success-msg-form">
+        Your question has been sent successfully! We will be in contact with you as soon as possible.
+      </div>
+    {% endif %}
+  {% endform %}
+</div>
+
+{% schema %} 
+  {
+    "name": "FAQ Dynamic",
+	"tag": "section",
+	"class": "dynamic-faq",
+	"blocks": [
+	  {
+      "type": "text",
+      "name": "Questions",
+      "settings": 
+	    [
+          {
+            "type": "text",
+            "id": "question",
+            "label": "Question"
+          },
+          {
+            "type": "richtext",
+            "id": "answer",
+            "label": "Answer"
+          }
+        ]
+      }
+	],
+    "settings": []
+  }
+{% endschema %}
+

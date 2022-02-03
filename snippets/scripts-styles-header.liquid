@@ -1,0 +1,197 @@
+<link rel="preconnect" href="//cdn.shopify.com">
+<link rel="preconnect" href="//code.ionicframework.com">
+<link rel="preconnect" href="//fonts.googleapis.com">
+
+<!-- Slick -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+<!-- Theme CSS -->
+{{ 'theme.css' | asset_url | stylesheet_tag }}
+<style>
+  #insta-feed img, .instafeed-shopify img {
+    border-radius: 6px !important; 
+  }
+  #savings-calculator {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 3rem 0;
+    background: transparent;
+    color: #fff;
+  }
+  .select-wrapper {
+    background-color: unset; 
+    border: 2px solid #fff;
+  }
+  .select-wrapper > select  {
+    border: 1px solid #fff;
+    background-color: transparent;
+  }
+  .select-wrapper:after {
+    color: #fff; 
+  }
+  .selected-text {
+    color: #fff 
+  }
+  .calculator-form-group > input {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding-left: 20px;
+    height: 50px;
+  }
+  .calculator-form-group > .select-wrapper {
+    height: 50px !important;
+    line-height: 50px !important;
+    border: 1px solid #fff;
+  }
+  .calculator-form-group > input {
+    margin-top: 0.5rem;
+    border: 1px solid #fff;
+  }
+  .calculator-form-group input:disabled, 
+  .calculator-form-group select:disabled, 
+  .calculator-form-group button:disabled {
+    border-radius: 0;  
+  }
+  @media screen and (max-width: 899px) {
+    #savings-calculator form > div:nth-child(2) {
+      flex-direction: column;
+    }
+    
+    #savings-calculator form > div:nth-child(2) > div:nth-child(2) {
+      margin-top: 40px;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    #savings-calculator {
+      height: 550px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    #savings-calculator form > div:nth-child(2) > div:nth-child(1) > div {
+      flex-direction: column;
+    }
+  }
+  .rate-label {
+    font-size: 15px !important; 
+  }
+  .saving-calc-page {
+    background: rgba(18,18,18,.9);
+    padding-bottom: 100px;
+  }
+  .savings-calculator h2 {
+    display: none;
+  }
+  #savings-calculator form > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    font-size: 18px !important;
+    line-height: 38px;
+  }
+  #savings-calculator form > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > b {
+    font-weight: 600 !important; 
+  }
+  #savings-calculator form > div:nth-child(2) > div:nth-child(1) {
+    flex: 1 1 0% !important;
+  }
+  .calculator-form-group:nth-of-type(1),
+  .calculator-form-group:nth-of-type(2) {
+    padding: 24px 4px 4px 4px !important;
+  }
+  #savings-calculator form > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > .calculator-form-group > input {
+    height: 40px;
+  }
+  #savings-calculator form > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    position: relative;
+    z-index: 10;
+  }
+  #media-anchor {
+    z-index: 1;
+  }
+  
+  
+  #insta-feed {
+    padding: 0 1rem 60px;
+    margin: 0 auto 0 !important;
+    max-width: 1100px;
+  }
+  #shopify-section-instafeed {
+    background: #f7ede2;
+  }
+  .instafeed-header {
+    background: #f7ede2;
+  }
+  .instafeed-header__wrapper {
+    padding: 60px 1rem 20px;
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  #insta-feed .instafeed-overlay::after, .instafeed-shopify .instafeed-overlay::after {
+    border-radius: 6px;
+  }
+  .instafeed-header__wrapper h2 {
+    font-size: 24px;
+    text-align: left !important;
+  }
+  .instafeed-header__wrapper p {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  .select-wrapper .selected-text {
+    line-height: 50px;
+  }
+  .instafeed-header__icons > a {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+    margin-right: 10px;
+  }
+  .instafeed-header__icons--facebook {
+    background-image: url({{ 'facebook-icon.png' | asset_url }});
+  }
+  .instafeed-header__icons--instagram {
+    background-image: url({{ 'instagram-icon.png' | asset_url  }});
+  }
+  .instafeed-header__icons--linkedin {
+    background-image: url({{ 'linkedin-icon.png' | asset_url  }});
+  }
+  .instafeed-header__icons--twitter {
+    background-image: url({{ 'twitter-icon.png' | asset_url  }});
+  }
+  @media screen and (min-width: 768px) {
+    .instafeed-header__wrapper  {
+      display: flex;
+      flex-direction: row;
+      padding: 60px 3rem 20px;
+      justify-content: space-between;
+    }
+    #insta-feed {
+      padding: 0 3rem 60px;
+    }
+    .instafeed-header__icons {
+      width: 160px; 
+      padding-top: 7px;`
+      flex-shrink: 0;
+      margin-left: 40px;
+    }
+    .instafeed-header__wrapper p {
+      padding-bottom: 20px;
+    }
+  }
+  {% if request.page_type == 'policy' %}
+    .main-content {
+      overflow-x: clip;
+    }
+  {% endif %}
+  
+  .newsletter__ctn-inner-2 > input {
+    width: unset;
+  }
+  
+</style>
+
+<!-- Store object -->
+{% include 'theme-options' %}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js no-touch" lang="{{ shop.locale }}">
+<head>
+  <!-- Global site tag (gtag.js) - Google Ads: 10797305899 --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10797305899"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10797305899'); </script>
+
+  <meta name="google-site-verification" content="uaKXKTJPtW0pjsJym_vK14qMbrSzxFPsNjnFZQR04_I" />
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  {% assign tab_index = 0 %}
+
+  {% if template == 'index' %}
+    <title>{{ shop.name }} | {{ page_title }}</title>
+  {% elsif template == '404' %}
+    <title>{{ "general.404.title" | t }} | {{ shop.name }}</title>
+  {% else %}
+    <title>{{ page_title }} | {{ shop.name }}</title>
+  {% endif %}
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}" />
+  {% endif %}
+
+  {% include 'favicon' %}
+
+  {% if template contains 'collection' and current_tags %}
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+  {% else %}
+    <link rel="canonical" href="{{ canonical_url }}" />
+  {% endif %}
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  {{ content_for_header }}
+
+  {% assign twitter_handle = settings.social_twitter_url | split: 'twitter.com/' | last %}
+  {%
+    include 'social-meta-tags',
+    twitter_handle: twitter_handle
+  %}
+  {% include 'scripts-styles-header' %}
+  
+  <!-- Hotjar Tracking Code for https://rainstickshower.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2704632,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</head>
+
+{% include 'additional-classes' %}
+<body class="{{ bodyClasses }}">
+    <script>
+      document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');
+      if(window.Shopify&&window.Shopify.designMode)document.documentElement.className+=' in-theme-editor';
+      if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
+    </script>
+
+  {% section 'pxs-announcement-bar' %}
+
+  {% section 'static-header' %}
+
+  <main class="main-content">
+
+    {% comment %}
+    {% unless template contains 'index' or fullBleed %}
+      {% unless template contains 'slideshow' and settings.product-slideshow-layout == 'full-width' %}
+        {% include 'breadcrumbs' %}
+      {% endunless %}
+    {% endunless %}
+    {% endcomment %}
+
+    {{ content_for_layout }}
+  </main>
+  
+  {% section 'footer' %}
+  {% include 'scripts-styles-footer' %}
+  {% include 'structured-data' %}
+  {% include 'cart-pop-up'  %}
+  
+  <script>
+    (function () {
+      function handleFirstTab(e) {
+        if (e.keyCode === 9) { // the "I am a keyboard user" key
+          document.body.classList.add('user-is-tabbing');
+          window.removeEventListener('keydown', handleFirstTab);
+        }
+      }
+      window.addEventListener('keydown', handleFirstTab);
+    })();
+  </script>
+<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=S4hENu"></script>
+<script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script> 
+<script>
+  window.addEventListener("klaviyoForms", function(e) { 
+    if (e.detail.type == 'open' || e.detail.type == 'embedOpen') {
+      ga('send', 'event', 'Klaviyo form', 'form_open', e.detail.formId, {nonInteraction: true});
+    }
+    if (e.detail.type == 'submit') {
+      ga('send', 'event', 'Klaviyo form', 'form_submit', e.detail.formId);
+    }
+    if (e.detail.type == 'close') {
+      ga('send', 'event', 'Klaviyo form', 'form_close', e.detail.formId), {nonInteraction: true};
+    }
+  });
+</script>
+</body>
+</html>

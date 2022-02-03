@@ -1,0 +1,53 @@
+<div class="background__white" style="position:relative">
+  <div class="howitworks-blob"></div>
+<div class="howitworks__ctn-1 padding-top-4">
+  <div class="howitworks__img-ctn-1">
+    <div class="howitworks__img" style="background-image: url({{ section.settings.image | img_url: "1080x1080" }})">
+    </div>
+  </div>
+  <div class="howitworks__ctn-inner">
+    <h3 class="mainheading_black">{{ section.settings.header }}</h3>
+    <p class="howitworks__text-1">
+      {{ section.settings.paragraph_one }}
+    </p>
+    <p class="howitworks__text-1">
+      {{ section.settings.paragraph_two }}
+    </p>
+  </div>
+</div>
+    <p class="howitworks__video-title">Find Out How RainStick Works</p>
+
+</div>
+
+{% schema %}
+  {
+    "name": "How it works",
+    "settings": [
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Title"
+      },
+	  {
+        "id": "paragraph_one",
+		"type": "textarea",
+		"label": "Paragraph One"
+      },
+	  {
+        "id": "paragraph_two",
+		"type": "textarea",
+		"label": "Paragraph Two"
+      },
+	  {
+        "id": "image",
+		"type": "image_picker",
+		"label": "Image"
+      }
+	],
+    "presets": [
+      {
+      "name": "How it works"
+      }
+    ]
+  }
+{% endschema %}

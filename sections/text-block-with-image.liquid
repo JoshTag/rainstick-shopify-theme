@@ -1,0 +1,64 @@
+{% style %}
+#section-id--{{ section.id }} .homepage__quote-img-ctn {
+  background-image: url({{ section.settings.image | img_url: "1080x1080" }});
+}
+{% endstyle %}
+
+<div class="background__white" id="section-id--{{ section.id }}">
+<div class="homepage__quote">
+  <div class="homepage__quote-ctn">
+    <p class="homepage__quote-text">
+      "{{ section.settings.quote }}"
+    </p>
+    <p class="homepage__quote-name">{{ section.settings.name }}</p>
+    <p class="homepage__quote-byline">{{ section.settings.location }}</p>
+    <a href="/pages/select-destination" class="button__standard button__text-white">
+      SHOP RAINSTICK NOW
+    </a>
+    
+  </div>
+  <div class="homepage__quote-img-ctn">
+    <div class="homepage__quote-img">
+    </div>
+  </div>
+</div>
+</div>
+
+{% schema %}
+  {
+    "name": "Text block with image",
+    "settings": [
+      {
+		"type": "textarea",
+		"id": "quote",
+		"label": "Quote"
+	  },
+      {
+		"type": "text",
+		"id": "name",
+		"label": "Name"
+	  },
+      {
+		"type": "text",
+		"id": "location",
+		"label": "Location"
+	  },
+      {
+		"type": "image_picker",
+		"id": "image",
+		"label": "Image"
+	  }
+	],
+    "presets": [
+      {
+      "name": "Text block with image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

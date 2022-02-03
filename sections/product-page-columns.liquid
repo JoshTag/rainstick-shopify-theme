@@ -1,0 +1,210 @@
+<style>
+  .product-columns {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .product-columns__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 315px;
+    margin: 0.5rem;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .product-columns {
+      max-width: 100%;
+    }
+  }
+  
+  .product-columns__img {
+    height: 300px;
+    width: 100%;
+    background-color: #121212;
+    border-radius: 8px;
+  }
+  
+  .homepage__pillars-text {
+    color: #121212;
+    font-weight: 300;
+    font-size: 11pt;
+    text-align:center;
+  }
+  
+  .product-columns__title {
+    color: #121212;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  
+  .background__white {
+    background: #F4F2F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: clip;
+  }
+  
+  .padding-bottom-7 {
+    padding-bottom: 7rem;
+  }
+  
+ .product__3-pillars {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0rem;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .product__pillar-ctn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 315px;
+    margin: 0rem 1.5rem;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .product__pillar-ctn {
+      max-width: 100%;
+    }
+  }
+  .product__step-number{
+    font-size: 35pt;
+    font-weight: 400;
+    z-index:1;
+  }
+  
+  .product__step-heading {
+    color: #121212;
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 1.5rem;
+    z-index:1;
+  }
+  
+  .product__step-description {
+    color: #121212;
+    font-weight: 500;
+    font-size: 20pt;
+    text-align: center;
+    z-index:1;
+  }
+  
+  .product__step-text {
+    color: #121212;
+    font-weight: 300;
+    font-size: 11pt;
+    text-align:center;
+    line-height: 30px;
+    padding-top: 1.25rem;
+    z-index:1;
+  }
+  
+   .product-blob-1 {
+    background-image: url({{ 'blob-product-1.svg' | asset_url }});
+    width: 370px;
+    height: 601px;
+    position: absolute;
+    top: -232px;
+    right: -250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 1234px){
+    .product-blob-1{
+      right: -250px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    .product-blob-1{
+      right: -250px;
+    }
+  }
+  
+  
+</style>
+
+<div class="background__white padding-bottom-7" style="position:relative">
+  <div class="product-blob-1"></div>
+<div class="product__3-pillars">
+  <div class="product__pillar-ctn">
+    <div class="product__step-number">1</div>
+    <h3 class="product__step-description">{{ section.settings.header_one }}</h3>
+    <p class="product__step-text">
+	  {{ section.settings.content_one }}
+    </p>
+  </div>
+  <div class="product__pillar-ctn">
+    <div class="product__step-number">2</div>
+    <h3 class="product__step-description international">{{ section.settings.header_two }}</h3>
+    <p class="product__step-text international">
+      {{ section.settings.content_two }}
+    </p>
+  </div>
+  <div class="product__pillar-ctn">
+    <div class="product__step-number">3</div>
+    <h3 class="product__step-description">{{ section.settings.header_three }}</h3>
+    <p class="product__step-text">
+	  {{ section.settings.content_three }}
+    </p>
+  </div>
+</div>
+</div> 
+
+{% schema %}
+  {
+    "name": "Product page column",
+	"tag": "section",
+	"class": "product-columns-ctn",
+    "settings": [
+	  {
+	    "id": "header_one",
+		"type": "text",
+		"label": "Header one"
+	  },
+	  {
+	    "id": "content_one",
+		"type": "textarea",
+		"label": "Content one"
+	  },
+	  {
+	    "id": "header_two",
+		"type": "text",
+		"label": "Header two"
+	  },
+	  {
+	    "id": "content_two",
+		"type": "textarea",
+		"label": "Content two"
+	  },
+	  {
+	    "id": "header_three",
+		"type": "text",
+		"label": "Header three"
+	  },
+	  {
+	    "id": "content_three",
+		"type": "textarea",
+		"label": "Content three"
+	  }
+	],
+    "presets": [
+      {
+      "name": "Large text box"
+      }
+    ]
+  }
+{% endschema %}

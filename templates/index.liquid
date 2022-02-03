@@ -1,0 +1,46 @@
+{% section 'main-carousel' %}
+
+{{ content_for_index }}
+
+<div id="saving-calc-page" class="saving-calc-page">
+  <div id="saving-calc" class="calc-ctn">
+    <h2>Save some green, get some green.</h2>
+    <p>Calculate your cost savings here.</p>
+    <p>
+    Curious about your impact, potential household savings, and incredibly attainable ROI (return on investment)? Click away. And be prepared to be amazed.
+</p>
+  </div>
+  <div id="savings-calculator"></div>
+</div>
+    
+<div id="newsletter-ctn"  class="newsletter__ctn">
+    <div class="beige-wave" ></div>
+    <div class="homepage-blob-1"></div>
+  <div class="newsletter__ctn-inner">
+    <h2 class="newsletter__heading">Stay connected to the RainStick story</h2>
+    <p class="newsletter__text">You’ve already shown that you care about quality, innovation, and sustainability. 
+      Now it’s time to stay connected and engaged as we continue to transform water usage and so much more.
+    </p>
+      {% section 'newsletter-form' %}
+  </div>
+</div>
+
+<div class="instafeed-header">
+  <div class="instafeed-header__wrapper">
+    <div>
+      <h2>Follow us for an enhanced, smarter way to shower.</h2>
+      <p>We're making showers more social. Not like that ;)</p>
+    </div>
+    <div class="instafeed-header__icons">
+      <a class="instafeed-header__icons--facebook" href="https://www.facebook.com/rainstickshower/" target="_blank" rel="noopener" ></a>
+      <a class="instafeed-header__icons--instagram"href="https://www.instagram.com/rainstick.shower" target="_blank" rel="noopener" ></a>
+      <a class="instafeed-header__icons--linkedin"href="https://www.linkedin.com/company/rainstickshower/" target="_blank" rel="noopener" ></a>
+      <a class="instafeed-header__icons--twitter"href="https://twitter.com/rainstickshower" target="_blank" rel="noopener" ></a>
+    </div>
+  </div>
+</div>
+{% section 'instafeed' %}
+    
+<script type="text/javascript" src="{{ 'savings-calculator.js' | asset_url }}"> </script>
+    
+    

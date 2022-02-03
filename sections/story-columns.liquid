@@ -1,0 +1,86 @@
+
+<div class="background__white padding-bottom-3">
+  <p class="blog__heading-category-1">
+    {{ section.settings.title }}
+  </p>
+  <div class="blog__3-pillar-section-white">
+
+    <div class="blog__pillar-ctn">
+      <a href="{{ section.settings.blog_one.url }}">
+        <div class="blog__3part-img-black" style="background-image: url({{ section.settings.blog_one.image.src | img_url: '1080x1080' }})"></div>
+        <h3 class="blog__heading-title-black">{{ section.settings.blog_one.title }}</h3>
+      </a>
+      <p class="blog__body-text-black">
+        {{ section.settings.blog_one.excerpt }}
+      </p>
+      <a href="{{ section.settings.blog_one.url }}" class="blog__read-more-black">(read more)</a>
+    </div>
+    
+    <div class="blog__pillar-ctn">
+      <a href="{{ section.settings.blog_two.url }}">
+        <div class="blog__3part-img-black" style="background-image: url({{ section.settings.blog_two.image.src | img_url: '1080x1080' }})"></div>
+        <h3 class="blog__heading-title-black">{{ section.settings.blog_two.title }}</h3>
+      </a>
+      <p class="blog__body-text-black">
+        {{ section.settings.blog_two.excerpt }}
+      </p>
+      <a href="{{ section.settings.blog_two.url }}" class="blog__read-more-black">(read more)</a>
+    </div>
+    
+    <div class="blog__pillar-ctn">
+      <a href="{{ section.settings.blog_three.url }}">
+        <div class="blog__3part-img-black" style="background-image: url({{ section.settings.blog_three.image.src | img_url: '1080x1080' }})"></div>
+        <h3 class="blog__heading-title-black">{{ section.settings.blog_three.title }}</h3>
+      </a>
+      <p class="blog__body-text-black">
+        {{ section.settings.blog_three.excerpt }}
+      </p>
+      <a href="{{ section.settings.blog_three.url }}" class="blog__read-more-black">(read more)</a>
+    </div>
+
+  </div> 
+</div> 
+
+<div class="button__ctn-white">
+    <a href="{{ section.settings.url }}" class="button__standard">
+      See More
+    </a>
+</div>
+
+{% schema %}
+  {
+    "name": "Story columns",
+    "settings": [
+	  {
+        "id": "title",
+		"type": "text",
+		"label": "Title"
+      },
+	  {
+        "id": "blog_one",
+		"type": "article",
+		"label": "Article One"
+      },
+	  {
+        "id": "blog_two",
+		"type": "article",
+		"label": "Article Two"
+      },
+	  {
+        "id": "blog_three",
+		"type": "article",
+		"label": "Article Three"
+      },
+	  {
+        "id": "url",
+		"type": "url",
+		"label": "Link"
+      }
+	],
+    "presets": [
+      {
+      "name": "Story columns"
+      }
+    ]
+  }
+{% endschema %}

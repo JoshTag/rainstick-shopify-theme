@@ -1,0 +1,349 @@
+.carousel-container {
+  height: 600px;
+  background: #F4F2F1;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-container {
+    position: relative;
+    height: 850px;
+  }
+}
+
+/* Mobile Carousel */
+.mobile-carousel {
+  height: 90%;
+}
+
+.mobile-carousel-cell {
+  width: 90%;
+  height: 100%;
+  counter-increment: carousel-cell;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-cell-ctn {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: transparent;
+  background-position: left;
+  background-repeat: no-repeat;  
+}
+
+
+.mobile-cell-content {
+  margin: 50px 2% 0 12%;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 6px;
+}
+
+.mobile-cell-content > h2 {
+  font-size: 36px;
+  line-height: 36px !important;
+  text-align: center;
+}
+
+.mobile-cell-content > p {
+  text-align: center;
+  line-height: 28px;
+}
+
+.mobile-cell-content > a {
+  background: #2a2725;
+  margin: 20px auto;
+  display: block;
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+
+.mobile-cell-content > a:hover {
+  background: #fff;
+  color: #121212;
+}
+
+.mobile-button-ctn {
+  position: relative;
+  height: 60px;
+  margin-top: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mobile-button-ctn > a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+}
+
+
+.mobile-carousel:after {
+  content: 'flickity';
+  display: none;
+}
+
+@media screen and ( min-width: 768px ) {
+  .mobile-cell-content {
+    margin: 50px 17% 0 26%;
+  }
+}
+
+@media screen and ( min-width: 1024px ) {
+  .mobile-carousel:after {
+    content: '';
+  }
+  .mobile-carousel {
+    display: none;
+  }
+}
+
+/* Desktop Carousel */
+.carousel-main {
+  height: 90%;
+}
+
+.carousel__carousel-cell {
+  width: 90%;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.carousel__carousel-cell > div {
+  opacity: .6;
+}
+
+.carousel__carousel-cell.is-selected > div {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.carousel__cell-ctn {
+  position: relative;
+  height: 100%;
+  background-size: cover;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 0 6px 6px;
+}
+
+.carousel__cell-content {
+  position: absolute;
+  width: 670px;
+  background-color: rgba(244, 242, 241, 0.8);
+  padding: 100px 50px;
+  border-radius: 6px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-460px, -50%);
+  transition: .8s;
+  opacity: 1;
+  animation: fadeIn 1s;
+}
+
+@media screen and (min-width: 1200px) {
+  transform: translate(-500px, -50%); 
+}
+
+.carousel__carousel-cell.is-selected > .carousel__cell-ctn > .carousel__cell-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel__cell-content > h2 {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.carousel__cell-content > p {
+  font-size: 16px;
+}
+
+.carousel__cell-content > a {
+  background: #2a2725;
+  display: block;
+  margin: 20px 0 0 0;
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.carousel__cell-content > a:hover {
+  background: #fff;
+  color: #121212;
+}
+
+.carousel__button-ctn {
+  position: relative;
+  height: 60px;
+  margin-top: auto;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 0 0 5px 5px;
+}
+
+.carousel__button-ctn > a {
+  width: 550px;
+  margin: 0 auto;
+  display: block;
+  line-height: 55px;
+  transition: 0.3s;
+}
+
+.carousel__button-ctn > a:hover {
+  color: #09C6C6; 
+}
+
+/* enable Flickity by default */
+.carousel-main:after {
+  content: '';
+}
+
+.carousel-main {
+  display: none; 
+}
+
+@media screen and ( min-width: 1024px ) {
+  /* disable Flickity for large devices */
+  .carousel-main:after {
+    content: '';
+  }
+  .carousel-main:after {
+    content: 'flickity';
+    display: none; /* hide :after */
+  }
+  .carousel-main {
+    display: block; 
+  }
+}
+
+.flickity-page-dots {
+  bottom: -40px;
+}
+
+.flickity-page-dots .dot {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #FF9040;
+}
+
+.mobile-btn--prev,
+.mobile-btn--next {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background: #09c6c6;
+}
+
+.mobile-btn--prev:before {
+  position: absolute;
+  content: "";
+  background-image: url('carousel-prev.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 20px;
+  width: 10px;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+
+.mobile-btn--next:before {
+  position: absolute;
+  content: "";
+  background-image: url('carousel-next.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 20px;
+  width: 10px;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+
+.mobile-btn--prev:hover,
+.mobile-btn--next:hover {
+  cursor: pointer;
+}
+
+
+
+.desktop-btn--prev,
+.desktop-btn--next {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background: #09c6c6;
+  transition: 0.3s;
+}
+
+.desktop-btn--prev:before {
+  position: absolute;
+  content: "";
+  background-image: url('carousel-prev.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 20px;
+  width: 10px;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+
+.desktop-btn--next:before {
+  position: absolute;
+  content: "";
+  background-image: url('carousel-next.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 20px;
+  width: 10px;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+
+.desktop-btn--prev:hover,
+.desktop-btn--next:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,.4);
+}
+
+.mobile-btn--next,
+.desktop-btn--next {
+  margin-left: 10px;
+}

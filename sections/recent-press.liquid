@@ -1,0 +1,78 @@
+<div class="blog__heading-ctn">
+  <h2 class="blog__heading-press">Recent Press</h2>
+</div>
+<div class="blog__3-pillar-section">
+  <div class="grey-wave-title"></div>
+  <div class="aboutus-blob-3"></div>
+  {% if section.settings.article_one != blank %}
+    <div class="blog__pillar-ctn">  
+      <a href="{{ section.settings.article_one.url }}">
+        <div class="blog__3part-img" style="background-image: url({{ section.settings.article_one.image.src | img_url: "1080x1080" }})"></div>
+        <h3 class="blog__heading-white padding-top-1">{{ section.settings.article_one.title }}</h3>
+      </a>
+      <p class="blog__body-text-white">
+        {{ section.settings.article_one.excerpt }}
+      </p>
+      <a href="{{ section.settings.article_one.url }}" class="blog__read-more-white">(read more)</a>
+    </div>
+  {% endif %}
+  {% if section.settings.article_two != blank %}
+    <div class="blog__pillar-ctn">   
+      <a href="{{ section.settings.article_two.url }}">      
+        <div class="blog__3part-img" style="background-image: url({{ section.settings.article_two.image.src | img_url: "1080x1080" }})"></div>
+        <h3 class="blog__heading-white padding-top-1">{{ section.settings.article_two.title }}</h3>
+      </a>
+      <p class="blog__body-text-white">
+        {{ section.settings.article_two.excerpt }}
+      </p>
+      <a href="{{ section.settings.article_two.url }}" class="blog__read-more-white">(read more)</a>
+    </div>
+  {% endif %}
+  {% if section.settings.article_three != blank %}
+    <div class="blog__pillar-ctn">  
+      <a href="{{ section.settings.article_three.url }}">      
+        <div class="blog__3part-img" style="background-image: url({{ section.settings.article_three.image.src | img_url: "1080x1080" }})"></div>
+        <h3 class="blog__heading-white padding-top-1">{{ section.settings.article_three.title }}</h3>
+      </a>
+      <p class="blog__body-text-white">
+        {{ section.settings.article_three.excerpt }}
+      </p>
+      <a href="{{ section.settings.article_three.url }}" class="blog__read-more-white">(read more)</a>
+    </div>
+  {% endif %}
+</div> 
+
+<div class="button__ctn-grey padding-bottom-5">
+  <a href="https://rainstickshower.com/blogs/press" class="button__standard button__standard--hover">
+    See More
+  </a>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Recent press",
+    "settings": [
+	  {
+        "id": "article_one",
+		"type": "article",
+		"label": "Press One"
+      },
+	  {
+        "id": "article_two",
+		"type": "article",
+		"label": "Press Two"
+      },
+	  {
+        "id": "article_three",
+		"type": "article",
+		"label": "Press Three"
+      }
+	],
+    "presets": [
+      {
+      "name": "Recent press"
+      }
+    ]
+  }
+{% endschema %}

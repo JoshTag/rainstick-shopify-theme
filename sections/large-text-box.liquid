@@ -1,0 +1,58 @@
+{%- capture background_image -%}
+  {%
+    include 'rimg',
+    background: true,
+    img: section.settings.bg-image,
+    size: image_size,
+    lazy: true
+  %}
+{%- endcapture -%}
+
+<div style="position:relative;">
+  <div class="white-wave-inverted" ></div>
+</div>
+  
+<div class="homepage__full-page-img" {{ background_image }} >
+  <div class="homepage__inner-ctn-1">
+    <div class="homepage__txt-ctn-1">
+      <h2 class="homepage__heading-1">
+     	{{ section.settings.header }}
+      </h2>
+        <p class="homepage__paragraph-1">
+  		  {{ section.settings.content }}
+        </p>
+          <a href="/pages/select-destination" class="button__standard-center button__text-white button--hover-teal">
+      		SHOP RAINSTICK NOW
+    	  </a>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Large text box",
+    "settings": [
+	  {
+        "id": "bg-image",
+		"type": "image_picker",
+		"label": "Background image"
+      },
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Header"
+      },
+	  {
+        "id": "content",
+		"type": "textarea",
+		"label": "Content"
+      }
+	],
+    "presets": [
+      {
+      "name": "Large text box"
+      }
+    ]
+  }
+{% endschema %}

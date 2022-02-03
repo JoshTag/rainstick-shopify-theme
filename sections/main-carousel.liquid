@@ -1,0 +1,92 @@
+{{ 'section-main-carousel.css' | asset_url | stylesheet_tag }}
+
+{% assign image_size = '2048x' %}
+
+<div class="mobile-carousel">
+  {% for block in section.blocks %}
+    {%- capture background_image_style -%}
+      {%
+        include 'rimg',
+        background: true,
+        img: block.settings.image,
+        size: image_size,
+        lazy: true
+      %}
+    {%- endcapture -%}
+  	<div class="mobile-carousel-cell" >
+      <div class="mobile-cell-ctn" {{ background_image_style }}>
+        <div class="mobile-cell-content">
+          <h2>{{ block.settings.title }}</h2>
+          <p>{{ block.settings.description }}</p>
+          <a href="{{ block.settings.link }}">{{ block.settings.link_label }}</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="carousel-main">
+  {% for block in section.blocks %}
+    {%- capture background_image_style -%}
+      {%
+        include 'rimg',
+        background: true,
+        img: block.settings.image,
+        size: image_size,
+        lazy: true
+      %}
+    {%- endcapture -%}
+    <div class="carousel__carousel-cell">
+      <div class="carousel__cell-ctn" {{ background_image_style }}>
+        <div class="carousel__cell-content">
+          <h2>{{ block.settings.title }}</h2>
+          <p>{{ block.settings.description }}</p>
+          <a href="{{ block.settings.link }}">{{ block.settings.link_label }}</a>
+        </div>
+      </div>
+  	</div>
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Main Carousel",
+	"tag": "section",
+	"class": "carousel-container",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "link_label",
+            "label": "Link Label"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+

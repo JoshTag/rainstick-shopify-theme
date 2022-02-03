@@ -1,0 +1,41 @@
+<div class="page-funnel__wrapper">
+  <p class="page-funnel__header">{{ section.settings.header }}</p>
+  <div class="page-funnel__articles-ctn">
+    {% for block in section.blocks %}
+      <div class="page-funnel__article">
+        <a class="page-funnel__article-img" style="background-image: url('{{ block.settings.blog.image.src | img_url: '800x' }}')" href="{{ block.settings.blog.url }}"></a>
+        <a class="page-funnel__link" href="{{ block.settings.blog.url }}">{{ block.settings.blog.title }}</a>
+        <p class="page-funnel__description">
+          {{ block.settings.blog.excerpt | strip_html }}
+        </p>
+        <a class="page-funnel__read-more" href="{{ block.settings.blog.url }}">(Read More)</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Tech seeker",
+	"blocks": [
+	  {
+        "type": "blog",
+        "name": "Blog Article",
+        "settings": [
+		  {
+	 		"type": "article",
+            "id": "blog",
+            "label": "Blog"
+		  }
+		]
+	  }
+	],
+    "settings": [
+	  {
+		"type": "text",
+		"id": "header",
+		"label": "Header"
+	  }
+	]
+  }
+{% endschema %}

@@ -1,0 +1,48 @@
+<footer class="footer__ctn">
+  <div class="footer__ctn-inner">
+    <div class="footer__ctn-inner-1 footer__ctn-inner-1--left">
+   	  <div class="footer__link-ctn">
+    	<a href="/pages/faq" class="footer__link-text">FAQs</a>
+      </div>
+      <div class="footer__link-ctn">
+         <a href="{{ section.settings.installation_guide }}" class="footer__link-text">INSTALLATION PRO GUIDE</a>
+      </div>
+      <div class="footer__link-ctn">
+         <a href="/pages/stories" class="footer__link-text">STORIES</a>
+      </div>
+    </div>
+      <div class="footer__ctn-inner-center">
+        <p class="footer__link-text-center-bold">RainStick</p>
+        <p class="footer__link-text-center">A 🇨🇦  Water Saving <br> Technology Company</p>
+      </div>
+    <div class="footer__ctn-inner-1">
+      <div class="footer__link-ctn">
+          <a href="/policies/terms-of-service" class="footer__link-text">TERMS &amp; CONDITIONS</a>
+      </div>
+      <div class="footer__link-ctn">
+          <a href="/policies/privacy-policy" class="footer__link-text">PRIVACY POLICY</a>
+      </div>
+      <div class="footer__link-ctn">
+    	<a href="/pages/contact-us" class="footer__link-text">CONTACT US</a>
+      </div>
+  	</div>
+  </div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+	  {
+        "id": "installation_guide",
+		"type": "text",
+		"label": "Installation link"
+      }
+	],
+    "presets": [
+      {
+      "name": "Footer"
+      }
+    ]
+  }
+{% endschema %}
