@@ -1,1 +1,1722 @@
-{"current":{"theme-primary-color":"#2a2725","theme-secondary-color":"#0ac7c7","heading-text-color":"#2a2725","body-text-color":"#2a2725","border-color":"rgba(0,0,0,0)","body-background-color":"#f8f6f6","font_body":"poppins_n3","font_headings":"poppins_n5","font_buttons":"poppins_n6","featured-product-main":"rainstick-shower","product_module_1":"none","product_module_2":"none","product-sale-goal-use":false,"product-sale-goal-style":"gradient","product_sale_goal_button":"Pre-order","product_sale_goal_estimated_delivery_date":"Estimated delivery: April","product_goal_starting_quantity":"","product_goal":"","product_goal_use_quantity":false,"product_sale_goal_date_time":"06\/21\/2017 15:00","social_default_image":"","social_facebook_url":"https:\/\/www.facebook.com\/rainstickshower\/","social_twitter_url":"","social_pinterest_url":"https:\/\/www.pinterest.ca\/RainStickShower\/","social_instagram_url":"https:\/\/www.instagram.com\/rainstick.shower\/","social_vimeo_url":"","social_youtube_url":"","social_rss_url":"","favicon":"shopify:\/\/shop_images\/favicon.png","checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/favicon.png","checkout_logo_position":"left","checkout_logo_size":"large","checkout_body_background_image":"","checkout_body_background_color":"#f8f6f6","checkout_input_background_color_mode":"transparent","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#f8f6f6","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#02827b","checkout_button_color":"#02827b","checkout_error_color":"#e32c2b","theme-primary-color-hover":"#0288b5","sections":{"static-slideshow":{"type":"static-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"alignment":"center","text_style":"dark","image":"shopify:\/\/shop_images\/RainStick_-_Hero_1.jpg","overlay_style":"none","overlay_opacity":10,"title":"The smarter way to shower.","subtitle":"It’s time to cut your water use without compromising your experience.","cta":"Discover Rainstick.","url":"shopify:\/\/products\/rainstick-shower"}}},"block_order":["slide-1"],"settings":{"enable":true,"layout":"full-width","transition":"transition-fade","autoplay_speed":7,"autoplay":false}},"dynamic-alternating-content":{"type":"dynamic-alternating-content","disabled":true,"blocks":{"alternating-content-1":{"type":"image","settings":{"style":"default","title":"Purification at its finest","text":"<p>The robust filtration ensures hygiene comes first, making your shower water clean and clear.&nbsp;<\/p>","button_text":"","button_link":"","image":"shopify:\/\/shop_images\/RainStick_-_Purification_at_its_finest.png"}},"alternating-content-3":{"type":"image","settings":{"style":"default","title":"Better for you & the environment","text":"<p>In a world with growing water stress, we need to cut our residential water use in half. Rainstick does more than that, saving you 80% water and 80% energy.<\/p>","button_text":"","button_link":"","image":"shopify:\/\/shop_images\/RainStick_-_Better_for_you_Enviro.png"}},"1592776942706":{"type":"image","settings":{"style":"default","title":"Standout, beautiful design","text":"<p>Everyone will know you have a RainStick&hellip;. and want one too.<\/p>","button_text":"","button_link":"","image":"shopify:\/\/shop_images\/RainStick_-_Standout_Design.png"}}},"block_order":["alternating-content-1","alternating-content-3","1592776942706"],"settings":{}},"dynamic-text-columns-with-icons":{"type":"dynamic-text-columns-with-icons","disabled":true,"blocks":{"text-column-1":{"type":"text_column","settings":{"title":"High flow & relaxing experience","text":"<p>Recirculating and filtering your water means you can enjoy a high-pressure shower without guilt or compromise.<\/p>","button_text":"","button_link":"","icon":"","iconimage":"shopify:\/\/shop_images\/High_flow_rate_3x_8438f262-8453-414c-a1f6-d0d5e37646a2.png"}},"text-column-2":{"type":"text_column","settings":{"title":"Smart technology","text":"<p>You now can track your water and energy savings in real-time, allowing you to know how much water and energy you&rsquo;ve saved.<\/p>","button_text":"","button_link":"","icon":"image","iconimage":"shopify:\/\/shop_images\/RainStick_-_Smart_Technology_3x_a5ab4f1d-0c12-4d58-910a-44372b578204.png"}},"text-column-3":{"type":"text_column","settings":{"title":"Saving water & money","text":"<p>Your shower now pays you back. Depending on your household use, as much as $500-$700 per year.&nbsp;<\/p>","button_text":"","button_link":"","icon":"image","iconimage":"shopify:\/\/shop_images\/RainStick_-_Saving_water_3x_a1dd66b5-b711-4274-afa8-83758afd567c.png"}}},"block_order":["text-column-1","text-column-2","text-column-3"],"settings":{"style":"light","columns-per-row":3,"title":"We made RainStick to be different.","subtitle":""}},"pxs-announcement-bar":{"type":"pxs-announcement-bar","settings":{"show_announcement":false,"announcement_home_only":false,"announcement_text":"Call attention to a special discount, feature, or promotion here.","announcement_text_mobile":"Use less text on mobile!","announcement_link":"","announcement_color":"#2a2725","announcement_background":"#09c6c6"}},"static-footer":{"type":"static-footer","blocks":{"1592661527595":{"type":"menu","settings":{"menu":"footer"}},"1602859837982":{"type":"social_media","settings":{}}},"block_order":["1592661527595","1602859837982"],"settings":{"style":"dark","enable_borders":false,"payment_icons":false,"show_logo":true,"footer_logo":"shopify:\/\/shop_images\/Logomark_-_White_--01.png","show_locale_selector":false,"show_currency_selector":false}},"static-header":{"type":"static-header","settings":{"menu":"main","header_sticky":true,"show_cart":true,"drawer_social_icons":false,"header_logo":"shopify:\/\/shop_images\/RainStick-Shower-Horizontal-Logo.png","header_logo_alternate":"shopify:\/\/shop_images\/RainStick-Shower-Horizontal-Logo.png"}},"static-newsletter":{"type":"static-newsletter","settings":{"enable":true,"style":"color","title":"Stay in Touch","text":"<p>Be the first to know about RainStick updates, when it&#x27;s available and how you can pre-order. We promise not to spam you and only share information you would be interested in.<\/p>"}},"static-product":{"type":"static-product","settings":{"show_spb":false,"enable_cart_redirect":false,"enable-share-buttons":false,"enable_zoom":true,"gallery_enable_video_autoplay":true,"gallery_enable_video_looping":true,"additional_info_text_1":"","additional_info_url_1":"","additional_info_icon_1":"envelope","additional_info_text_2":"","additional_info_url_2":"","additional_info_icon_2":"info"}},"static-product-recommendations":{"type":"static-product-recommendations","settings":{"show_product_recommendations":false,"product_recommendations_heading":"You may also like","style":"light","stock_overlay_show":false,"stock-overlay-threshold":5}},"module-technical-specifications":{"type":"module-technical-specifications","blocks":{"module-technical-specifications-0":{"type":"specification","settings":{"title":"Adjustable head","text":"<p>Let your customers know what details set your product apart from the competition.<\/p>","icon":""}},"module-technical-specifications-1":{"type":"specification","settings":{"title":"TITLE GOES HERE","text":"<p>Your hand wand is out of the way, leaving a sleek, designer-worthy look.&nbsp;<\/p>","icon":"="}},"module-technical-specifications-2":{"type":"specification","settings":{"title":"TITLE GOES HERE","text":"<p>High-pressure flow-rate, low impact on the environment.<\/p>","icon":""}}},"block_order":["module-technical-specifications-0","module-technical-specifications-1","module-technical-specifications-2"],"settings":{"style":"default","image_alignment":"left","title":"Benefits","subtitle":"","specification_image":"","specification_download_image":"","specification_download_text":"","specification_download_title":""}},"module-faq":{"type":"module-faq","blocks":{"module-faq-0":{"type":"faq","settings":{"title":"When and where can I buy RainStick?","text":"<p>RainStick will be available for purchase on our website and through our install partners in 2021.  Be sure to sign up <a href=\"\/pages\/pre-order-now\" title=\"Pre-Order Now\">here<\/a><strong> <\/strong>to be one of the very first in your region to have access to RainStick.<\/p>"}},"module-faq-1":{"type":"faq","settings":{"title":"What is included with my RainStick purchase?","text":"<p>RainStick comes to you as a packaged system inclusive of all of the necessary components for a high-pressure shower experience. We are working on installation videos that will be available on our website to walk you through through the process. Whether you are trying your hand at installation or are working with an installation partner, we will have your back every step of the way.<\/p>"}},"module-faq-2":{"type":"faq","settings":{"title":"What is the price of the shower system?","text":"<p>We are finalizing our pricing which is dependent on taxes, currency, shipping etc. in a retrospective area. To be the first to find out pricing in your area, be sure to sign up <a href=\"\/pages\/pre-order-now\" title=\"Pre-Order Now\"><strong>here<\/strong><\/a>. RainStick provides a reduction in your monthly bills and a 3-4 years (dependent on local water and energy costs.)<\/p>"}},"1592744839284":{"type":"faq","settings":{"title":"Can you tell me more about the filtration component of the shower?","text":"<p>Our proprietary filtration system allows for real-time recirculation and low maintenance. Rather than continually having to change out filters (which is costly and an environmental hazard), our filter has a long life. Water after your shower is free of bacteria, dirt and even viruses making it clean and clear. <\/p><p><br\/>After the end of your shower, water goes down the drain and there is a flushing of the system. The next person in the shower does <strong>not<\/strong> use the same water, they use a new set of fresh water.<\/p>"}},"1592744860151":{"type":"faq","settings":{"title":"I am a retailer \/ distributor \/ contractor \/ hotel and would like to offer RainStick","text":"<p>Great! We would love to hear from you. Please reach out to us at hello@rainstickshower.com.<\/p>"}},"1594162340973":{"type":"faq","settings":{"title":"What are the installation requirements?","text":"<p>We are working towards a full installation and system requirements section on our website which will be available in 2021. Please check back shortly!<\/p>"}},"04dde42b-4bc1-479f-b43e-89195125f478":{"type":"faq","settings":{"title":"Can RainStick be installed where there is a bathtub insert?","text":"<p>Currently RainStick is available only for install directly into a tiled shower floor. We are looking into making different versions for different applications in the future including bathtubs. Stay tuned!<\/p>"}},"664ecba6-84d8-497e-bee3-d531aec7b189":{"type":"faq","settings":{"title":"Does RainStick have a handheld?","text":"<p>Yes! The foot spout doubles as a retractable handheld. Water can be diverted from the shower head to the lower handheld with the push of a button.<\/p>"}},"80280335-9bb6-41cf-b9bf-be302fc08ed9":{"type":"faq","settings":{"title":"Is the same water reused between showers?","text":"<p>No. A shower session always begins with a fresh batch of clean water. In addition RainStick is equipped with an automated self-cleaning feature that cleanses the system between sessions.<\/p>"}}},"block_order":["module-faq-0","module-faq-1","module-faq-2","1592744839284","1592744860151","1594162340973","04dde42b-4bc1-479f-b43e-89195125f478","664ecba6-84d8-497e-bee3-d531aec7b189","80280335-9bb6-41cf-b9bf-be302fc08ed9"],"settings":{"style":"color"}},"module-team":{"type":"module-team","blocks":{"1592754366173":{"type":"team_member","settings":{"image":"","title":"Sean","job_title":"Founder","bio":"Bio"}},"1592754385872":{"type":"team_member","settings":{"image":"","title":"Alisha","job_title":"Co-Founder","bio":"Bio"}},"1592754395491":{"type":"team_member","settings":{"image":"","title":"M","job_title":"?","bio":"Bio"}}},"block_order":["1592754366173","1592754385872","1592754395491"],"settings":{"style":"default","column_count":"3","title":"","subtitle":""}},"feature-row":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/RainStick_-_HotSpot_ad3a739e-408b-4792-b484-03d7f400edb1.png","layout":"right","title":"How It Works","text":"<p>RainStick system uses a patent pending technology. Components are designed for compatibility and durability so you don’t need to continually change out filters every few months to ensure clean water.<\/p>\n<p>Our system is inherently:<\/p>\n<p>\n•        Low maintenance <br>\n•\tHas a straightforward installation<br>\n•\tDurable with a 2-year warranty\n<\/p>","button_label":"","button_link":"","show_hotspot_1":true,"hotspot_1_content":"<p>Fully adjustable shower head delivers high flow relaxation<\/p>","hotspot_1_toppos":"7%","hotspot_1_leftpos":"34%","show_hotspot_2":true,"hotspot_2_content":"<p>The heater boosts water temperature to deliver constant comfort<\/p>","hotspot_2_toppos":"25%","hotspot_2_leftpos":"53%","show_hotspot_3":true,"hotspot_3_content":"<p>Smart controller tracks water usage and ensures your system is operating perfectly to deliver every last drop<\/p>","hotspot_3_toppos":"40%","hotspot_3_leftpos":"40%","show_hotspot_4":true,"hotspot_4_content":"<p>Foot spout that doubles as a retractable handheld to deliver options for a targeted experience<\/p>","hotspot_4_toppos":"65%","hotspot_4_leftpos":"54.2299%","show_hotspot_5":true,"hotspot_5_content":"<p>Long-life filtration cleans and purifies in real-time; supplying shower water that is safe for reuse<\/p>","hotspot_5_toppos":"75%","hotspot_5_leftpos":"54%","show_hotspot_6":true,"hotspot_6_content":"<p>Prescreen captures anything too large to enter the systems<\/p>","hotspot_6_toppos":"85%","hotspot_6_leftpos":"40%"}},"dynamic-alternating-content-about":{"type":"dynamic-alternating-content-about","blocks":{"1593361454566":{"type":"image","settings":{"style":"light","title":"Meet the Inventors","text":"<p>Inventors, Sean and Alisha, grew up in an area of water stress and were tired of heating up 100 litres of water during their shower and seeing it go down the drain. When speaking with others, they learned a lot of people were upset about the situation too so they decided to do something about it.&nbsp;<\/p>\n<p><\/p>\n<p>Today, they&rsquo;re on a mission to make saving water irresistible.<\/p>","button_text":"","button_link":"","image":"shopify:\/\/shop_images\/RainStick_Shower_-_About_Us_-_Alisha_Sean.png"}}},"block_order":["1593361454566"],"settings":{}},"module-contact-form-preorder":{"type":"module-contact-form-preorder","settings":{"style":"light"}},"main-carousel":{"type":"main-carousel","blocks":{"438499e8-39d0-4350-8845-904aeb45bb5d":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/carousel-1.jpg","title":"Elevate your shower experience","description":"Re-invent your shower with 2X the flow rate and up to 80% water and energy savings.","link":"shopify:\/\/pages\/how-it-works","link_label":"Learn how RainStick works"}},"9b341ba2-9ab2-41d1-b137-246bb8f2b374":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/slideshow2.png","title":"The smarter way to shower","description":"Track your water and energy savings in real time with WiFi-enabled technology. The only thing this system can’t do, is tell you when to shower, but we’re sure you’ve got this.","link":"shopify:\/\/pages\/select-destination","link_label":"Shop now"}},"0e1883ad-4fc9-4ae8-9597-c4a0d91f8db7":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/slideshow3.png","title":"Pay back time","description":"Showering is one of the top water-consuming activities in your home. Find out how much money you can save with RainStick.","link":"https:\/\/rainstickshower.com\/#saving-calc","link_label":"Calculate your savings now"}}},"block_order":["438499e8-39d0-4350-8845-904aeb45bb5d","9b341ba2-9ab2-41d1-b137-246bb8f2b374","0e1883ad-4fc9-4ae8-9597-c4a0d91f8db7"],"settings":{}},"footer":{"type":"footer","settings":{"installation_guide":"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"}},"dimensions-details":{"type":"dimensions-details","blocks":{"b62bab21-e089-407b-ad0b-d56e590665ae":{"type":"text","settings":{"title":"Dimensions (Size)","content":"<b>Height: 80 inches (2032mm) <br>\n<b>Width: 8.5 inches (217mm)<br>\n<b>Depth: 5.3 inches (135mm)<\/b><\/b><\/b>"}},"13f5169e-229a-45b3-9c52-7ba6be489cfb":{"type":"text","settings":{"title":"Specifications","content":"<b>Water Flow Rate:<\/b> In circular mode, 11.4 LPM (3 GPM) - default mode\nIn conventional shower mode, 6.8 LPM (1.8 GPM)<br>\n<b>In-floor Reservoir:<\/b> Included with system<br>\n<b>Finishes:<\/b> Matte Black and Brushed Nickel<br>\n<b>Electrical Supply:<\/b> 120 Volt, 15 AMP GFCI<br>\n<b>Showerhead:<\/b> Rain shower head, 10 inch wide<br>\n<b>Handheld:<\/b> Optional, available as an add on feature<br>\n<b>RainStick app:<\/b> Available for android and IOS, system compatible with Google Home & Alexa<br>\n<b>Cleaning cycle:<\/b> Automatic<br>\n<b>Assembly:<\/b> RainStick comes pre-assembled with the exception of the pump."}},"990038e8-66a3-44e8-a6fb-bb817ca7ff7b":{"type":"text","settings":{"title":"Warranty","content":"2 years with extended warranty plan option"}},"614c1d07-033f-4840-a74b-fed231c5c55f":{"type":"text","settings":{"title":"What's Included","content":"RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<ul><\/ul>\n<\/ul>"}}},"block_order":["b62bab21-e089-407b-ad0b-d56e590665ae","13f5169e-229a-45b3-9c52-7ba6be489cfb","990038e8-66a3-44e8-a6fb-bb817ca7ff7b","614c1d07-033f-4840-a74b-fed231c5c55f"],"settings":{"header":"Dimensions & Details","image":"shopify:\/\/shop_images\/homepage_pillar1.jpg"}},"installation-button":{"type":"installation-button","settings":{"label":"ACCESS THE RAINSTICK INSTALLATION CHECKLIST","install":"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"}},"product-page-columns":{"type":"product-page-columns","settings":{"header_one":"CHECK YOUR BATHROOM","content_one":"To start, check your bathroom set up to ensure you have (or will have) (1) a tiled bathroom surface and (2) a shower stall as RainStick is not compatible with bathtub inserts or shower floor plates.","header_two":"PREORDER <br> NOW","content_two":"Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in mid 2022.","header_three":"INSTALL &<br> ENJOY","content_three":"You will receive a RainStick system inclusive of all parts and sub-floor reservoir, ready for installation by your preferred bathroom professional."}},"faq-dynamic":{"type":"faq-dynamic","blocks":{"917e5c37-9047-4f3f-b165-383145459438":{"type":"text","settings":{"question":"Don’t we have a lot of water in North America? Why do we need to save it?","answer":"<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>"}},"511018b6-dd0a-479c-ae46-b469fa3f9430":{"type":"text","settings":{"question":"Is installing a RainStick more difficult than a traditional shower?","answer":"<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>"}},"6a591f7e-88c6-4efb-ad5d-5c96a13d2082":{"type":"text","settings":{"question":"When will I begin to see my ROI with my purchase of RainStick?","answer":"<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>"}},"7670b859-3636-4453-9079-4c3e32cd064c":{"type":"text","settings":{"question":"What is included with a RainStick purchase?","answer":"<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>"}},"278d6670-0d94-41f3-952f-02d149ec2591":{"type":"text","settings":{"question":"When is the best time to install a RainStick?","answer":"<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>"}},"37979229-0873-4d83-bcbb-1fa407d3b300":{"type":"text","settings":{"question":"Can I install RainStick in my off-grid home?","answer":"<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>"}},"66769442-1106-4dee-9865-c8ac7487806c":{"type":"text","settings":{"question":"Can I still shower if something within the system needs attention or repair?","answer":"<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>"}},"02df5142-b050-4866-8e4e-27fb4e7055d9":{"type":"text","settings":{"question":"Do you have a solution for bathtubs?","answer":"<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>"}},"ffc23857-06c9-4e5c-913a-9980643dd905":{"type":"text","settings":{"question":"I like to turn off the tap between shampooing and soaping to conserve water. Does this mean I no longer have to do this with RainStick?","answer":"<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>"}},"de64846a-c1e6-488b-a46d-535487e4c689":{"type":"text","settings":{"question":"How do I know how much water I’m saving?","answer":"<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>"}},"ca85ae65-0d30-401c-a8d7-50badf6081e8":{"type":"text","settings":{"question":"Do you have a bathroom pro (trades) program?","answer":"<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>"}},"05bfe0f4-e47f-47df-acca-37eb781f78a0":{"type":"text","settings":{"question":"Do you also offer a handheld with RainStick?","answer":"<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>"}},"3784ba62-61d1-41ba-b63a-d96d42a975f0":{"type":"text","settings":{"question":"When will my RainStick be delivered?","answer":"<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>"}}},"block_order":["917e5c37-9047-4f3f-b165-383145459438","511018b6-dd0a-479c-ae46-b469fa3f9430","6a591f7e-88c6-4efb-ad5d-5c96a13d2082","7670b859-3636-4453-9079-4c3e32cd064c","278d6670-0d94-41f3-952f-02d149ec2591","37979229-0873-4d83-bcbb-1fa407d3b300","66769442-1106-4dee-9865-c8ac7487806c","02df5142-b050-4866-8e4e-27fb4e7055d9","ffc23857-06c9-4e5c-913a-9980643dd905","de64846a-c1e6-488b-a46d-535487e4c689","ca85ae65-0d30-401c-a8d7-50badf6081e8","05bfe0f4-e47f-47df-acca-37eb781f78a0","3784ba62-61d1-41ba-b63a-d96d42a975f0"],"settings":{}},"static-cart":{"type":"static-cart","settings":{"enable_checkout_lock_icon":false,"order_notes":false,"show_shipping_calculator":false,"shipping_calculator_default_country":"United States"}},"static-article":{"type":"static-article","settings":{"show_share_buttons":false}},"16298321281d2fb371":{"type":"savings-calc","settings":{"featured_article":"our-stories\/showering-habits-around-the-world"}},"instafeed":{"type":"instafeed","settings":{"heading_font":"helvetica_n4","heading_size":20,"feed_width":100,"html_area":""}},"1630014244d329a912":{"type":"large-text-box","settings":{"bg-image":"shopify:\/\/shop_images\/homepage-1.jpg","header":"We’re re-inventing the way people shower","content":"Today, every 10-minute, shower in North America uses approximately 100L of heated water. That’s equivalent to 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing 2X the flow rate compared to a low flow option."}},"1630015189ed7a1adf":{"type":"three-column","blocks":{"fca78c75-4e08-4f96-9f2d-ae3774aff165":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/homepage_pillar1.jpg","title":"","content":"You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."}},"919837e6-599c-4c55-945f-37755bcd3ccd":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/column2.png","title":"Innovating showers and water conservation faster than you can say “tech savvy”","content":"RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your shower length and maintenance requirements. Heck, Siri and Alexa will even turn your shower on for you."}},"c65430c1-704b-4647-a956-21dac64068a0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/homepage-pillar3.jpg","title":"Up to 80% savings. Need we say more?","content":"RainStick’s circular shower system saves up to 80% energy and water while providing almost 2X the flow rate. You’ll save money without lowering your expectations. A real-time cleaning process ensures refreshed water with each shower experience. You can also simply select the traditional shower mode, at any time."}}},"block_order":["fca78c75-4e08-4f96-9f2d-ae3774aff165","919837e6-599c-4c55-945f-37755bcd3ccd","c65430c1-704b-4647-a956-21dac64068a0"],"settings":{"header":""}},"163032686198856d8e":{"type":"featured-media","settings":{"header":"","subheader":""}},"16303271997046505a":{"type":"text-block-with-image","settings":{"quote":"As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!","name":"Bruce Hicks","location":"Homeowner, Haliburton, Canada","image":"shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"}},"featured-story":{"type":"featured-story","settings":{"article":"our-stories\/how-to-prepare-for-your-shower-remodel-project"}},"story-columns":{"type":"story-columns","settings":{"title":"Our Stories","blog_one":"our-stories\/road-to-ces-2022-the-nominees-were-most-excited-to-see","blog_two":"our-stories\/start-saving-water-and-energy-with-these-bathroom-shower-ideas","blog_three":"our-stories\/everything-you-need-to-know-about-recirculating-showers","url":"shopify:\/\/blogs\/our-stories"}},"text-block-with-image":{"type":"text-block-with-image","settings":{"quote":"As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!","name":"Bruce Hicks","location":"Homeowner, Haliburton, Canada","image":"shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"}},"story-columns-dark":{"type":"story-columns-dark","settings":{"title":"Press Releases","blog_one":"press\/canadian-clean-technology-company-rainstick-releases-limited-run-of-rainstick-shower-s","blog_two":"press\/rainstick-delivering-sustainable-showers-without-compromise","blog_three":"press\/rainstick-raises-1-million-cad-to-commercialize-water-conservation-tech","url":"shopify:\/\/blogs\/press"}},"image-compare":{"type":"image-compare","settings":{"section_title":"RainStick Vs. Traditional Showers","gpmone":"3 GPM","modeone":"Mode 1: Circular Shower","contentone":"Never before has it been possible to shower with up to 80% less water, and still get a high-flow experience—all from the comfort of your own home.\n\nThis is the default mode for RainStick, using the drop up to 6X before it heads down the drain.","gpmtwo":"1.8 GPM","modetwo":"Mode 2: Your Shower Today","contenttwo":"Should you ever wish to not use RainStick’s powerful, water-saving capabilities, just switch back to this mode, and your shower will do exactly as it did before. \n\nThe water drop is used 1X, providing a low-flow 1.8 GPM experience."}},"how-it-works":{"type":"how-it-works","settings":{"header":"How the RainStick <br>Shower works for you.","paragraph_one":"RainStick is the best investment you’ll make in a bathroom new-build or remodel project. It will provide an attractive ROI (return on investment) by paying back in 5 years or less.","paragraph_two":"Just like your current shower, RainStick starts with fresh grid-supplied water. Except, instead of going down the drain, RainStick captures, circulates, and cleans the water, all in real-time to avoid waste.","image":"shopify:\/\/shop_images\/howitworks-1.jpg"}},"video":{"type":"video","settings":{"url":"https:\/\/www.youtube.com\/watch?v=Nb2oXiaOjt0"}},"how-it-works-bottom":{"type":"how-it-works-bottom","settings":{"header":"What makes a good shower?","subheader":"RainStick delivers","column_header_one":"Flow","column_content_one":"RainStick provides almost double the flow rate of a conventional shower. California and Washington have mandated 1.8 GPM and RainStick's flow rate is 3 GPM.","column_header_two":"Coverage","column_content_two":"RainStick offers a full-coverage rainshower experience that actually washes the shampoo out of your hair, while still providing up to 80% water savings.","column_header_three":"Temperature","column_content_three":"RainStick keeps you warm and comfortable for the duration of your shower. Whether you like to shower at 38°C\/100°F or 42°C\/106°F for example, the option is yours to pick your preferred temperature.","file":"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804","bottom_image":"shopify:\/\/shop_images\/howitworks-4.jpg","stages_header":"Safe, circulated water.","stages_content":"RainStick water goes through a 3-stage process that removes larger hair and debris, and even kills bacteria and viruses.","list_one":"Through the use of a micron filter, larger debris, including hair and dirt, is removed.","list_two":"RainStick continuously refreshes with a tiny amount of hot water to cleanse the loop of shampoo and soap.","list_three":"For redundancy purposes, an intense, long-life UV-LED is used, which disinfects water from any bacteria or viruses from the shower.","stages_content_two":"The system does not store water in-between sessions. At any time, you can also select the traditional shower mode if cleaning the shower stall or washing a pet for example."}},"about-hero":{"type":"about-hero","settings":{"header":"Re-inventing the way you shower.","content":"<p>RainStick began because (like most of us) we loved long, hot showers but felt guilty about wasting water. The only option at the time was a low-flow compromise, which would negatively impact our shower experience, a change we weren’t willing to consider. So we started to re-imagine status-quo and the way that we showered.<br\/><\/p><p>In 2019, we invented RainStick Shower – a WiFi-enabled shower system that not only saves up 80% energy and 80% water, and is  low maintenance, but also increases the flow rate by 2X compared to a traditional shower.<\/p>","image":"shopify:\/\/shop_images\/howitworks-top.jpg"}},"about-values":{"type":"about-values","blocks":{"42bc93ca-513d-4abe-90c6-623a8843f1b8":{"type":"top_block","settings":{"image":"shopify:\/\/shop_images\/hands.jpg","title":"Mission","content":"We've made it our mission to provide fantastic experiences while contributing to a healthy planet, one RainStick at a time."}},"f35d187f-926f-41bb-950d-d8cb0048a199":{"type":"middle_block","settings":{"image":"shopify:\/\/shop_images\/family.jpg","title":"Values","content":"<p>While our community are the true heroes, we share values of being true change agents to the world around us in order to leave it better than we found it.<br><br>\nOur vision is to allow people to thrive using only 50L of water per person, per day. A RainStick Shower is the beginning, to amazing things ahead.\n<\/p>"}},"6492f5c1-02e4-4875-a374-7d1855728202":{"type":"bottom_block","settings":{"line_one":"RainStick is different.","line_two":"We nurture a culture of caring.","line_three":"We believe in doing what is right, not what is easy.","line_four":"We never settle for less than exceptional.","line_five":"We are changemakers and future-focused.","line_six":"Together, we will make a difference."}}},"block_order":["42bc93ca-513d-4abe-90c6-623a8843f1b8","f35d187f-926f-41bb-950d-d8cb0048a199","6492f5c1-02e4-4875-a374-7d1855728202"],"settings":{}},"about-founders":{"type":"about-founders","settings":{"image":"shopify:\/\/shop_images\/founders.jpg","header":"Meet our Founders","content":"Inventors, Sean and Alisha, grew up in an area of water stress and were tired of heating 100L of water during their shower and seeing it literally go down the drain, each and every time. When speaking with others, they learned a lot of people were upset about the situation too so they decided to do something about it. With collective backgrounds in business, water management and engineering, they are on a mission of making saving water irresistible. When not developing RainStick and trying to save the world one revolutionized shower at a time, Sean and Alisha are avid mountain bikers, travellers and music lovers.","url_one":"https:\/\/www.linkedin.com\/in\/alisha-mcfetridge-31a4b241\/","link_one":"Alisha McFetridge","url_two":"https:\/\/www.linkedin.com\/in\/sean-mcfetridge-bba-cem-795b4373\/","link_two":"Sean McFetridge"}},"recent-press":{"type":"recent-press","settings":{"article_one":"press\/rainstick-raises-1-million-cad-to-commercialize-water-conservation-tech","article_two":"press\/rainstick-delivering-sustainable-showers-without-compromise","article_three":"press\/rainstick-lands-lion-s-share-of-fierce-founders-prize"}},"newsletter-form":{"type":"newsletter-form","settings":{"newsletter_list":"https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=S4hENu&g=WwAgXK"}},"page-tech-seeker":{"type":"page-tech-seeker","blocks":{"a0d1933a-16ae-473b-9135-405634c7293c":{"type":"blog","settings":{"blog":"our-stories\/2021-trends-in-bathrooms"}},"880b288b-278d-4fa2-82b7-02552e5e9e22":{"type":"blog","settings":{"blog":"our-stories\/drain-talk"}},"b9f4d8b5-2034-4376-97ac-06b44dbd6b63":{"type":"blog","settings":{"blog":"press\/rainstick-delivering-sustainable-showers-without-compromise"}}},"block_order":["a0d1933a-16ae-473b-9135-405634c7293c","880b288b-278d-4fa2-82b7-02552e5e9e22","b9f4d8b5-2034-4376-97ac-06b44dbd6b63"],"settings":{"header":"Wonderful! Thanks for letting us know. Since you <span>care most about smart home tech<\/span>, you may be really interested in the following:"}},"page-experience-seeker":{"type":"page-experience-seeker","blocks":{"a700120b-ff18-45f7-ba07-19099511bd87":{"type":"blog","settings":{"blog":"our-stories\/showering-habits-around-the-world"}},"e5f2fbd0-20b4-4266-8bb0-6033b702bb63":{"type":"blog","settings":{"blog":"our-stories\/drain-talk"}},"13f3d28f-5c92-4cc8-9903-ea727b119c5c":{"type":"blog","settings":{"blog":"our-stories\/building-resiliency-in-your-home"}}},"block_order":["a700120b-ff18-45f7-ba07-19099511bd87","e5f2fbd0-20b4-4266-8bb0-6033b702bb63","13f3d28f-5c92-4cc8-9903-ea727b119c5c"],"settings":{"header":"Wonderful! Thanks for letting us know. Since you <span>care most about design<\/span>, you may be really interested in the following:"}},"page-conscious-spender":{"type":"page-conscious-spender","blocks":{"88f86fee-d83a-406f-8c5b-38fe69b3294b":{"type":"blog","settings":{"blog":"our-stories\/building-resiliency-in-your-home"}},"a4f8901f-e807-45c3-879c-5628b9a241ed":{"type":"blog","settings":{"blog":"our-stories\/showering-habits-around-the-world"}},"804595e8-470d-4e0c-a76c-476499bae746":{"type":"blog","settings":{"blog":"our-stories\/drain-talk"}}},"block_order":["88f86fee-d83a-406f-8c5b-38fe69b3294b","a4f8901f-e807-45c3-879c-5628b9a241ed","804595e8-470d-4e0c-a76c-476499bae746"],"settings":{"header":"Wonderful! Thanks for letting us know. Since you <span>care most about sustainable living<\/span>, you may be really interested in the following:"}}},"content_for_index":["1630014244d329a912","1630015189ed7a1adf","163032686198856d8e","16303271997046505a","16298321281d2fb371"]},"presets":{"Cool":{"theme-primary-color":"#0381A2","theme-primary-color-hover":"#0288b5","theme-secondary-color":"#554d99","heading-text-color":"#000000","body-text-color":"#797676","border-color":"#e3e3e3","body-background-color":"#fff","font_body":"roboto_n3","font_headings":"open_sans_n3","font_buttons":"open_sans_n7","sections":{"static-slideshow":{"type":"static-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"alignment":"center","title":"Slideshow","subtitle":"Introduce customers to your shop with lifestyle imagery and product photography."}},"slide-2":{"type":"slide","settings":{"alignment":"center","title":"Slideshow","subtitle":"Introduce customers to your shop with lifestyle imagery and product photography."}}},"block_order":["slide-1","slide-2"],"settings":{"enable":true,"layout":"full-window","transition":"transition-fade","autoplay":true}},"dynamic-alternating-content":{"type":"dynamic-alternating-content","blocks":{"alternating-content-1":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-2":{"type":"video","settings":{"style":"light","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-3":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}}},"block_order":["alternating-content-1","alternating-content-2","alternating-content-3"],"settings":{}},"dynamic-product-focus":{"type":"dynamic-product-focus","blocks":{"dynamic-product-focus-1":{"type":"feature","settings":{"icon":"refresh"}},"dynamic-product-focus-2":{"type":"feature","settings":{"icon":"volume-high"}},"dynamic-product-focus-3":{"type":"feature","settings":{"icon":"battery-charging"}},"dynamic-product-focus-4":{"type":"feature","settings":{"icon":"microphone"}}},"block_order":["dynamic-product-focus-1","dynamic-product-focus-2","dynamic-product-focus-3","dynamic-product-focus-4"],"settings":{"show_product_image":true,"style":"light","title":"Product focus","subtitle":"Highlight your product's finest features."}},"dynamic-images-with-text":{"type":"dynamic-images-with-text","blocks":{"images-with-text-1":{"type":"image","settings":{"text":"<p>Say a bit about your brand, a specific product, or promotion.<\/p>"}},"images-with-text-2":{"type":"image","settings":{"text":"<p>Display up to four images, each with their own unique heading and text.<\/p>"}},"images-with-text-3":{"type":"image","settings":{"text":"<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"}}},"block_order":["images-with-text-1","images-with-text-2","images-with-text-3"],"settings":{"style":"default","alignment":"left"}},"pxs-video":{"type":"pxs-video","settings":{}},"dynamic-text-columns-with-icons":{"type":"dynamic-text-columns-with-icons","blocks":{"text-column-1":{"type":"text_column","settings":{}},"text-column-2":{"type":"text_column","settings":{}},"text-column-3":{"type":"text_column","settings":{}}},"block_order":["text-column-1","text-column-2","text-column-3"],"settings":{"style":"default","title":"Text columns with icons"}},"dynamic-testimonials":{"type":"dynamic-testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{}},"testimonial-2":{"type":"testimonial","settings":{}}},"block_order":["testimonial-1","testimonial-2"],"settings":{"style":"default","title":"Testimonials"}},"dynamic-blog-posts":{"type":"dynamic-blog-posts","settings":{"style":"light","posts-to-show":3,"title":"Blog posts"}},"pxs-announcement-bar":{"type":"pxs-announcement-bar","settings":{"announcement_background":"#554d99"}},"static-footer":{"type":"static-footer","settings":{"style":"default","enable_borders":true}}},"content_for_index":["dynamic-alternating-content","dynamic-product-focus","dynamic-images-with-text","pxs-video","dynamic-text-columns-with-icons","dynamic-testimonials","dynamic-blog-posts"]},"Fresh":{"theme-primary-color":"#857b58","theme-primary-color-hover":"#6f6850","theme-secondary-color":"#4e7f74","heading-text-color":"#191919","body-text-color":"#5e5e5e","border-color":"#e6e6e6","body-background-color":"#ffffff","font_body":"roboto_condensed_n3","font_headings":"playfair_display_n7","font_buttons":"roboto_n7","sections":{"static-slideshow":{"type":"static-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"alignment":"center","title":"Slideshow","subtitle":"Introduce customers to your shop with lifestyle imagery and product photography."}},"slide-2":{"type":"slide","settings":{"alignment":"center","title":"Slideshow","subtitle":"Introduce customers to your shop with lifestyle imagery and product photography."}}},"block_order":["slide-1","slide-2"],"settings":{"enable":true,"layout":"full-window","transition":"transition-slide","autoplay":false}},"dynamic-featured-collection":{"type":"dynamic-featured-collection","settings":{"style":"default","products-per-row":3,"product-rows":2,"title":"Featured collection"}},"dynamic-alternating-content":{"type":"dynamic-alternating-content","blocks":{"alternating-content-1":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-2":{"type":"video","settings":{"style":"light","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-3":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}}},"block_order":["alternating-content-1","alternating-content-2","alternating-content-3"],"settings":{}},"dynamic-text-columns-with-icons":{"type":"dynamic-text-columns-with-icons","blocks":{"text-column-1":{"type":"text_column","settings":{}},"text-column-2":{"type":"text_column","settings":{}},"text-column-3":{"type":"text_column","settings":{}}},"block_order":["text-column-1","text-column-2","text-column-3"],"settings":{"style":"default","title":"Text columns with icons"}},"pxs-video":{"type":"pxs-video","settings":{}},"dynamic-testimonials":{"type":"dynamic-testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{}},"testimonial-2":{"type":"testimonial","settings":{}}},"block_order":["testimonial-1","testimonial-2"],"settings":{"style":"default","title":"Testimonials"}},"dynamic-blog-posts":{"type":"dynamic-blog-posts","settings":{"style":"light","posts-to-show":3,"title":"Blog posts"}},"pxs-announcement-bar":{"type":"pxs-announcement-bar","settings":{"announcement_background":"#4e7f74"}},"static-footer":{"type":"static-footer","settings":{"style":"light","enable_borders":true,"show_logo":true}}},"content_for_index":["dynamic-featured-collection","dynamic-alternating-content","dynamic-text-columns-with-icons","pxs-video","dynamic-testimonials","dynamic-blog-posts"]},"Bold":{"theme-primary-color":"#ea2931","theme-primary-color-hover":"#d1282f","theme-secondary-color":"#fd8311","heading-text-color":"#161a1c","body-text-color":"#7f7f7f","border-color":"#e3e3e3","body-background-color":"#ffffff","font_body":"source_sans_pro_n3","font_headings":"montserrat_n4","font_buttons":"source_sans_pro_n7","sections":{"static-slideshow":{"type":"static-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"alignment":"center","title":"Slideshow","subtitle":"Introduce customers to your shop with lifestyle imagery and product photography."}}},"block_order":["slide-1"],"settings":{"enable":true,"layout":"full-width","transition":"transition-fade","autoplay":false}},"dynamic-alternating-content":{"type":"dynamic-alternating-content","blocks":{"alternating-content-1":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-2":{"type":"video","settings":{"style":"light","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}},"alternating-content-3":{"type":"image","settings":{"style":"default","button_text":"This is your call to action","button_link":"shopify:\/\/collections"}}},"block_order":["alternating-content-1","alternating-content-2","alternating-content-3"],"settings":{}},"dynamic-product-focus":{"type":"dynamic-product-focus","blocks":{"dynamic-product-focus-1":{"type":"feature","settings":{"icon":"refresh"}},"dynamic-product-focus-2":{"type":"feature","settings":{"icon":"volume-high"}},"dynamic-product-focus-3":{"type":"feature","settings":{"icon":"battery-charging"}},"dynamic-product-focus-4":{"type":"feature","settings":{"icon":"microphone"}}},"block_order":["dynamic-product-focus-1","dynamic-product-focus-2","dynamic-product-focus-3","dynamic-product-focus-4"],"settings":{"show_product_image":true,"style":"light","title":"Product focus","subtitle":"Highlight your product's finest features."}},"dynamic-images-with-text":{"type":"dynamic-images-with-text","blocks":{"images-with-text-1":{"type":"image","settings":{"text":"<p>Say a bit about your brand, a specific product, or promotion.<\/p>"}},"images-with-text-2":{"type":"image","settings":{"text":"<p>Display up to four images, each with their own unique heading and text.<\/p>"}},"images-with-text-3":{"type":"image","settings":{"text":"<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"}}},"block_order":["images-with-text-1","images-with-text-2","images-with-text-3"],"settings":{"style":"default","alignment":"right"}},"dynamic-text-columns-with-icons":{"type":"dynamic-text-columns-with-icons","blocks":{"text-column-1":{"type":"text_column","settings":{}},"text-column-2":{"type":"text_column","settings":{}},"text-column-3":{"type":"text_column","settings":{}}},"block_order":["text-column-1","text-column-2","text-column-3"],"settings":{"style":"light","title":"Text columns with icons"}},"pxs-video":{"type":"pxs-video","settings":{}},"dynamic-testimonials":{"type":"dynamic-testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{}},"testimonial-2":{"type":"testimonial","settings":{}}},"block_order":["testimonial-1","testimonial-2"],"settings":{"style":"default","title":"Testimonials"}},"dynamic-blog-posts":{"type":"dynamic-blog-posts","settings":{"style":"light","posts-to-show":2,"title":"Blog posts"}},"pxs-announcement-bar":{"type":"pxs-announcement-bar","settings":{"announcement_background":"#fd8311"}},"static-header":{"type":"static-header","settings":{"header_sticky":true}},"static-footer":{"type":"static-footer","settings":{"style":"default","enable_borders":true,"show_logo":true}}},"content_for_index":["dynamic-alternating-content","dynamic-product-focus","dynamic-images-with-text","dynamic-text-columns-with-icons","pxs-video","dynamic-testimonials","dynamic-blog-posts"]}}}
+{
+  "current": {
+    "theme-primary-color": "#2a2725",
+    "theme-secondary-color": "#0ac7c7",
+    "heading-text-color": "#2a2725",
+    "body-text-color": "#2a2725",
+    "border-color": "rgba(0,0,0,0)",
+    "body-background-color": "#f8f6f6",
+    "font_body": "poppins_n3",
+    "font_headings": "poppins_n5",
+    "font_buttons": "poppins_n6",
+    "featured-product-main": "rainstick-shower",
+    "product_module_1": "none",
+    "product_module_2": "none",
+    "product-sale-goal-use": false,
+    "product-sale-goal-style": "gradient",
+    "product_sale_goal_button": "Pre-order",
+    "product_sale_goal_estimated_delivery_date": "Estimated delivery: April",
+    "product_goal_starting_quantity": "",
+    "product_goal": "",
+    "product_goal_use_quantity": false,
+    "product_sale_goal_date_time": "06\/21\/2017 15:00",
+    "social_default_image": "",
+    "social_facebook_url": "https:\/\/www.facebook.com\/rainstickshower\/",
+    "social_twitter_url": "",
+    "social_pinterest_url": "https:\/\/www.pinterest.ca\/RainStickShower\/",
+    "social_instagram_url": "https:\/\/www.instagram.com\/rainstick.shower\/",
+    "social_vimeo_url": "",
+    "social_youtube_url": "",
+    "social_rss_url": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#f8f6f6",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#f8f6f6",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#02827b",
+    "checkout_button_color": "#02827b",
+    "checkout_error_color": "#e32c2b",
+    "theme-primary-color-hover": "#0288b5",
+    "sections": {
+      "static-slideshow": {
+        "type": "static-slideshow",
+        "blocks": {
+          "slide-1": {
+            "type": "slide",
+            "settings": {
+              "alignment": "center",
+              "text_style": "dark",
+              "image": "shopify:\/\/shop_images\/RainStick_-_Hero_1.jpg",
+              "overlay_style": "none",
+              "overlay_opacity": 10,
+              "title": "The smarter way to shower.",
+              "subtitle": "It’s time to cut your water use without compromising your experience.",
+              "cta": "Discover Rainstick.",
+              "url": "shopify:\/\/products\/rainstick-shower"
+            }
+          }
+        },
+        "block_order": [
+          "slide-1"
+        ],
+        "settings": {
+          "enable": true,
+          "layout": "full-width",
+          "transition": "transition-fade",
+          "autoplay_speed": 7,
+          "autoplay": false
+        }
+      },
+      "dynamic-alternating-content": {
+        "type": "dynamic-alternating-content",
+        "disabled": true,
+        "blocks": {
+          "alternating-content-1": {
+            "type": "image",
+            "settings": {
+              "style": "default",
+              "title": "Purification at its finest",
+              "text": "<p>The robust filtration ensures hygiene comes first, making your shower water clean and clear.&nbsp;<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/RainStick_-_Purification_at_its_finest.png"
+            }
+          },
+          "alternating-content-3": {
+            "type": "image",
+            "settings": {
+              "style": "default",
+              "title": "Better for you & the environment",
+              "text": "<p>In a world with growing water stress, we need to cut our residential water use in half. Rainstick does more than that, saving you 80% water and 80% energy.<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/RainStick_-_Better_for_you_Enviro.png"
+            }
+          },
+          "1592776942706": {
+            "type": "image",
+            "settings": {
+              "style": "default",
+              "title": "Standout, beautiful design",
+              "text": "<p>Everyone will know you have a RainStick&hellip;. and want one too.<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/RainStick_-_Standout_Design.png"
+            }
+          }
+        },
+        "block_order": [
+          "alternating-content-1",
+          "alternating-content-3",
+          "1592776942706"
+        ],
+        "settings": {
+        }
+      },
+      "dynamic-text-columns-with-icons": {
+        "type": "dynamic-text-columns-with-icons",
+        "disabled": true,
+        "blocks": {
+          "text-column-1": {
+            "type": "text_column",
+            "settings": {
+              "title": "High flow & relaxing experience",
+              "text": "<p>Recirculating and filtering your water means you can enjoy a high-pressure shower without guilt or compromise.<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "icon": "",
+              "iconimage": "shopify:\/\/shop_images\/High_flow_rate_3x_8438f262-8453-414c-a1f6-d0d5e37646a2.png"
+            }
+          },
+          "text-column-2": {
+            "type": "text_column",
+            "settings": {
+              "title": "Smart technology",
+              "text": "<p>You now can track your water and energy savings in real-time, allowing you to know how much water and energy you&rsquo;ve saved.<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "icon": "image",
+              "iconimage": "shopify:\/\/shop_images\/RainStick_-_Smart_Technology_3x_a5ab4f1d-0c12-4d58-910a-44372b578204.png"
+            }
+          },
+          "text-column-3": {
+            "type": "text_column",
+            "settings": {
+              "title": "Saving water & money",
+              "text": "<p>Your shower now pays you back. Depending on your household use, as much as $500-$700 per year.&nbsp;<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "icon": "image",
+              "iconimage": "shopify:\/\/shop_images\/RainStick_-_Saving_water_3x_a1dd66b5-b711-4274-afa8-83758afd567c.png"
+            }
+          }
+        },
+        "block_order": [
+          "text-column-1",
+          "text-column-2",
+          "text-column-3"
+        ],
+        "settings": {
+          "style": "light",
+          "columns-per-row": 3,
+          "title": "We made RainStick to be different.",
+          "subtitle": ""
+        }
+      },
+      "pxs-announcement-bar": {
+        "type": "pxs-announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "announcement_home_only": false,
+          "announcement_text": "Call attention to a special discount, feature, or promotion here.",
+          "announcement_text_mobile": "Use less text on mobile!",
+          "announcement_link": "",
+          "announcement_color": "#2a2725",
+          "announcement_background": "#09c6c6"
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "blocks": {
+          "1592661527595": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "1602859837982": {
+            "type": "social_media",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "1592661527595",
+          "1602859837982"
+        ],
+        "settings": {
+          "style": "dark",
+          "enable_borders": false,
+          "payment_icons": false,
+          "show_logo": true,
+          "footer_logo": "shopify:\/\/shop_images\/Logomark_-_White_--01.png",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "static-header": {
+        "type": "static-header",
+        "settings": {
+          "menu": "main",
+          "header_sticky": true,
+          "show_cart": true,
+          "drawer_social_icons": false,
+          "header_logo": "shopify:\/\/shop_images\/RainStick-Shower-Horizontal-Logo.png",
+          "header_logo_alternate": "shopify:\/\/shop_images\/RainStick-Shower-Horizontal-Logo.png"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "enable": true,
+          "style": "color",
+          "title": "Stay in Touch",
+          "text": "<p>Be the first to know about RainStick updates, when it&#x27;s available and how you can pre-order. We promise not to spam you and only share information you would be interested in.<\/p>"
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "settings": {
+          "show_spb": false,
+          "enable_cart_redirect": false,
+          "enable-share-buttons": false,
+          "enable_zoom": true,
+          "gallery_enable_video_autoplay": true,
+          "gallery_enable_video_looping": true,
+          "additional_info_text_1": "",
+          "additional_info_url_1": "",
+          "additional_info_icon_1": "envelope",
+          "additional_info_text_2": "",
+          "additional_info_url_2": "",
+          "additional_info_icon_2": "info"
+        }
+      },
+      "static-product-recommendations": {
+        "type": "static-product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "product_recommendations_heading": "You may also like",
+          "style": "light",
+          "stock_overlay_show": false,
+          "stock-overlay-threshold": 5
+        }
+      },
+      "module-technical-specifications": {
+        "type": "module-technical-specifications",
+        "blocks": {
+          "module-technical-specifications-0": {
+            "type": "specification",
+            "settings": {
+              "title": "Adjustable head",
+              "text": "<p>Let your customers know what details set your product apart from the competition.<\/p>",
+              "icon": ""
+            }
+          },
+          "module-technical-specifications-1": {
+            "type": "specification",
+            "settings": {
+              "title": "TITLE GOES HERE",
+              "text": "<p>Your hand wand is out of the way, leaving a sleek, designer-worthy look.&nbsp;<\/p>",
+              "icon": "="
+            }
+          },
+          "module-technical-specifications-2": {
+            "type": "specification",
+            "settings": {
+              "title": "TITLE GOES HERE",
+              "text": "<p>High-pressure flow-rate, low impact on the environment.<\/p>",
+              "icon": ""
+            }
+          }
+        },
+        "block_order": [
+          "module-technical-specifications-0",
+          "module-technical-specifications-1",
+          "module-technical-specifications-2"
+        ],
+        "settings": {
+          "style": "default",
+          "image_alignment": "left",
+          "title": "Benefits",
+          "subtitle": "",
+          "specification_image": "",
+          "specification_download_image": "",
+          "specification_download_text": "",
+          "specification_download_title": ""
+        }
+      },
+      "module-faq": {
+        "type": "module-faq",
+        "blocks": {
+          "module-faq-0": {
+            "type": "faq",
+            "settings": {
+              "title": "When and where can I buy RainStick?",
+              "text": "<p>RainStick will be available for purchase on our website and through our install partners in 2021.  Be sure to sign up <a href=\"\/pages\/pre-order-now\" title=\"Pre-Order Now\">here<\/a><strong> <\/strong>to be one of the very first in your region to have access to RainStick.<\/p>"
+            }
+          },
+          "module-faq-1": {
+            "type": "faq",
+            "settings": {
+              "title": "What is included with my RainStick purchase?",
+              "text": "<p>RainStick comes to you as a packaged system inclusive of all of the necessary components for a high-pressure shower experience. We are working on installation videos that will be available on our website to walk you through through the process. Whether you are trying your hand at installation or are working with an installation partner, we will have your back every step of the way.<\/p>"
+            }
+          },
+          "module-faq-2": {
+            "type": "faq",
+            "settings": {
+              "title": "What is the price of the shower system?",
+              "text": "<p>We are finalizing our pricing which is dependent on taxes, currency, shipping etc. in a retrospective area. To be the first to find out pricing in your area, be sure to sign up <a href=\"\/pages\/pre-order-now\" title=\"Pre-Order Now\"><strong>here<\/strong><\/a>. RainStick provides a reduction in your monthly bills and a 3-4 years (dependent on local water and energy costs.)<\/p>"
+            }
+          },
+          "1592744839284": {
+            "type": "faq",
+            "settings": {
+              "title": "Can you tell me more about the filtration component of the shower?",
+              "text": "<p>Our proprietary filtration system allows for real-time recirculation and low maintenance. Rather than continually having to change out filters (which is costly and an environmental hazard), our filter has a long life. Water after your shower is free of bacteria, dirt and even viruses making it clean and clear. <\/p><p><br\/>After the end of your shower, water goes down the drain and there is a flushing of the system. The next person in the shower does <strong>not<\/strong> use the same water, they use a new set of fresh water.<\/p>"
+            }
+          },
+          "1592744860151": {
+            "type": "faq",
+            "settings": {
+              "title": "I am a retailer \/ distributor \/ contractor \/ hotel and would like to offer RainStick",
+              "text": "<p>Great! We would love to hear from you. Please reach out to us at hello@rainstickshower.com.<\/p>"
+            }
+          },
+          "1594162340973": {
+            "type": "faq",
+            "settings": {
+              "title": "What are the installation requirements?",
+              "text": "<p>We are working towards a full installation and system requirements section on our website which will be available in 2021. Please check back shortly!<\/p>"
+            }
+          },
+          "04dde42b-4bc1-479f-b43e-89195125f478": {
+            "type": "faq",
+            "settings": {
+              "title": "Can RainStick be installed where there is a bathtub insert?",
+              "text": "<p>Currently RainStick is available only for install directly into a tiled shower floor. We are looking into making different versions for different applications in the future including bathtubs. Stay tuned!<\/p>"
+            }
+          },
+          "664ecba6-84d8-497e-bee3-d531aec7b189": {
+            "type": "faq",
+            "settings": {
+              "title": "Does RainStick have a handheld?",
+              "text": "<p>Yes! The foot spout doubles as a retractable handheld. Water can be diverted from the shower head to the lower handheld with the push of a button.<\/p>"
+            }
+          },
+          "80280335-9bb6-41cf-b9bf-be302fc08ed9": {
+            "type": "faq",
+            "settings": {
+              "title": "Is the same water reused between showers?",
+              "text": "<p>No. A shower session always begins with a fresh batch of clean water. In addition RainStick is equipped with an automated self-cleaning feature that cleanses the system between sessions.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "module-faq-0",
+          "module-faq-1",
+          "module-faq-2",
+          "1592744839284",
+          "1592744860151",
+          "1594162340973",
+          "04dde42b-4bc1-479f-b43e-89195125f478",
+          "664ecba6-84d8-497e-bee3-d531aec7b189",
+          "80280335-9bb6-41cf-b9bf-be302fc08ed9"
+        ],
+        "settings": {
+          "style": "color"
+        }
+      },
+      "module-team": {
+        "type": "module-team",
+        "blocks": {
+          "1592754366173": {
+            "type": "team_member",
+            "settings": {
+              "image": "",
+              "title": "Sean",
+              "job_title": "Founder",
+              "bio": "Bio"
+            }
+          },
+          "1592754385872": {
+            "type": "team_member",
+            "settings": {
+              "image": "",
+              "title": "Alisha",
+              "job_title": "Co-Founder",
+              "bio": "Bio"
+            }
+          },
+          "1592754395491": {
+            "type": "team_member",
+            "settings": {
+              "image": "",
+              "title": "M",
+              "job_title": "?",
+              "bio": "Bio"
+            }
+          }
+        },
+        "block_order": [
+          "1592754366173",
+          "1592754385872",
+          "1592754395491"
+        ],
+        "settings": {
+          "style": "default",
+          "column_count": "3",
+          "title": "",
+          "subtitle": ""
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/RainStick_-_HotSpot_ad3a739e-408b-4792-b484-03d7f400edb1.png",
+          "layout": "right",
+          "title": "How It Works",
+          "text": "<p>RainStick system uses a patent pending technology. Components are designed for compatibility and durability so you don’t need to continually change out filters every few months to ensure clean water.<\/p>\n<p>Our system is inherently:<\/p>\n<p>\n•        Low maintenance <br>\n•\tHas a straightforward installation<br>\n•\tDurable with a 2-year warranty\n<\/p>",
+          "button_label": "",
+          "button_link": "",
+          "show_hotspot_1": true,
+          "hotspot_1_content": "<p>Fully adjustable shower head delivers high flow relaxation<\/p>",
+          "hotspot_1_toppos": "7%",
+          "hotspot_1_leftpos": "34%",
+          "show_hotspot_2": true,
+          "hotspot_2_content": "<p>The heater boosts water temperature to deliver constant comfort<\/p>",
+          "hotspot_2_toppos": "25%",
+          "hotspot_2_leftpos": "53%",
+          "show_hotspot_3": true,
+          "hotspot_3_content": "<p>Smart controller tracks water usage and ensures your system is operating perfectly to deliver every last drop<\/p>",
+          "hotspot_3_toppos": "40%",
+          "hotspot_3_leftpos": "40%",
+          "show_hotspot_4": true,
+          "hotspot_4_content": "<p>Foot spout that doubles as a retractable handheld to deliver options for a targeted experience<\/p>",
+          "hotspot_4_toppos": "65%",
+          "hotspot_4_leftpos": "54.2299%",
+          "show_hotspot_5": true,
+          "hotspot_5_content": "<p>Long-life filtration cleans and purifies in real-time; supplying shower water that is safe for reuse<\/p>",
+          "hotspot_5_toppos": "75%",
+          "hotspot_5_leftpos": "54%",
+          "show_hotspot_6": true,
+          "hotspot_6_content": "<p>Prescreen captures anything too large to enter the systems<\/p>",
+          "hotspot_6_toppos": "85%",
+          "hotspot_6_leftpos": "40%"
+        }
+      },
+      "dynamic-alternating-content-about": {
+        "type": "dynamic-alternating-content-about",
+        "blocks": {
+          "1593361454566": {
+            "type": "image",
+            "settings": {
+              "style": "light",
+              "title": "Meet the Inventors",
+              "text": "<p>Inventors, Sean and Alisha, grew up in an area of water stress and were tired of heating up 100 litres of water during their shower and seeing it go down the drain. When speaking with others, they learned a lot of people were upset about the situation too so they decided to do something about it.&nbsp;<\/p>\n<p><\/p>\n<p>Today, they&rsquo;re on a mission to make saving water irresistible.<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/RainStick_Shower_-_About_Us_-_Alisha_Sean.png"
+            }
+          }
+        },
+        "block_order": [
+          "1593361454566"
+        ],
+        "settings": {
+        }
+      },
+      "module-contact-form-preorder": {
+        "type": "module-contact-form-preorder",
+        "settings": {
+          "style": "light"
+        }
+      },
+      "main-carousel": {
+        "type": "main-carousel",
+        "blocks": {
+          "438499e8-39d0-4350-8845-904aeb45bb5d": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/carousel-1.jpg",
+              "title": "Elevate your shower experience",
+              "description": "Re-invent your shower with 2X the flow rate and up to 80% water and energy savings.",
+              "link": "shopify:\/\/pages\/how-it-works",
+              "link_label": "Learn how RainStick works"
+            }
+          },
+          "9b341ba2-9ab2-41d1-b137-246bb8f2b374": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slideshow2.png",
+              "title": "The smarter way to shower",
+              "description": "Track your water and energy savings in real time with WiFi-enabled technology. The only thing this system can’t do, is tell you when to shower, but we’re sure you’ve got this.",
+              "link": "shopify:\/\/pages\/select-destination",
+              "link_label": "Shop now"
+            }
+          },
+          "0e1883ad-4fc9-4ae8-9597-c4a0d91f8db7": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slideshow3.png",
+              "title": "Pay back time",
+              "description": "Showering is one of the top water-consuming activities in your home. Find out how much money you can save with RainStick.",
+              "link": "https:\/\/rainstickshower.com\/#saving-calc",
+              "link_label": "Calculate your savings now"
+            }
+          }
+        },
+        "block_order": [
+          "438499e8-39d0-4350-8845-904aeb45bb5d",
+          "9b341ba2-9ab2-41d1-b137-246bb8f2b374",
+          "0e1883ad-4fc9-4ae8-9597-c4a0d91f8db7"
+        ],
+        "settings": {
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "installation_guide": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"
+        }
+      },
+      "dimensions-details": {
+        "type": "dimensions-details",
+        "blocks": {
+          "b62bab21-e089-407b-ad0b-d56e590665ae": {
+            "type": "text",
+            "settings": {
+              "title": "Dimensions (Size)",
+              "content": "<b>Height: 80 inches (2032mm) <br>\n<b>Width: 8.5 inches (217mm)<br>\n<b>Depth: 5.3 inches (135mm)<\/b><\/b><\/b>"
+            }
+          },
+          "13f5169e-229a-45b3-9c52-7ba6be489cfb": {
+            "type": "text",
+            "settings": {
+              "title": "Specifications",
+              "content": "<b>Water Flow Rate:<\/b> In circular mode, 11.4 LPM (3 GPM) - default mode\nIn conventional shower mode, 6.8 LPM (1.8 GPM)<br>\n<b>In-floor Reservoir:<\/b> Included with system<br>\n<b>Finishes:<\/b> Matte Black and Brushed Nickel<br>\n<b>Electrical Supply:<\/b> 120 Volt, 15 AMP GFCI<br>\n<b>Showerhead:<\/b> Rain shower head, 10 inch wide<br>\n<b>Handheld:<\/b> Optional, available as an add on feature<br>\n<b>RainStick app:<\/b> Available for android and IOS, system compatible with Google Home & Alexa<br>\n<b>Cleaning cycle:<\/b> Automatic<br>\n<b>Assembly:<\/b> RainStick comes pre-assembled with the exception of the pump."
+            }
+          },
+          "990038e8-66a3-44e8-a6fb-bb817ca7ff7b": {
+            "type": "text",
+            "settings": {
+              "title": "Warranty",
+              "content": "2 years with extended warranty plan option"
+            }
+          },
+          "614c1d07-033f-4840-a74b-fed231c5c55f": {
+            "type": "text",
+            "settings": {
+              "title": "What's Included",
+              "content": "RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<ul><\/ul>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "b62bab21-e089-407b-ad0b-d56e590665ae",
+          "13f5169e-229a-45b3-9c52-7ba6be489cfb",
+          "990038e8-66a3-44e8-a6fb-bb817ca7ff7b",
+          "614c1d07-033f-4840-a74b-fed231c5c55f"
+        ],
+        "settings": {
+          "header": "Dimensions & Details",
+          "image": "shopify:\/\/shop_images\/homepage_pillar1.jpg"
+        }
+      },
+      "installation-button": {
+        "type": "installation-button",
+        "settings": {
+          "label": "ACCESS THE RAINSTICK INSTALLATION CHECKLIST",
+          "install": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"
+        }
+      },
+      "product-page-columns": {
+        "type": "product-page-columns",
+        "settings": {
+          "header_one": "CHECK YOUR BATHROOM",
+          "content_one": "To start, check your bathroom set up to ensure you have (or will have) (1) a tiled bathroom surface and (2) a shower stall as RainStick is not compatible with bathtub inserts or shower floor plates.",
+          "header_two": "PREORDER <br> NOW",
+          "content_two": "Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in mid 2022.",
+          "header_three": "INSTALL &<br> ENJOY",
+          "content_three": "You will receive a RainStick system inclusive of all parts and sub-floor reservoir, ready for installation by your preferred bathroom professional."
+        }
+      },
+      "faq-dynamic": {
+        "type": "faq-dynamic",
+        "blocks": {
+          "917e5c37-9047-4f3f-b165-383145459438": {
+            "type": "text",
+            "settings": {
+              "question": "Don’t we have a lot of water in North America? Why do we need to save it?",
+              "answer": "<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>"
+            }
+          },
+          "511018b6-dd0a-479c-ae46-b469fa3f9430": {
+            "type": "text",
+            "settings": {
+              "question": "Is installing a RainStick more difficult than a traditional shower?",
+              "answer": "<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>"
+            }
+          },
+          "6a591f7e-88c6-4efb-ad5d-5c96a13d2082": {
+            "type": "text",
+            "settings": {
+              "question": "When will I begin to see my ROI with my purchase of RainStick?",
+              "answer": "<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>"
+            }
+          },
+          "7670b859-3636-4453-9079-4c3e32cd064c": {
+            "type": "text",
+            "settings": {
+              "question": "What is included with a RainStick purchase?",
+              "answer": "<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>"
+            }
+          },
+          "278d6670-0d94-41f3-952f-02d149ec2591": {
+            "type": "text",
+            "settings": {
+              "question": "When is the best time to install a RainStick?",
+              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>"
+            }
+          },
+          "37979229-0873-4d83-bcbb-1fa407d3b300": {
+            "type": "text",
+            "settings": {
+              "question": "Can I install RainStick in my off-grid home?",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>"
+            }
+          },
+          "66769442-1106-4dee-9865-c8ac7487806c": {
+            "type": "text",
+            "settings": {
+              "question": "Can I still shower if something within the system needs attention or repair?",
+              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>"
+            }
+          },
+          "02df5142-b050-4866-8e4e-27fb4e7055d9": {
+            "type": "text",
+            "settings": {
+              "question": "Do you have a solution for bathtubs?",
+              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>"
+            }
+          },
+          "ffc23857-06c9-4e5c-913a-9980643dd905": {
+            "type": "text",
+            "settings": {
+              "question": "I like to turn off the tap between shampooing and soaping to conserve water. Does this mean I no longer have to do this with RainStick?",
+              "answer": "<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>"
+            }
+          },
+          "de64846a-c1e6-488b-a46d-535487e4c689": {
+            "type": "text",
+            "settings": {
+              "question": "How do I know how much water I’m saving?",
+              "answer": "<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>"
+            }
+          },
+          "ca85ae65-0d30-401c-a8d7-50badf6081e8": {
+            "type": "text",
+            "settings": {
+              "question": "Do you have a bathroom pro (trades) program?",
+              "answer": "<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>"
+            }
+          },
+          "05bfe0f4-e47f-47df-acca-37eb781f78a0": {
+            "type": "text",
+            "settings": {
+              "question": "Do you also offer a handheld with RainStick?",
+              "answer": "<p>Yes, you have the option of purchasing a RainStick handheld to go with your system. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>"
+            }
+          },
+          "3784ba62-61d1-41ba-b63a-d96d42a975f0": {
+            "type": "text",
+            "settings": {
+              "question": "When will my RainStick be delivered?",
+              "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "917e5c37-9047-4f3f-b165-383145459438",
+          "511018b6-dd0a-479c-ae46-b469fa3f9430",
+          "6a591f7e-88c6-4efb-ad5d-5c96a13d2082",
+          "7670b859-3636-4453-9079-4c3e32cd064c",
+          "278d6670-0d94-41f3-952f-02d149ec2591",
+          "37979229-0873-4d83-bcbb-1fa407d3b300",
+          "66769442-1106-4dee-9865-c8ac7487806c",
+          "02df5142-b050-4866-8e4e-27fb4e7055d9",
+          "ffc23857-06c9-4e5c-913a-9980643dd905",
+          "de64846a-c1e6-488b-a46d-535487e4c689",
+          "ca85ae65-0d30-401c-a8d7-50badf6081e8",
+          "05bfe0f4-e47f-47df-acca-37eb781f78a0",
+          "3784ba62-61d1-41ba-b63a-d96d42a975f0"
+        ],
+        "settings": {
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "settings": {
+          "enable_checkout_lock_icon": false,
+          "order_notes": false,
+          "show_shipping_calculator": false,
+          "shipping_calculator_default_country": "United States"
+        }
+      },
+      "static-article": {
+        "type": "static-article",
+        "settings": {
+          "show_share_buttons": false
+        }
+      },
+      "16298321281d2fb371": {
+        "type": "savings-calc",
+        "settings": {
+          "featured_article": "our-stories\/showering-habits-around-the-world"
+        }
+      },
+      "instafeed": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "1630014244d329a912": {
+        "type": "large-text-box",
+        "settings": {
+          "bg-image": "shopify:\/\/shop_images\/homepage-1.jpg",
+          "header": "We’re re-inventing the way people shower",
+          "content": "Today, every 10-minute, shower in North America uses approximately 100L of heated water. That’s equivalent to 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing 2X the flow rate compared to a low flow option."
+        }
+      },
+      "1630015189ed7a1adf": {
+        "type": "three-column",
+        "blocks": {
+          "fca78c75-4e08-4f96-9f2d-ae3774aff165": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/homepage_pillar1.jpg",
+              "title": "",
+              "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
+            }
+          },
+          "919837e6-599c-4c55-945f-37755bcd3ccd": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/column2.png",
+              "title": "Innovating showers and water conservation faster than you can say “tech savvy”",
+              "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your shower length and maintenance requirements. Heck, Siri and Alexa will even turn your shower on for you."
+            }
+          },
+          "c65430c1-704b-4647-a956-21dac64068a0": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/homepage-pillar3.jpg",
+              "title": "Up to 80% savings. Need we say more?",
+              "content": "RainStick’s circular shower system saves up to 80% energy and water while providing almost 2X the flow rate. You’ll save money without lowering your expectations. A real-time cleaning process ensures refreshed water with each shower experience. You can also simply select the traditional shower mode, at any time."
+            }
+          }
+        },
+        "block_order": [
+          "fca78c75-4e08-4f96-9f2d-ae3774aff165",
+          "919837e6-599c-4c55-945f-37755bcd3ccd",
+          "c65430c1-704b-4647-a956-21dac64068a0"
+        ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "163032686198856d8e": {
+        "type": "featured-media",
+        "settings": {
+          "header": "",
+          "subheader": ""
+        }
+      },
+      "16303271997046505a": {
+        "type": "text-block-with-image",
+        "settings": {
+          "quote": "As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!",
+          "name": "Bruce Hicks",
+          "location": "Homeowner, Haliburton, Canada",
+          "image": "shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"
+        }
+      },
+      "featured-story": {
+        "type": "featured-story",
+        "settings": {
+          "article": "our-stories\/how-to-prepare-for-your-shower-remodel-project"
+        }
+      },
+      "story-columns": {
+        "type": "story-columns",
+        "settings": {
+          "title": "Our Stories",
+          "blog_one": "our-stories\/road-to-ces-2022-the-nominees-were-most-excited-to-see",
+          "blog_two": "our-stories\/start-saving-water-and-energy-with-these-bathroom-shower-ideas",
+          "blog_three": "our-stories\/everything-you-need-to-know-about-recirculating-showers",
+          "url": "shopify:\/\/blogs\/our-stories"
+        }
+      },
+      "text-block-with-image": {
+        "type": "text-block-with-image",
+        "settings": {
+          "quote": "As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!",
+          "name": "Bruce Hicks",
+          "location": "Homeowner, Haliburton, Canada",
+          "image": "shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"
+        }
+      },
+      "story-columns-dark": {
+        "type": "story-columns-dark",
+        "settings": {
+          "title": "Press Releases",
+          "blog_one": "press\/canadian-clean-technology-company-rainstick-releases-limited-run-of-rainstick-shower-s",
+          "blog_two": "press\/rainstick-delivering-sustainable-showers-without-compromise",
+          "blog_three": "press\/rainstick-raises-1-million-cad-to-commercialize-water-conservation-tech",
+          "url": "shopify:\/\/blogs\/press"
+        }
+      },
+      "image-compare": {
+        "type": "image-compare",
+        "settings": {
+          "section_title": "RainStick Vs. Traditional Showers",
+          "gpmone": "3 GPM",
+          "modeone": "Mode 1: Circular Shower",
+          "contentone": "Never before has it been possible to shower with up to 80% less water, and still get a high-flow experience—all from the comfort of your own home.\n\nThis is the default mode for RainStick, using the drop up to 6X before it heads down the drain.",
+          "gpmtwo": "1.8 GPM",
+          "modetwo": "Mode 2: Your Shower Today",
+          "contenttwo": "Should you ever wish to not use RainStick’s powerful, water-saving capabilities, just switch back to this mode, and your shower will do exactly as it did before. \n\nThe water drop is used 1X, providing a low-flow 1.8 GPM experience."
+        }
+      },
+      "how-it-works": {
+        "type": "how-it-works",
+        "settings": {
+          "header": "How the RainStick <br>Shower works for you.",
+          "paragraph_one": "RainStick is the best investment you’ll make in a bathroom new-build or remodel project. It will provide an attractive ROI (return on investment) by paying back in 5 years or less.",
+          "paragraph_two": "Just like your current shower, RainStick starts with fresh grid-supplied water. Except, instead of going down the drain, RainStick captures, circulates, and cleans the water, all in real-time to avoid waste.",
+          "image": "shopify:\/\/shop_images\/howitworks-1.jpg"
+        }
+      },
+      "video": {
+        "type": "video",
+        "settings": {
+          "url": "https:\/\/www.youtube.com\/watch?v=Nb2oXiaOjt0"
+        }
+      },
+      "how-it-works-bottom": {
+        "type": "how-it-works-bottom",
+        "settings": {
+          "header": "What makes a good shower?",
+          "subheader": "RainStick delivers",
+          "column_header_one": "Flow",
+          "column_content_one": "RainStick provides almost double the flow rate of a conventional shower. California and Washington have mandated 1.8 GPM and RainStick's flow rate is 3 GPM.",
+          "column_header_two": "Coverage",
+          "column_content_two": "RainStick offers a full-coverage rainshower experience that actually washes the shampoo out of your hair, while still providing up to 80% water savings.",
+          "column_header_three": "Temperature",
+          "column_content_three": "RainStick keeps you warm and comfortable for the duration of your shower. Whether you like to shower at 38°C\/100°F or 42°C\/106°F for example, the option is yours to pick your preferred temperature.",
+          "file": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804",
+          "bottom_image": "shopify:\/\/shop_images\/howitworks-4.jpg",
+          "stages_header": "Safe, circulated water.",
+          "stages_content": "RainStick water goes through a 3-stage process that removes larger hair and debris, and even kills bacteria and viruses.",
+          "list_one": "Through the use of a micron filter, larger debris, including hair and dirt, is removed.",
+          "list_two": "RainStick continuously refreshes with a tiny amount of hot water to cleanse the loop of shampoo and soap.",
+          "list_three": "For redundancy purposes, an intense, long-life UV-LED is used, which disinfects water from any bacteria or viruses from the shower.",
+          "stages_content_two": "The system does not store water in-between sessions. At any time, you can also select the traditional shower mode if cleaning the shower stall or washing a pet for example."
+        }
+      },
+      "about-hero": {
+        "type": "about-hero",
+        "settings": {
+          "header": "Re-inventing the way you shower.",
+          "content": "<p>RainStick began because (like most of us) we loved long, hot showers but felt guilty about wasting water. The only option at the time was a low-flow compromise, which would negatively impact our shower experience, a change we weren’t willing to consider. So we started to re-imagine status-quo and the way that we showered.<br\/><\/p><p>In 2019, we invented RainStick Shower – a WiFi-enabled shower system that not only saves up 80% energy and 80% water, and is  low maintenance, but also increases the flow rate by 2X compared to a traditional shower.<\/p>",
+          "image": "shopify:\/\/shop_images\/howitworks-top.jpg"
+        }
+      },
+      "about-values": {
+        "type": "about-values",
+        "blocks": {
+          "42bc93ca-513d-4abe-90c6-623a8843f1b8": {
+            "type": "top_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hands.jpg",
+              "title": "Mission",
+              "content": "We've made it our mission to provide fantastic experiences while contributing to a healthy planet, one RainStick at a time."
+            }
+          },
+          "f35d187f-926f-41bb-950d-d8cb0048a199": {
+            "type": "middle_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/family.jpg",
+              "title": "Values",
+              "content": "<p>While our community are the true heroes, we share values of being true change agents to the world around us in order to leave it better than we found it.<br><br>\nOur vision is to allow people to thrive using only 50L of water per person, per day. A RainStick Shower is the beginning, to amazing things ahead.\n<\/p>"
+            }
+          },
+          "6492f5c1-02e4-4875-a374-7d1855728202": {
+            "type": "bottom_block",
+            "settings": {
+              "line_one": "RainStick is different.",
+              "line_two": "We nurture a culture of caring.",
+              "line_three": "We believe in doing what is right, not what is easy.",
+              "line_four": "We never settle for less than exceptional.",
+              "line_five": "We are changemakers and future-focused.",
+              "line_six": "Together, we will make a difference."
+            }
+          }
+        },
+        "block_order": [
+          "42bc93ca-513d-4abe-90c6-623a8843f1b8",
+          "f35d187f-926f-41bb-950d-d8cb0048a199",
+          "6492f5c1-02e4-4875-a374-7d1855728202"
+        ],
+        "settings": {
+        }
+      },
+      "about-founders": {
+        "type": "about-founders",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/founders.jpg",
+          "header": "Meet our Founders",
+          "content": "Inventors, Sean and Alisha, grew up in an area of water stress and were tired of heating 100L of water during their shower and seeing it literally go down the drain, each and every time. When speaking with others, they learned a lot of people were upset about the situation too so they decided to do something about it. With collective backgrounds in business, water management and engineering, they are on a mission of making saving water irresistible. When not developing RainStick and trying to save the world one revolutionized shower at a time, Sean and Alisha are avid mountain bikers, travellers and music lovers.",
+          "url_one": "https:\/\/www.linkedin.com\/in\/alisha-mcfetridge-31a4b241\/",
+          "link_one": "Alisha McFetridge",
+          "url_two": "https:\/\/www.linkedin.com\/in\/sean-mcfetridge-bba-cem-795b4373\/",
+          "link_two": "Sean McFetridge"
+        }
+      },
+      "recent-press": {
+        "type": "recent-press",
+        "settings": {
+          "article_one": "press\/rainstick-raises-1-million-cad-to-commercialize-water-conservation-tech",
+          "article_two": "press\/rainstick-delivering-sustainable-showers-without-compromise",
+          "article_three": "press\/rainstick-lands-lion-s-share-of-fierce-founders-prize"
+        }
+      },
+      "newsletter-form": {
+        "type": "newsletter-form",
+        "settings": {
+          "newsletter_list": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=S4hENu&g=WwAgXK"
+        }
+      },
+      "page-tech-seeker": {
+        "type": "page-tech-seeker",
+        "blocks": {
+          "a0d1933a-16ae-473b-9135-405634c7293c": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/2021-trends-in-bathrooms"
+            }
+          },
+          "880b288b-278d-4fa2-82b7-02552e5e9e22": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/drain-talk"
+            }
+          },
+          "b9f4d8b5-2034-4376-97ac-06b44dbd6b63": {
+            "type": "blog",
+            "settings": {
+              "blog": "press\/rainstick-delivering-sustainable-showers-without-compromise"
+            }
+          }
+        },
+        "block_order": [
+          "a0d1933a-16ae-473b-9135-405634c7293c",
+          "880b288b-278d-4fa2-82b7-02552e5e9e22",
+          "b9f4d8b5-2034-4376-97ac-06b44dbd6b63"
+        ],
+        "settings": {
+          "header": "Wonderful! Thanks for letting us know. Since you <span>care most about smart home tech<\/span>, you may be really interested in the following:"
+        }
+      },
+      "page-experience-seeker": {
+        "type": "page-experience-seeker",
+        "blocks": {
+          "a700120b-ff18-45f7-ba07-19099511bd87": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/showering-habits-around-the-world"
+            }
+          },
+          "e5f2fbd0-20b4-4266-8bb0-6033b702bb63": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/drain-talk"
+            }
+          },
+          "13f3d28f-5c92-4cc8-9903-ea727b119c5c": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/building-resiliency-in-your-home"
+            }
+          }
+        },
+        "block_order": [
+          "a700120b-ff18-45f7-ba07-19099511bd87",
+          "e5f2fbd0-20b4-4266-8bb0-6033b702bb63",
+          "13f3d28f-5c92-4cc8-9903-ea727b119c5c"
+        ],
+        "settings": {
+          "header": "Wonderful! Thanks for letting us know. Since you <span>care most about design<\/span>, you may be really interested in the following:"
+        }
+      },
+      "page-conscious-spender": {
+        "type": "page-conscious-spender",
+        "blocks": {
+          "88f86fee-d83a-406f-8c5b-38fe69b3294b": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/building-resiliency-in-your-home"
+            }
+          },
+          "a4f8901f-e807-45c3-879c-5628b9a241ed": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/showering-habits-around-the-world"
+            }
+          },
+          "804595e8-470d-4e0c-a76c-476499bae746": {
+            "type": "blog",
+            "settings": {
+              "blog": "our-stories\/drain-talk"
+            }
+          }
+        },
+        "block_order": [
+          "88f86fee-d83a-406f-8c5b-38fe69b3294b",
+          "a4f8901f-e807-45c3-879c-5628b9a241ed",
+          "804595e8-470d-4e0c-a76c-476499bae746"
+        ],
+        "settings": {
+          "header": "Wonderful! Thanks for letting us know. Since you <span>care most about sustainable living<\/span>, you may be really interested in the following:"
+        }
+      }
+    },
+    "content_for_index": [
+      "1630014244d329a912",
+      "1630015189ed7a1adf",
+      "163032686198856d8e",
+      "16303271997046505a",
+      "16298321281d2fb371"
+    ]
+  },
+  "presets": {
+    "Cool": {
+      "theme-primary-color": "#0381A2",
+      "theme-primary-color-hover": "#0288b5",
+      "theme-secondary-color": "#554d99",
+      "heading-text-color": "#000000",
+      "body-text-color": "#797676",
+      "border-color": "#e3e3e3",
+      "body-background-color": "#fff",
+      "font_body": "roboto_n3",
+      "font_headings": "open_sans_n3",
+      "font_buttons": "open_sans_n7",
+      "sections": {
+        "static-slideshow": {
+          "type": "static-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center",
+                "title": "Slideshow",
+                "subtitle": "Introduce customers to your shop with lifestyle imagery and product photography."
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center",
+                "title": "Slideshow",
+                "subtitle": "Introduce customers to your shop with lifestyle imagery and product photography."
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": true,
+            "layout": "full-window",
+            "transition": "transition-fade",
+            "autoplay": true
+          }
+        },
+        "dynamic-alternating-content": {
+          "type": "dynamic-alternating-content",
+          "blocks": {
+            "alternating-content-1": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-2": {
+              "type": "video",
+              "settings": {
+                "style": "light",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-3": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            }
+          },
+          "block_order": [
+            "alternating-content-1",
+            "alternating-content-2",
+            "alternating-content-3"
+          ],
+          "settings": {
+          }
+        },
+        "dynamic-product-focus": {
+          "type": "dynamic-product-focus",
+          "blocks": {
+            "dynamic-product-focus-1": {
+              "type": "feature",
+              "settings": {
+                "icon": "refresh"
+              }
+            },
+            "dynamic-product-focus-2": {
+              "type": "feature",
+              "settings": {
+                "icon": "volume-high"
+              }
+            },
+            "dynamic-product-focus-3": {
+              "type": "feature",
+              "settings": {
+                "icon": "battery-charging"
+              }
+            },
+            "dynamic-product-focus-4": {
+              "type": "feature",
+              "settings": {
+                "icon": "microphone"
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-product-focus-1",
+            "dynamic-product-focus-2",
+            "dynamic-product-focus-3",
+            "dynamic-product-focus-4"
+          ],
+          "settings": {
+            "show_product_image": true,
+            "style": "light",
+            "title": "Product focus",
+            "subtitle": "Highlight your product's finest features."
+          }
+        },
+        "dynamic-images-with-text": {
+          "type": "dynamic-images-with-text",
+          "blocks": {
+            "images-with-text-1": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
+              }
+            },
+            "images-with-text-2": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Display up to four images, each with their own unique heading and text.<\/p>"
+              }
+            },
+            "images-with-text-3": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "images-with-text-1",
+            "images-with-text-2",
+            "images-with-text-3"
+          ],
+          "settings": {
+            "style": "default",
+            "alignment": "left"
+          }
+        },
+        "pxs-video": {
+          "type": "pxs-video",
+          "settings": {
+          }
+        },
+        "dynamic-text-columns-with-icons": {
+          "type": "dynamic-text-columns-with-icons",
+          "blocks": {
+            "text-column-1": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-2": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-3": {
+              "type": "text_column",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text-column-1",
+            "text-column-2",
+            "text-column-3"
+          ],
+          "settings": {
+            "style": "default",
+            "title": "Text columns with icons"
+          }
+        },
+        "dynamic-testimonials": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default",
+            "title": "Testimonials"
+          }
+        },
+        "dynamic-blog-posts": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "style": "light",
+            "posts-to-show": 3,
+            "title": "Blog posts"
+          }
+        },
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "announcement_background": "#554d99"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "style": "default",
+            "enable_borders": true
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-alternating-content",
+        "dynamic-product-focus",
+        "dynamic-images-with-text",
+        "pxs-video",
+        "dynamic-text-columns-with-icons",
+        "dynamic-testimonials",
+        "dynamic-blog-posts"
+      ]
+    },
+    "Fresh": {
+      "theme-primary-color": "#857b58",
+      "theme-primary-color-hover": "#6f6850",
+      "theme-secondary-color": "#4e7f74",
+      "heading-text-color": "#191919",
+      "body-text-color": "#5e5e5e",
+      "border-color": "#e6e6e6",
+      "body-background-color": "#ffffff",
+      "font_body": "roboto_condensed_n3",
+      "font_headings": "playfair_display_n7",
+      "font_buttons": "roboto_n7",
+      "sections": {
+        "static-slideshow": {
+          "type": "static-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center",
+                "title": "Slideshow",
+                "subtitle": "Introduce customers to your shop with lifestyle imagery and product photography."
+              }
+            },
+            "slide-2": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center",
+                "title": "Slideshow",
+                "subtitle": "Introduce customers to your shop with lifestyle imagery and product photography."
+              }
+            }
+          },
+          "block_order": [
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "enable": true,
+            "layout": "full-window",
+            "transition": "transition-slide",
+            "autoplay": false
+          }
+        },
+        "dynamic-featured-collection": {
+          "type": "dynamic-featured-collection",
+          "settings": {
+            "style": "default",
+            "products-per-row": 3,
+            "product-rows": 2,
+            "title": "Featured collection"
+          }
+        },
+        "dynamic-alternating-content": {
+          "type": "dynamic-alternating-content",
+          "blocks": {
+            "alternating-content-1": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-2": {
+              "type": "video",
+              "settings": {
+                "style": "light",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-3": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            }
+          },
+          "block_order": [
+            "alternating-content-1",
+            "alternating-content-2",
+            "alternating-content-3"
+          ],
+          "settings": {
+          }
+        },
+        "dynamic-text-columns-with-icons": {
+          "type": "dynamic-text-columns-with-icons",
+          "blocks": {
+            "text-column-1": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-2": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-3": {
+              "type": "text_column",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text-column-1",
+            "text-column-2",
+            "text-column-3"
+          ],
+          "settings": {
+            "style": "default",
+            "title": "Text columns with icons"
+          }
+        },
+        "pxs-video": {
+          "type": "pxs-video",
+          "settings": {
+          }
+        },
+        "dynamic-testimonials": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default",
+            "title": "Testimonials"
+          }
+        },
+        "dynamic-blog-posts": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "style": "light",
+            "posts-to-show": 3,
+            "title": "Blog posts"
+          }
+        },
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "announcement_background": "#4e7f74"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "style": "light",
+            "enable_borders": true,
+            "show_logo": true
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-featured-collection",
+        "dynamic-alternating-content",
+        "dynamic-text-columns-with-icons",
+        "pxs-video",
+        "dynamic-testimonials",
+        "dynamic-blog-posts"
+      ]
+    },
+    "Bold": {
+      "theme-primary-color": "#ea2931",
+      "theme-primary-color-hover": "#d1282f",
+      "theme-secondary-color": "#fd8311",
+      "heading-text-color": "#161a1c",
+      "body-text-color": "#7f7f7f",
+      "border-color": "#e3e3e3",
+      "body-background-color": "#ffffff",
+      "font_body": "source_sans_pro_n3",
+      "font_headings": "montserrat_n4",
+      "font_buttons": "source_sans_pro_n7",
+      "sections": {
+        "static-slideshow": {
+          "type": "static-slideshow",
+          "blocks": {
+            "slide-1": {
+              "type": "slide",
+              "settings": {
+                "alignment": "center",
+                "title": "Slideshow",
+                "subtitle": "Introduce customers to your shop with lifestyle imagery and product photography."
+              }
+            }
+          },
+          "block_order": [
+            "slide-1"
+          ],
+          "settings": {
+            "enable": true,
+            "layout": "full-width",
+            "transition": "transition-fade",
+            "autoplay": false
+          }
+        },
+        "dynamic-alternating-content": {
+          "type": "dynamic-alternating-content",
+          "blocks": {
+            "alternating-content-1": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-2": {
+              "type": "video",
+              "settings": {
+                "style": "light",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            },
+            "alternating-content-3": {
+              "type": "image",
+              "settings": {
+                "style": "default",
+                "button_text": "This is your call to action",
+                "button_link": "shopify:\/\/collections"
+              }
+            }
+          },
+          "block_order": [
+            "alternating-content-1",
+            "alternating-content-2",
+            "alternating-content-3"
+          ],
+          "settings": {
+          }
+        },
+        "dynamic-product-focus": {
+          "type": "dynamic-product-focus",
+          "blocks": {
+            "dynamic-product-focus-1": {
+              "type": "feature",
+              "settings": {
+                "icon": "refresh"
+              }
+            },
+            "dynamic-product-focus-2": {
+              "type": "feature",
+              "settings": {
+                "icon": "volume-high"
+              }
+            },
+            "dynamic-product-focus-3": {
+              "type": "feature",
+              "settings": {
+                "icon": "battery-charging"
+              }
+            },
+            "dynamic-product-focus-4": {
+              "type": "feature",
+              "settings": {
+                "icon": "microphone"
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-product-focus-1",
+            "dynamic-product-focus-2",
+            "dynamic-product-focus-3",
+            "dynamic-product-focus-4"
+          ],
+          "settings": {
+            "show_product_image": true,
+            "style": "light",
+            "title": "Product focus",
+            "subtitle": "Highlight your product's finest features."
+          }
+        },
+        "dynamic-images-with-text": {
+          "type": "dynamic-images-with-text",
+          "blocks": {
+            "images-with-text-1": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
+              }
+            },
+            "images-with-text-2": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Display up to four images, each with their own unique heading and text.<\/p>"
+              }
+            },
+            "images-with-text-3": {
+              "type": "image",
+              "settings": {
+                "text": "<p>Offer customers a wealth of information while conserving valuable vertical space on your homepage.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "images-with-text-1",
+            "images-with-text-2",
+            "images-with-text-3"
+          ],
+          "settings": {
+            "style": "default",
+            "alignment": "right"
+          }
+        },
+        "dynamic-text-columns-with-icons": {
+          "type": "dynamic-text-columns-with-icons",
+          "blocks": {
+            "text-column-1": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-2": {
+              "type": "text_column",
+              "settings": {
+              }
+            },
+            "text-column-3": {
+              "type": "text_column",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text-column-1",
+            "text-column-2",
+            "text-column-3"
+          ],
+          "settings": {
+            "style": "light",
+            "title": "Text columns with icons"
+          }
+        },
+        "pxs-video": {
+          "type": "pxs-video",
+          "settings": {
+          }
+        },
+        "dynamic-testimonials": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+              }
+            },
+            "testimonial-2": {
+              "type": "testimonial",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "testimonial-1",
+            "testimonial-2"
+          ],
+          "settings": {
+            "style": "default",
+            "title": "Testimonials"
+          }
+        },
+        "dynamic-blog-posts": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "style": "light",
+            "posts-to-show": 2,
+            "title": "Blog posts"
+          }
+        },
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "announcement_background": "#fd8311"
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "header_sticky": true
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "style": "default",
+            "enable_borders": true,
+            "show_logo": true
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-alternating-content",
+        "dynamic-product-focus",
+        "dynamic-images-with-text",
+        "dynamic-text-columns-with-icons",
+        "pxs-video",
+        "dynamic-testimonials",
+        "dynamic-blog-posts"
+      ]
+    }
+  }
+}
