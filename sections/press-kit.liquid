@@ -1,0 +1,78 @@
+<div class="press-kit__section">
+  <h2 class="press-kit__header">Inquiries</h2>
+  <p class="press-kit__content">For press inquiries and marketing collaborations, contact us.</p>
+</div>
+<div class="press-kit__section">
+  <h2 class="press-kit__header">Featured In</h2>
+  <div class="press-kit__logo-container">
+    <div class="press-kit__logo-item">
+      {%- render 'rainstick-media-logos', name: 'ids' -%}
+      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+    </div>
+    <div class="press-kit__logo-item">
+      {%- render 'rainstick-media-logos', name: 'ids' -%}
+      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+    </div>
+    <div class="press-kit__logo-item">
+      {%- render 'rainstick-media-logos', name: 'ids' -%}
+      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+    </div>
+  </div>
+</div>
+<div class="press-kit__section">
+  <h2 class="press-kit__header">Recent Press</h2>
+  <div class="press-kit__article-container">
+    {% for article in section.settings.blog.articles %}
+      <div class="press-kit__article-item">
+        <h3 class="press-kit__press-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+        <p class="press-kit__press-excerpt">{{ article.excerpt | truncatewords: 20 }}</p>
+        <a class="press-kit__link" href="{{ article.url }}">READ MORE</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="press-kit__section">
+  <h2 class="press-kit__header">Logos</h2>
+  <div class="press-kit__logos-container">
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+  </div>
+  <a class="press-kit__logo-download">DOWNLOAD LOGO PACKAGE</a>
+</div>
+<div class="press-kit__section">
+  <h2 class="press-kit__header">Media</h2>
+  <div class="press-kit__logos-container">
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+    <div class="press-kit__logo-block"></div>
+  </div>
+  <a class="press-kit__logo-download">DOWNLOAD LOGO PACKAGE</a>
+</div>
+
+{% schema %}
+{
+  "name": "Press kit",
+  "settings": [
+    {
+      "id": "inquiries",
+      "type": "textarea",
+      "label": "Inquiries text"
+    },
+    {
+      "id": "header",
+      "type": "textarea",
+      "label": "Inquiries text"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Press Blog"
+    }
+  ]
+}
+{% endschema %}
