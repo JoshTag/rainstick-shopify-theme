@@ -1,6 +1,31 @@
+<div class="background__black ctn-basic" style="position:relative">
+  <div class="blackwave"></div>
+  <div class="homepage-blob"></div>
+  <h2 class="homepage__heading-3">what makes us great</h2>
+
+  <div class="homepage__3-pillars">
+
+    {% for block in section.blocks %}
+      <div class="homepage__pillar-ctn">
+        <div class="homepage__pillar-img" style="background-image: url({{ block.settings.image | img_url: "700x700" }})"></div>
+        <h3 class="homepage__heading-3">{{ block.settings.title }}</h3>
+        <p class="homepage__pillars-text">
+          {{ block.settings.content }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div> 
+<div class="button__ctn-black">
+  <a href="/pages/select-destination" class="greenbutton">
+    ORDER NOW
+  </a>
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
+    "name": "b2b Naviation Icons",
     "settings": []
   }
 {% endschema %}
