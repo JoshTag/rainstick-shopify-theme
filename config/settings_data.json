@@ -1013,12 +1013,22 @@
           "url": "shopify:\/\/pages\/how-it-works",
           "url_label": "HOW IT WORKS"
         }
+      },
+      "1645808455b2363609": {
+        "type": "what-makes-us-great",
+        "settings": {
+          "header": "Hello",
+          "paragraph": "Today, every 10-minute, conventional shower in North America uses approximately 100L of heated water. That’s equivalent to approximately 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing almost 2X the flow rate of a low flow option.",
+          "url": "",
+          "url_label": ""
+        }
       }
     },
     "content_for_index": [
       "16458009295e4c83ed",
       "16298321281d2fb371",
-      "1645806243d64b1a99"
+      "1645806243d64b1a99",
+      "1645808455b2363609"
     ]
   },
   "presets": {
