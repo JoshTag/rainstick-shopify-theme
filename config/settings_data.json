@@ -1016,45 +1016,21 @@
       },
       "1645808455b2363609": {
         "type": "what-makes-us-great",
-        "settings": {
-          "header": "Hello",
-          "paragraph": "Today, every 10-minute, conventional shower in North America uses approximately 100L of heated water. That’s equivalent to approximately 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing almost 2X the flow rate of a low flow option.",
-          "url": "",
-          "url_label": ""
-        }
-      },
-      "1645808561710d076e": {
-        "type": "three-column",
         "blocks": {
-          "c1cd1876-ecd3-40e7-a394-8e1e4684ce0f": {
+          "bc4f406e-d339-4508-8f97-2d197e77b946": {
             "type": "column",
             "settings": {
-              "title": "hello",
-              "content": "hello"
-            }
-          },
-          "178c0a91-8132-4813-839b-14219ac9ea6b": {
-            "type": "column",
-            "settings": {
-              "title": "hello",
-              "content": "hello"
-            }
-          },
-          "bc6c8736-3953-4891-bbb7-8306110f1087": {
-            "type": "column",
-            "settings": {
-              "title": "hello",
-              "content": "hello"
+              "image": "shopify:\/\/shop_images\/RainStick_on_slatted_wood_tile.png",
+              "title": "Exquisite Design",
+              "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
             }
           }
         },
         "block_order": [
-          "c1cd1876-ecd3-40e7-a394-8e1e4684ce0f",
-          "178c0a91-8132-4813-839b-14219ac9ea6b",
-          "bc6c8736-3953-4891-bbb7-8306110f1087"
+          "bc4f406e-d339-4508-8f97-2d197e77b946"
         ],
         "settings": {
-          "header": "hello"
+          "header": "Hello"
         }
       }
     },
@@ -1062,8 +1038,7 @@
       "16458009295e4c83ed",
       "16298321281d2fb371",
       "1645806243d64b1a99",
-      "1645808455b2363609",
-      "1645808561710d076e"
+      "1645808455b2363609"
     ]
   },
   "presets": {
