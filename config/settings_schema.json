@@ -4,8 +4,8 @@
     "theme_name": "Launch",
     "theme_author": "Pixel Union",
     "theme_version": "6.5.0",
-    "theme_documentation_url": "http://support.pixelunion.net/category/251-launch/",
-    "theme_support_url": "https://support.pixelunion.net/hc/en-us/requests/new"
+    "theme_documentation_url": "http:\/\/support.pixelunion.net\/category\/251-launch\/",
+    "theme_support_url": "https:\/\/support.pixelunion.net\/hc\/en-us\/requests\/new"
   },
   {
     "name": "Colors",
@@ -189,7 +189,7 @@
         "type": "text",
         "id": "product_goal",
         "label": "Goal quantity",
-        "info": "This value represents the number of sales/pre-orders you'd like to make before funding is completed."
+        "info": "This value represents the number of sales\/pre-orders you'd like to make before funding is completed."
       },
       {
         "type": "checkbox",
@@ -206,8 +206,8 @@
         "type": "text",
         "id": "product_sale_goal_date_time",
         "label": "End date and time",
-        "info": "The mm/dd/yyyy hh:mm format is required. For example, June 21st 2017 at 3pm would be 06/21/2017 15:00",
-        "default": "06/21/2017 15:00"
+        "info": "The mm\/dd\/yyyy hh:mm format is required. For example, June 21st 2017 at 3pm would be 06\/21\/2017 15:00",
+        "default": "06\/21\/2017 15:00"
       }
     ]
   },
