@@ -741,67 +741,6 @@
           "html_area": ""
         }
       },
-      "1630014244d329a912": {
-        "type": "large-text-box",
-        "settings": {
-          "bg-image": "shopify:\/\/shop_images\/homepage-1.jpg",
-          "header": "We’re re-inventing the way people shower",
-          "content": "Today, every 10-minute, shower in North America uses approximately 100L of heated water. That’s equivalent to 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing 2X the flow rate compared to a low flow option."
-        }
-      },
-      "1630015189ed7a1adf": {
-        "type": "three-column",
-        "blocks": {
-          "fca78c75-4e08-4f96-9f2d-ae3774aff165": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/homepage_pillar1.jpg",
-              "title": "",
-              "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
-            }
-          },
-          "919837e6-599c-4c55-945f-37755bcd3ccd": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/column2.png",
-              "title": "Innovating showers and water conservation faster than you can say “tech savvy”",
-              "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your shower length and maintenance requirements. Heck, Siri and Alexa will even turn your shower on for you."
-            }
-          },
-          "c65430c1-704b-4647-a956-21dac64068a0": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/homepage-pillar3.jpg",
-              "title": "Up to 80% savings. Need we say more?",
-              "content": "RainStick’s circular shower system saves up to 80% energy and water while providing almost 2X the flow rate. You’ll save money without lowering your expectations. A real-time cleaning process ensures refreshed water with each shower experience. You can also simply select the traditional shower mode, at any time."
-            }
-          }
-        },
-        "block_order": [
-          "fca78c75-4e08-4f96-9f2d-ae3774aff165",
-          "919837e6-599c-4c55-945f-37755bcd3ccd",
-          "c65430c1-704b-4647-a956-21dac64068a0"
-        ],
-        "settings": {
-          "header": ""
-        }
-      },
-      "163032686198856d8e": {
-        "type": "featured-media",
-        "settings": {
-          "header": "",
-          "subheader": ""
-        }
-      },
-      "16303271997046505a": {
-        "type": "text-block-with-image",
-        "settings": {
-          "quote": "As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!",
-          "name": "Bruce Hicks",
-          "location": "Homeowner, Haliburton, Canada",
-          "image": "shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"
-        }
-      },
       "featured-story": {
         "type": "featured-story",
         "settings": {
@@ -1064,15 +1003,22 @@
           "header": "",
           "blog": "press"
         }
+      },
+      "1645806243d64b1a99": {
+        "type": "index-text-with-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/slideshow3.png",
+          "header": "Re-inventing the way people shower",
+          "paragraph": "Today, every 10-minute, conventional shower in North America uses approximately 100L of heated water. That’s equivalent to approximately 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing almost 2X the flow rate of a low flow option.",
+          "url": "shopify:\/\/pages\/how-it-works",
+          "url_label": "HOW IT WORKS"
+        }
       }
     },
     "content_for_index": [
       "16458009295e4c83ed",
-      "1630014244d329a912",
-      "1630015189ed7a1adf",
-      "163032686198856d8e",
-      "16303271997046505a",
-      "16298321281d2fb371"
+      "16298321281d2fb371",
+      "1645806243d64b1a99"
     ]
   },
   "presets": {
