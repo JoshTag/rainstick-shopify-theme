@@ -1032,11 +1032,20 @@
               "title": "Wifi Enabled",
               "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your water usage and maintenance requirements. Heck, Siri and Alexa will even turn your shower for you."
             }
+          },
+          "6596eee9-a684-49d4-a09f-bc34120c58bd": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Devil_s_Ivy_Bathroom_Plant.png",
+              "title": "Sweet Savings",
+              "content": "Our circular shower system saves up to 80% energy and water while providing almost 2X the flow rate. You’ll save money without lowering your expectations. A real-time cleaning process ensures refreshed, clean water with each shower experience. You can also simply select the traditional shower mode, at any time."
+            }
           }
         },
         "block_order": [
           "bc4f406e-d339-4508-8f97-2d197e77b946",
-          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270"
+          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270",
+          "6596eee9-a684-49d4-a09f-bc34120c58bd"
         ],
         "settings": {
           "header": "Hello"
