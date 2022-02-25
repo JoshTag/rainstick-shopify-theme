@@ -1024,10 +1024,19 @@
               "title": "Exquisite Design",
               "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
             }
+          },
+          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alexa_Smart_Tech_in_Bathroom_Surrounded_by_plants.png",
+              "title": "Wifi Enabled",
+              "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your water usage and maintenance requirements. Heck, Siri and Alexa will even turn your shower for you."
+            }
           }
         },
         "block_order": [
-          "bc4f406e-d339-4508-8f97-2d197e77b946"
+          "bc4f406e-d339-4508-8f97-2d197e77b946",
+          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270"
         ],
         "settings": {
           "header": "Hello"
