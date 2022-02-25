@@ -1,54 +1,60 @@
-<div class="reinvent-ctn">
-  <div>
-
-
-  </div>
-
-</div>
-
-<div class="background__white padding-bottom-10 padding-top-2" style="position:relative">
-  <div class="aboutus__ctn-1 padding-top-4">
-    <div class="aboutus__ctn-inner">
-    <h2 class="mainheading_black padding-bottom-2">{{ section.settings.header }}</h2>
-    <p>{{ section.settings.paragraph }}</p>
-          <a class="greenoutline-button" href="{{ section.settings.url }}">{{ section.settings.url_label }}</a>
-
-    </div>
-    <div class="aboutus__img-ctn-1">
-      <div class="aboutus__img" style="background-image: url({{ section.settings.image | img_url: "1080x1080" }})">
+<div class="background__white" style="position:relative">
+  <div class="homepage-blob"></div>
+  <div class="homepage__3-pillars">
+    {% for block in section.blocks %}
+      <div class="homepage__pillar-ctn">
+        <div class="homepage__pillar-img" style="background-image: url({{ block.settings.image | img_url: "700x700" }})"></div>
+        <h3 class="homepage__heading-3">{{ block.settings.header }}</h3>
+        <p class="homepage__pillars-text">
+          {{ block.settings.content }}
+        </p>
       </div>
-    </div>
+    {% endfor %}
   </div>
+</div> 
+<div class="button__ctn-white">
+  <a href="/pages/select-destination" class="button__standard-center button__text-white">
+    SHOP RAINSTICK NOW
+  </a>
 </div>
 
 {% schema %}
   {
     "name": "What Makes Us Great",
     "settings": [
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
+	  {
+        "id": "bg-image",
+		"type": "image_picker",
+		"label": "Background image"
       },
-      {
-        "type": "text",
+	  {
         "id": "header",
-        "label": "Header"
-      },
+		"type": "text",
+		"label": "Header"
+      }
+	],
+    "blocks": [
       {
-        "type": "textarea",
-        "id": "paragraph",
-        "label": "Paragraph"
-      },
-      {
-        "type": "url",
-        "id": "url",
-        "label": "URL"
-      },
-      {
-        "type": "text",
-        "id": "url_label",
-        "label": "Label"
+        "type": "column",
+        "name": "Column",
+        "settings": 
+          [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "textarea",
+              "id": "content",
+              "label": "Content"
+            }
+          ]
       }
     ],
     "presets": [
@@ -58,9 +64,3 @@
     ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
