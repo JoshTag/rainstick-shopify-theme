@@ -1,6 +1,6 @@
 <style>
-.beige-wave {
-  background-image: url({{ 'Beige_Wave.svg' | asset_url }});
+.black-wave {
+  background-image: url({{ 'black_wave.svg' | asset_url }});
   width: 100%;
   height: 119px;
   position: absolute;
@@ -10,12 +10,12 @@
 }
   
 @media screen and (min-width: 1440px){
- .beige-wave{
+ .black-wave{
   top: -119px;
     }}
   
 .dynamic-faq {
-  background-color: #F7EDE2;
+  background-color: #121211;
   position:relative;
 }
   
@@ -26,10 +26,12 @@
 .dynamic-faq__question {
   text-decoration: underline;
   margin: 20px 0;
+  color: #F7EDE2;
 }
 .dynamic-faq__answer >  *,
 .dynamic-faq__question {
   font-size: 14px;
+  color: #F7EDE2;
 }
 .dynamic-faq__question:hover {
   cursor: pointer;
@@ -37,6 +39,7 @@
 .faq__title {
   font-size: 20px !important;
   text-align: left !important;
+  color: #F7EDE2;
 }
 @media screen and (max-width: 1024px){
   .faq__title{
@@ -53,6 +56,7 @@
   margin-bottom: 10px;
   font-weight: 300;
   display: block;
+  color: #F7EDE2;
 }
 .faq__content {
   margin: 20px 1rem 40px;
@@ -154,6 +158,7 @@
     text-align: left;
     margin-top: 15px;
     font-weight: 500;
+    color: #F7EDE2;
   }
   .zoho-faq-form__name-container {
     display: flex;
@@ -181,7 +186,7 @@
 </style>
 
 
-<div class="beige-wave"></div>
+<div class="black-wave"></div>
 <div>
   <h2 class="faq__title" style="padding-top: 40px;">Frequently Asked Questions</h2>
   <span class="faq__sub-title">Pick a question below.</span>

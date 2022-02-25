@@ -190,8 +190,17 @@
   .newsletter__ctn-inner-2 > input {
     width: unset;
   }
-  
 </style>
+{% style %}
+{% if request.page_type == "index" %}
+.main-content {
+  top: -100px
+}
+.header {
+  background-color: transparent;
+}
+{% endif %}
+{% endstyle %}
 
 <!-- Store object -->
 {% include 'theme-options' %}
