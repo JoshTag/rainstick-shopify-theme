@@ -5,7 +5,7 @@
     <a href="{{ section.settings.url }}">{{ section.settings.url_label }}</a>
   </div>
   <div>
-    <img src="{{ section.settings.image.src | asset_url }}"/>
+    <img src="{{ section.settings.image | img_url: '700x700' }}"/>
   </div>
 </div>
 
