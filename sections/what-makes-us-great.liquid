@@ -1,7 +1,61 @@
+<div class="reinvent-ctn">
+  <div>
+
+
+  </div>
+
+</div>
+
+<div class="background__white padding-bottom-10 padding-top-2" style="position:relative">
+  <div class="aboutus__ctn-1 padding-top-4">
+    <div class="aboutus__ctn-inner">
+    <h2 class="mainheading_black padding-bottom-2">{{ section.settings.header }}</h2>
+    <p>{{ section.settings.paragraph }}</p>
+          <a class="greenoutline-button" href="{{ section.settings.url }}">{{ section.settings.url_label }}</a>
+
+    </div>
+    <div class="aboutus__img-ctn-1">
+      <div class="aboutus__img" style="background-image: url({{ section.settings.image | img_url: "1080x1080" }})">
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "What Makes Us Great",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "URL"
+      },
+      {
+        "type": "text",
+        "id": "url_label",
+        "label": "Label"
+      }
+    ],
+    "presets": [
+      {
+      "name": "What Makes Us Great"
+      }
+    ]
   }
 {% endschema %}
 
