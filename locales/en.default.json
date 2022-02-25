@@ -94,8 +94,8 @@
     },
     "goal": {
       "pre_order": "pre-order",
-      "title_html": "We're at <span class='dynamic-featured-product-goal-result'>{{ result }}%</span> of our goal!",
-      "text_money_html": "That’s <span class='money'>{{ total_sold }}</span> pledged of our <span class='money'>{{ target }}</span> target!",
+      "title_html": "We're at <span class='dynamic-featured-product-goal-result'>{{ result }}%<\/span> of our goal!",
+      "text_money_html": "That’s <span class='money'>{{ total_sold }}<\/span> pledged of our <span class='money'>{{ target }}<\/span> target!",
       "text_quantity_html": "That’s {{ total_sold }} pledged of our {{ target }} target!"
     }
   },
@@ -107,8 +107,8 @@
       "filter_by_tag": "Filter by tag"
     },
     "article_item": {
-      "comment_pending_html": "Your comment has been submitted but needs to be approved by the store before posting. <a href='{{ link }}'>Ok, got it</a>",
-      "comment_posted_html": "Your comment bas been successfully posted! <a href='{{ link }}'>click here</a> to see it.",
+      "comment_pending_html": "Your comment has been submitted but needs to be approved by the store before posting. <a href='{{ link }}'>Ok, got it<\/a>",
+      "comment_posted_html": "Your comment bas been successfully posted! <a href='{{ link }}'>click here<\/a> to see it.",
       "comment_count": {
         "one": "comment",
         "other": "comments"
@@ -139,7 +139,7 @@
       "header": "Shipping calculator",
       "country": "Select country",
       "province": "Select province",
-      "zip_error": "Error: zip / postal code {{ error_message }}",
+      "zip_error": "Error: zip \/ postal code {{ error_message }}",
       "country_error": "Error: country {{ error_message }}",
       "submit": "Calculate",
       "working": "Calculating...",
@@ -166,8 +166,8 @@
     "map": {
       "address_error": "Error looking up that address",
       "address_no_results": "No results for that address",
-      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
-      "auth_error_html": "There was a problem authenticating your Google Maps account. Create and enable the <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript API</a> and <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> permissions of your app."
+      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
+      "auth_error_html": "There was a problem authenticating your Google Maps account. Create and enable the <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a> and <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> permissions of your app."
     }
   },
   "customer": {
@@ -193,7 +193,7 @@
       "benefits": "Sign up for an account to take advantage of order history as well as pre-filled forms during checkout on subsequent orders.",
       "breadcrumb": "Activate Account",
       "subtext": "To activate your account, choose a password and enter it below.",
-      "decline_html": "<span>or </span>decline activation",
+      "decline_html": "<span>or <\/span>decline activation",
       "submit": "Register"
     },
     "addresses": {
@@ -212,8 +212,8 @@
       "city": "City",
       "country": "Country",
       "phone": "Phone",
-      "province": "State / Province",
-      "zip": "ZIP / Postal code",
+      "province": "State \/ Province",
+      "zip": "ZIP \/ Postal code",
       "set_as_default": "Set as Default Address"
     },
     "login": {
@@ -276,8 +276,8 @@
       "unavailable": "Unavailable",
       "no_product": "There is no product available in this collection.",
       "saving": "saving",
-      "goal_money_html": "<span class='money bold'>{{ total_sold }}</span> of <span class='money bold'>{{ target }}</span> Funded / <span class='product-goal-info-remaining'><strong class='product-goal-info-days'>0</strong> days left</span>",
-      "goal_units_html": "<span class='bold'>{{ total_sold }}</span> of <span class='bold'>{{ target }}</span> Pledged / <span class='product-goal-info-remaining'><strong class='product-goal-info-days'>0</strong> days left</span>",
+      "goal_money_html": "<span class='money bold'>{{ total_sold }}<\/span> of <span class='money bold'>{{ target }}<\/span> Funded \/ <span class='product-goal-info-remaining'><strong class='product-goal-info-days'>0<\/strong> days left<\/span>",
+      "goal_units_html": "<span class='bold'>{{ total_sold }}<\/span> of <span class='bold'>{{ target }}<\/span> Pledged \/ <span class='product-goal-info-remaining'><strong class='product-goal-info-days'>0<\/strong> days left<\/span>",
       "description": "description",
       "full_spec": "full spec",
       "view_details": "View details"
@@ -318,6 +318,6 @@
   "date_formats": {
     "short_month": "%b %d, %Y",
     "long_month": "%B %d, %Y",
-    "gift_card_expiry": "%d/%m/%y"
+    "gift_card_expiry": "%d\/%m\/%y"
   }
 }
