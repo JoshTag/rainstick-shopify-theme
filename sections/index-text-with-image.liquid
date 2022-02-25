@@ -1,0 +1,54 @@
+<div>
+  <div>
+    <h2>{{ section.settings.header }}</h2>
+    <p>{{ section.settings.paragraph }}</p>
+    <a href="{{ section.settings.url }}">{{ section.settings.url_label }}</a>
+  </div>
+  <div>
+    <img src="{{ section.settings.image.src | asset_url }}"/>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Text with image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "URL"
+      },
+      {
+        "type": "text",
+        "id": "url_label",
+        "label": "Label"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Text with image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
