@@ -2895,10 +2895,10 @@ img[data-rimg="loaded"] {
 
 .blog-tags-wrapper {
   display: block;
-  max-width: 700px;
-  margin: 0 auto 60px;
+  max-width: 900px;
+  margin: 0 auto 30px;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (max-width: 720px) {
@@ -2917,14 +2917,18 @@ img[data-rimg="loaded"] {
   vertical-align: top;
 }
 
-.blog-tags-list-item a:after {
-  display: inline-block;
-  content: ",";
+.blog-tags-list-item a {
   color: #2a2725;
+  font-weight: 500;
+  font-size: 17px;
 }
 
-.blog-tags-list-item:last-child a:after {
-  display: none;
+.blog-tags-list-item a:hover {
+  color: #02827B;
+}
+
+.blog-tags-list > .blog-tags-list-item:not(:first-of-type) {
+  padding-left: 20px;
 }
 
 .blog-tags-current p {
@@ -15843,4 +15847,304 @@ width: 90%;
       width: 250px;
     }
   }
-  
+
+  .article-card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .article-card__container {
+    margin: 60px auto;
+    max-width: 375px;
+  }
+
+  .article-card__img-wrapper {
+    width: 100%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .article-card__image {
+
+  }
+
+  .article-card__title {
+    color: #2a2725;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .article-card__title a {
+    color: inherit;
+    text-align: left;
+    font-size: 17px;
+    display: block;
+    padding: 0 10px;
+  }
+
+  .article-card__excerpt {
+    text-align: left;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .article-card__excerpt > p {
+    text-align: inherit;
+    font-size: inherit;
+    padding: 0;
+  }
+  .article-card__excerpt.rte a {
+    color: #02827b;
+  }
+
+  .article-card__read-more {
+    display: inline-flex;
+    color: #2a2725;
+    padding: 0 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .article-card__read-more:hover {
+    color: #02827B;
+  }
+
+  @media screen and (min-width: 768px) {
+    .post-wrapper.blogs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: max-content;
+      grid-template-areas: "first first";
+      gap: 20px 20px;
+      max-width: 900px;
+      padding-bottom: 100px;
+    }
+    .article-card__container {
+      max-width: unset;
+      justify-content: unset;
+      margin: 0;
+    }
+    .article-card__container.first-article {
+      grid-area: first;
+      height: 500px;
+    }
+    .article-card__excerpt,
+    .article-card__read-more,
+    .article-card__title a  {
+      padding: 0;
+    }
+  }
+
+  .current > a {
+    position: relative;
+  }
+
+  .blog-tags-list-item.current > a:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #02827B;
+    border: 1px solid #02827B;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+  }
+
+  .module-title.blog-title a {
+    color: #2a2725;
+  }
+
+  .module-body.press {
+    padding: 0 10px 50px;
+  }
+
+  #latest-news-section,
+  #press-kit-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .press-blog__triggers {
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
+  }
+  .press-blog__triggers:hover {
+    cursor: pointer;
+    color: #02827B;
+  }
+  .press-blog__triggers:not(:first-of-type) {
+    margin-left: 20px;
+  }
+
+  .press-blog__triggers.active:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #02827B;
+    border: 1px solid #02827B;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+  }
+
+  .press-kit__section {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  .press-kit__section:not(:last-of-type) {
+    border-bottom: 2px solid #2a2725;
+  }
+
+  .press-kit__header {
+    text-align: left !important;
+    font-size: 30px !important;
+    font-weight: 400;
+  }
+
+  .press-kit__article-container {
+    margin-top: 30px;
+  }
+
+  .press-kit__content {
+    font-size: 17px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .press-kit__logo-container {
+    margin-top: 30px;
+  }
+
+  .press-kit__logo-item {
+    margin: 20px auto;
+    max-width: 375px;
+  }
+
+  .press-kit__media-text {
+    font-weight: 500;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .press-kit__logo-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .press-kit__logo-item {
+      margin: 20px 0;
+      max-width: unset;
+      width: 30%;
+      justify-content: space-between;
+    }
+  }
+
+  .press-kit__article-item {
+    margin-bottom: 50px;
+  }
+
+  .press-kit__press-title {
+    font-size: 15px !important;
+    text-align: left !important;
+  }
+  .press-kit__press-title a {
+    color: inherit;
+  }
+  .press-kit__press-title a:hover {
+    color: #02827B;
+  }
+
+  .press-kit__press-excerpt {
+    font-size: 13px;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .press-kit__link {
+    color: #2a2725;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+  }
+
+  .press-kit__link:hover {
+    color: #02827B;
+  }
+
+  @media screen and (min-width: 768px) {
+    .press-kit__article-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: max-content;
+      gap: 40px 30px;
+    }
+    .press-kit__article-item {
+      margin-bottom: 0;
+    }
+  }
+
+  .press-kit__logos-container {
+    margin: 30px 0;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .press-kit__logo-block {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    background: #292827;
+  }
+
+  @media screen and (min-width: 768px) {
+    .press-kit__logos-container {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+    .press-kit__logo-block {
+      height: 125px;
+      width: 125px;
+      margin: 0;
+      background: #292827;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .press-kit__logo-block {
+      height: 150px;
+      width: 150px;
+    }
+  }
+
+  .press-kit__logo-download {
+    color: #292827;
+    border: 2px solid #292827;
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    height: 50px;
+    line-height: 47px;
+    font-weight: 500;
+  }
+
+  .rainstick-icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .rainstick-icon svg {
+    width: fit-content;
+  }

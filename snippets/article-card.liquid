@@ -1,0 +1,32 @@
+{%- capture background_image_style -%}
+{%
+  include 'rimg',
+  class: 'article-card__image',
+  img: article.image,
+  size: '700x700',
+  lazy: true,
+  background: true
+%}
+{%- endcapture -%}
+
+<article class="article-card__container {% if forloop.first == true  %}first-article{% endif %}" >
+  {% if article.image %}
+    <div class="article-card__img-wrapper" {{ background_image_style }}>
+      
+    </div>
+  {% endif %}
+
+  <h2 class="article-card__title">
+    <a href="{{ article.url }}">
+      {{ article.title }}
+    </a>
+  </h2>
+
+  <div class="article-card__excerpt rte">
+    {{ article.excerpt_or_content }}
+  </div>
+
+  <a class="article-card__read-more" href="{{ article.url }}">
+    {{ 'blogs.article_item.read_more' | t }}
+  </a>
+</article>
