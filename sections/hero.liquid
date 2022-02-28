@@ -82,8 +82,12 @@
 .hero__featured-logos {
   display: flex;
   justify-content: space-between;
-/*   max-width: 375px; */
   flex-wrap:wrap;
+}
+@media screen and (max-width:768px){
+  .hero__featured-logos{
+    background-color:rgb(0 0 0 / 68%);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__content--top {
