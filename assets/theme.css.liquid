@@ -16231,4 +16231,17 @@ width: 90%;
     background-repeat:no-repeat;
     z-index:1;
   }
+    .b2b__img {
+    background-image: url({{ 'aboutus-img-1.jpg' | asset_url }});
+    height: 500px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+   @media screen and (max-width: 425px){
+     .b2b__img{
+         border-radius: 0px;
+         margin-bottom: 1.5rem;
+     }}
   
