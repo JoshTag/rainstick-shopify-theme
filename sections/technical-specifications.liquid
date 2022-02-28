@@ -1,0 +1,239 @@
+{% style %}
+.technical-specs {
+  padding: 1rem 0 4rem;
+  background: #F4F2F1;
+}
+.technical-specs__header {
+  font-size: 24px;
+  text-align: center;
+}
+.techincal-specs__container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.techincal-specs__img-ctn {
+  height: 500px;
+}
+.techincal-specs__accordian-ctn {
+  margin: 20px 10px 0;
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.accordion__title {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+.accordion__title:not(:first-of-type) {
+  margin-top: 10px;
+  z-index:1;
+}
+.accordion__title:hover {
+  cursor: pointer;
+}
+.accordion__title > h3 {
+  font-size: 18px !important;
+  font-weight: 500;
+  text-align: left !important;
+  z-index: 10;
+  position: relative;
+}
+div.hide > p {
+  font-size: 16px;
+  padding: 10px 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .techincal-specs__container {
+    max-width: 700px;
+	display: flex;
+	flex-direction: row;
+    margin: 40px auto 0;
+  }
+  .techincal-specs__img-ctn {
+    height: 300px;
+  }
+  .techincal-specs__img-ctn,
+  .techincal-specs__accordian-ctn {
+    width: 50%;
+  }
+  .techincal-specs__accordian-ctn {
+    margin: 0 0 0 110px;
+	margin-top:1rem;
+  }
+  .techincal-specs__img-ctn {
+    height: 430px;
+  }
+}
+.techincal-specs__img-ctn{
+border-radius:8px;
+margin-top:1rem;
+}
+@media screen and (min-width: 1024px) {
+  .techincal-specs__container {
+    max-width: 900px;
+  }
+  .accordion__title:not(:first-of-type) {
+    margin-top: 20px;
+  }
+}
+.accordion__title:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  right: 0;
+  background-image: url({{ 'accordion-arrow.svg' | asset_url }});
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.active.accordion__title:before {
+  transform: rotate(0);
+}
+.textarea-styles ul {
+  list-style: unset;
+  
+}
+.textarea-styles ul {
+  margin: 10px 0 10px 20px;
+}
+.techincal-specs__img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+.techincal-specs__finishes {
+  margin-top: 20px;
+}
+.techincal-specs__finishes h3 {
+  text-align: left !important;
+  font-size: 18px !important;
+}
+.techincal-specs__finishes-imgs {
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.techincal-specs__finishes-imgs img {
+  width: 49%;
+}
+@media screen and (min-width: 768px) {
+  .techincal-specs__accordian-ctn {
+    flex-direction: column;
+  }
+  .techincal-specs__finishes {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .techincal-specs__finishes-imgs {
+    width: 90%;
+  }
+}
+{% endstyle %}
+
+{%- capture background_image_style -%}
+{%
+  include 'rimg',
+  background: true,
+  img: section.settings.image,
+  size: image_size,
+  lazy: true
+%}
+{%- endcapture -%}
+
+<div style="position:relative;width:100%;height:10px"></div>
+  <div class="product-blob"></div>
+<h2 class="technical-specs__header">{{ section.settings.header }}</h2>
+<div class="techincal-specs__container">
+  <div class="techincal-specs__img-ctn">
+    <div class="techincal-specs__img" {{background_image_style}} ></div>
+  </div>
+  <div class="techincal-specs__accordian-ctn">
+    <div class="techincal-specs__finishes">
+      <h3>Finishes</h3>
+      <div class="techincal-specs__finishes-imgs">
+        {%
+          include 'rimg',
+          img: section.settings.image_small_left,
+          size: image_size,
+          lazy: true
+        %}
+        {%
+          include 'rimg',
+          img: section.settings.image_small_right,
+          size: image_size,
+          lazy: true
+        %}
+      </div>
+    </div>
+    <div id="accordion">
+      {% for block in section.blocks %}
+        <div class="accordion__title"><h3>{{ block.settings.title }}</h3></div>
+        <div class="hide textarea-styles">
+          {{ block.settings.content }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Technical specifications",
+    "tag": "section",
+    "class": "technical-specs",
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Accordian block",
+        "settings":
+        [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "textarea",
+              "id": "content",
+              "label": "Content"
+            }
+          ]
+        }
+    ],
+      "settings": [
+      {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+      },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_small_left",
+        "label": "Image small left"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_small_right",
+          "label": "Image small right"
+          }
+    ],
+    "presets": [
+      {
+        "name": "Technical specifications"
+      }
+    ]
+  }
+{% endschema %}
