@@ -23987,9 +23987,11 @@ $(document).ready(function() {
    });
 
 
-  $('#faq-answers .dynamic-faq__answer').hide();
+  $('#faq-answers .dynamic-faq__answer:not(:first)').hide();
   $('#faq-questions .dynamic-faq__question').click(function(){
     var id = $(this).attr('data-id');
+		$(this).addClass('active');
+		$(this).siblings().removeClass('active');
     $('#faq-answers .dynamic-faq__answer[data-id="' + id +'"]').siblings().slideUp();
     $('#faq-answers .dynamic-faq__answer[data-id="' + id +'"]').slideToggle(500);
    });

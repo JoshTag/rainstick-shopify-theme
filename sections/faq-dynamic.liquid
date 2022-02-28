@@ -24,12 +24,30 @@
   }
 }
 .dynamic-faq__question {
-  text-decoration: underline;
+  font-size: 20px;
   margin: 20px 0;
   color: #F7EDE2;
+  text-transform: capitalize;
 }
-.dynamic-faq__answer >  *,
-.dynamic-faq__question {
+.dynamic-faq__question.active {
+  font-weight: 500;
+  position: relative;
+  width: fit-content;
+}
+.dynamic-faq__question:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: 0.3s;
+}
+.dynamic-faq__question.active:after {
+  width: 100%;
+}
+.dynamic-faq__answer >  * {
   font-size: 14px;
   color: #F7EDE2;
 }
@@ -45,11 +63,11 @@
   .faq__title{
     padding-left:1rem
   }}
-  
+
 @media screen and (max-width: 1024px){
   .faq__sub-title{
     padding-left:1rem
-  }}  
+  }}
 .faq__sub-title {
   font-size: 18px !important;
   text-align: left !important;
@@ -60,11 +78,6 @@
 }
 .faq__content {
   margin: 20px 1rem 40px;
-}
-.faq__answers {
-  border: 1px solid #2A2725;
-  border-radius: 6px;
-  padding: 20px 10px;
 }
 .faq-contact {
   padding: 0 1rem 60px;
@@ -88,9 +101,8 @@
 @media screen and (min-width: 768px) {
   #faq-questions {
     column-count: 2;
-  } 
+  }
   .dynamic-faq__question {
-    padding-right: 30px;
     margin: 0 0 20px 0;
   }
   .dynamic-faq__question:not(:first-of-type) {
@@ -126,20 +138,30 @@
   .dynamic-faq > div:not(:nth-of-type(1)) {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1rem 60px;
   }
   .faq__content {
     display: flex;
 	flex-direction: row;
   }
   #faq-questions {
-    width: 66.66%;
+    width: 25%;
   }
   .faq__answers {
-    width: 33.33%;
+    width: 75%;
     border: none;
   }
+  #faq-questions {
+    column-count: 1;
+  }
+  .faq__answers {
+    margin-top: 23px;
+  }
 }
+  .faq__answers .faq__title,
+  .faq__answers .faq__sub-title {
+    padding: 0 !important;
+  }
   .custom-success-msg-form {
     background-color: transparent;
     color: green;
@@ -183,6 +205,15 @@
       width: 33%;
     }
   }
+  .dynamic-faq__answer-header {
+    font-weight: 500;
+  }
+  .dynamic-faq__answer-body p {
+    padding: 5px 0;
+  }
+  .dynamic-faq__answer-body p:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
 </style>
 
 
@@ -193,17 +224,90 @@
 </div>
 <div class="faq__content">
   <ul id="faq-questions">
-    {% for block in section.blocks %}
+    <!-- {% for block in section.blocks %}
       <li class="dynamic-faq__question" data-id="{{ block.id }}">{{ block.settings.question }}</li>
+    {% endfor %} -->
+    {% assign categories = "hygiene,maintenence,using the shower,technology,installation,support" | split: ',' %}
+    {% for category in categories %}
+      <li class="dynamic-faq__question {% if forloop.first == true %}active{% endif %}" data-id="{{ category | replace: " ", "_" }}">{{ category }}</li>
     {% endfor %}
   </ul>
   <div class="faq__answers">
     <h3 class="faq__title">Answer</h3>
     <span class="faq__sub-title">Your answer will appear below.</span>
     <div id="faq-answers">
-      {% for block in section.blocks %}
-        <div class="dynamic-faq__answer" data-id="{{ block.id }}">{{ block.settings.answer }}</div>
-      {% endfor %}
+      <div class="dynamic-faq__answer" data-id="hygiene" style="display: block !important;">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "hygiene" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="dynamic-faq__answer" data-id="maintenence">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "maintenence" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="dynamic-faq__answer" data-id="using_the_shower">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "using_the_shower" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="dynamic-faq__answer" data-id="technology">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "technology" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="dynamic-faq__answer" data-id="installation">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "installation" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="dynamic-faq__answer" data-id="support">
+        {% for block in section.blocks %}
+          {% if block.settings.faq_category == "support" %}
+            <p class="dynamic-faq__answer-header">
+              {{ block.settings.question  }}
+            </p>
+            <div class="dynamic-faq__answer-body">
+              {{ block.settings.answer  }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -239,51 +343,9 @@
     </label>
     <textarea name="MultiLine" maxlength="65535" placeholder="What&#x27;s your question&#x3f;" ></textarea>
     <button type="submit"><em>Submit</em></button></form>
-  {% comment %}
-  {% form 'contact', id: 'faq-form', class: 'faq-contact' %}
-  {% if form.errors %}
-    <div class="contact-form-error-message">
-      {{ 'contact.error' | t }}
-    </div>
-  {% endif %}
-    <div class="faq-contact-input first">
-      <input
-             type="text"
-             id="contact[body]"
-             placeholder="What's your question?"
-             aria-label="What's your question?"
-             value=""
-             name="contact[body]"
-             class="{% if form.errors contains 'body' %}error{% endif %}">
-    </div>
-    <div class="faq-contact-input second">
-      <input
-             type="text"
-             id="contact[email]"
-             placeholder="Email Address"
-             aria-label="Email Address"
-             value=""
-             name="contact[email]"
-             class="{% if form.errors contains 'email' %}error{% endif %}">
-    </div>
-    <div class="faq-contact-input last">
-      <input
-             class="button outline contact-form-button"
-             type="submit"
-             value="{{ 'general.general.submit' | t }}"
-             aria-label="{{ 'general.general.submit' | t }}"
-             >
-    </div>
-    {% if form.posted_successfully? %}
-      <div class="custom-success-msg-form">
-        Your question has been sent successfully! We will be in contact with you as soon as possible.
-      </div>
-    {% endif %}
-  {% endform %}
-  {% endcomment %}
 </div>
 
-{% schema %} 
+{% schema %}
   {
     "name": "FAQ Dynamic",
 	"tag": "section",
@@ -292,7 +354,7 @@
 	  {
       "type": "text",
       "name": "Questions",
-      "settings": 
+      "settings":
 	    [
           {
             "type": "text",
@@ -303,6 +365,38 @@
             "type": "richtext",
             "id": "answer",
             "label": "Answer"
+          },
+          {
+            "type": "select",
+            "id": "faq_category",
+            "label": "Category",
+            "options": [
+              {
+                "value": "hygiene",
+                "label": "Hygiene"
+              },
+              {
+                "value": "maintenence",
+                "label": "Maintenence"
+              },
+              {
+                "value": "using_the_shower",
+                "label": "Using the Shower"
+              },
+              {
+                "value": "technology",
+                "label": "Technology"
+              },
+              {
+                "value": "installation",
+                "label": "Installation"
+              },
+              {
+                "value": "support",
+                "label": "Support"
+              }
+            ],
+            "default": "hygiene"
           }
         ]
       }

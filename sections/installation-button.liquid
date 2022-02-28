@@ -40,7 +40,7 @@
   }
 </style>
 <div id="installation-btn" class="button__background">
-<a href="{{ section.settings.install }}" class="installation-btn">{{ section.settings.label }}</a>
+<a href="{{ settings.installation_gude }}" class="installation-btn">{{ section.settings.label }}</a>
 </div>
 
 {% schema %}
@@ -51,11 +51,6 @@
 		"type": "text",
 		"id": "label",
 		"label": "Button label"
-	  },
-	  {
-		"type": "textarea",
-		"id": "install",
-		"label": "Install Guide"
 	  }
 	]
   }

@@ -278,5 +278,16 @@
         "info": "32 x 32px .png required"
       }
     ]
+  },
+  {
+    "name": "Installtion Guide",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "installation_gude",
+        "label": "Installation guide",
+        "info": "Upload guide to files then paste url into here"
+      }
+    ]
   }
 ]
