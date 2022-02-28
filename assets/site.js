@@ -23968,7 +23968,7 @@ var flkty = new Flickity( elem, {
   watchCSS: true
 });
 
-$(document).ready(function() {   
+$(document).ready(function() {
 
     var carouselWaitlist = document.querySelector('.carousel-waitlist');
 
@@ -23985,7 +23985,7 @@ $(document).ready(function() {
      $(this).parent().toggleClass("active").siblings().removeClass('active');;
      return false;
    });
-   
+
 
   $('#faq-answers .dynamic-faq__answer').hide();
   $('#faq-questions .dynamic-faq__question').click(function(){
@@ -23993,7 +23993,7 @@ $(document).ready(function() {
     $('#faq-answers .dynamic-faq__answer[data-id="' + id +'"]').siblings().slideUp();
     $('#faq-answers .dynamic-faq__answer[data-id="' + id +'"]').slideToggle(500);
    });
-   
+
    $('.button-toggle--left').click(function(){
        $(this).addClass("active").siblings().removeClass('active');
        $('#image-compare-overlay').removeClass("image-traditional").addClass("image-circular");
@@ -24012,14 +24012,14 @@ $(document).ready(function() {
        $('#traditional-overlay').addClass("active");
      return false;
    });
-   
-   $("#saving-calc").appendTo("#media-anchor");
-   
+
+  //  $("#saving-calc").appendTo("#media-anchor");
+
    $('#add-to-cart-pop-up__close').click(function() {
      $('#add-to-cart-pop-up').removeClass('active');
-          
+
    })
-  
+
    $("body").on(
         "click",
         '[name="checkout"], [name="goto_pp"], [name="goto_gc"]',
@@ -24034,22 +24034,22 @@ $(document).ready(function() {
             }
         }
     );
-    
+
     $("#gtag-shop-now" ).click(function() {
       // Event snippet for Shop Now Button conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.
       function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { } }; gtag('event', 'conversion', { 'send_to': 'AW-10797305899/Y3uECI7f3IMDEKugx5wo', 'event_callback': callback }); return false; }
       gtag_report_conversion('https://rainstickshower.com/pages/select-destination');
 
     });
-    
+
     $("#gtag-newsletter" ).click(function() {
   	  // Event snippet for Subscribe to Newsletter conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.
       function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') {  } }; gtag('event', 'conversion', { 'send_to': 'AW-10797305899/7xHCCKv8jYQDEKugx5wo', 'event_callback': callback }); return false; }
       gtag_report_conversion(window.location.href);
     });
-    
+
     console.log(localStorage.getItem('countrySelect'))
-    
+
 	if (localStorage.getItem('countrySelect') === "United States") {
       $('.money.money--bold').text('3,495 USD')
       $('.money-currency').text('USD')
@@ -24057,7 +24057,7 @@ $(document).ready(function() {
       $('.money.money--bold').text('$4,395 CAD')
       $('.money-currency').text('CAD')
     }
-    
+
     if (localStorage.getItem('countrySelect') === "Canada" || localStorage.getItem('countrySelect') === "United States" || localStorage.getItem('countrySelect') === "Mexico") {
       console.log('preorder')
       $('.product__step-description.international').html('PREORDER <br> NOW');
@@ -24067,7 +24067,33 @@ $(document).ready(function() {
       $('.product__step-description.international').html("JOIN THE <br> WAITLIST");
       $('.product__step-text.international').text("Keep up to date with all things RainStick and we will contact you when RainStick becomes available in your region.");
     }
-    
+
+    var indexCarousel = document.querySelector('.index-carousel__carousel');
+
+    var flktyWaitlist = new Flickity(indexCarousel, {
+      cellAlign: 'left',
+      wrapAround: true,
+			pageDots: false,
+			adaptiveHeight: true,
+			cellAlign: 'center'
+    });
+
 });
 
 
+$(document).on('shopify:section:load', function(e){
+
+  // Shopify section as jQuery object
+  // var $section = $(e.target);
+
+  // Vanilla js selection of Shopify section
+  var section = document.getElementById('shopify-section-' + e.detail.sectionId);
+
+	var flktyIndex = new Flickity(section.querySelector('.index-carousel__carousel'), {
+		cellAlign: 'left',
+		wrapAround: true,
+		pageDots: false,
+		adaptiveHeight: true,
+		cellAlign: 'center'
+	})
+});

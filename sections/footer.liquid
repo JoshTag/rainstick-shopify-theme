@@ -1,31 +1,78 @@
+<style>
+  .footer__ctn-inner {
+    width: 375px;
+  }
+  .footer__img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .footer__img-ctn {
+    display: flex;
+    order: 3;
+  }
+  .footer__menu-lists {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__list {
+    color: #fff;
+    font-size: 15px;
+  }
+  .footer__newsletter {
+    order: 2
+  }
+  .footer__newsletter form {
+    margin: 40px 0;
+  }
+  .footer__newsletter form input {
+    border: 2px solid #F7EDE2;
+    color: #fff;
+  }
+  .footer__newsletter form input::placeholder {
+    color: #fff;
+    font-weight: 500;
+    z-index: 1000;
+    opacity: 1;
+  }
+  .footer__newsletter form .newsletter__subscribe {
+    background-color: #F7EDE2;
+    border: 2px solid #F7EDE2;
+  }
+  @media screen and (min-width: 900px) {
+    .footer__ctn-inner {
+      flex-direction: row;
+    }
+  }
+</style>
+
 <footer class="footer__ctn">
   <div class="footer__ctn-inner">
-    <div class="footer__ctn-inner-1 footer__ctn-inner-1--left">
-   	  <div class="footer__link-ctn">
-    	<a href="/pages/faq" class="footer__link-text">FAQs</a>
-      </div>
-      <div class="footer__link-ctn">
-         <a href="{{ section.settings.installation_guide }}" class="footer__link-text">INSTALLATION PRO GUIDE</a>
-      </div>
-      <div class="footer__link-ctn">
-         <a href="/pages/stories" class="footer__link-text">STORIES</a>
-      </div>
+    <div class="footer__img-ctn">
+      {% include 'rainstick-media-logos', name: 'rainstick-stack', icon_class: 'footer__img' %}
     </div>
-      <div class="footer__ctn-inner-center">
-        <p class="footer__link-text-center-bold">RainStick</p>
-        <p class="footer__link-text-center">A 🇨🇦  Water Saving <br> Technology Company</p>
-      </div>
-    <div class="footer__ctn-inner-1">
-      <div class="footer__link-ctn">
-          <a href="/policies/terms-of-service" class="footer__link-text">TERMS &amp; CONDITIONS</a>
-      </div>
-      <div class="footer__link-ctn">
-          <a href="/policies/privacy-policy" class="footer__link-text">PRIVACY POLICY</a>
-      </div>
-      <div class="footer__link-ctn">
-    	<a href="/pages/contact-us" class="footer__link-text">CONTACT US</a>
-      </div>
-  	</div>
+    <div class="footer__menu-lists">
+      <ul class="footer__list">
+        {% for link in section.settings.footer_menu_1.links %}
+          <li>{{ link.title }}</li>
+        {% endfor %}
+      </ul>
+      <ul class="footer__list">
+        {% for link in section.settings.footer_menu_2.links %}
+          <li>{{ link.title }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer__newsletter">
+      <form class="newsletter__ctn-inner-2" action="{{ section.settings.newsletter_list }}" method="POST">
+        <input type="hidden" name="g" value="Ud3is6" />
+        <input required class="newsletter__button" type="text" name="first" placeholder="FIRST NAME"/>
+        <input required class="newsletter__button" type="text" name="last" placeholder="LAST NAME"/>
+        <input required class="newsletter__button" type="email" name="email" placeholder="EMAIL" />
+        <button id="gtag-newsletter" type="submit" class="newsletter__button newsletter__subscribe">Subscribe</button>
+     </form>
+    </div>
   </div>
 </footer>
 
@@ -34,10 +81,20 @@
     "name": "Footer",
     "settings": [
 	  {
-        "id": "installation_guide",
-		"type": "text",
-		"label": "Installation link"
-      }
+      "id": "installation_guide",
+      "type": "text",
+      "label": "Installation link"
+    },
+    {
+      "id": "footer_menu_1",
+      "type": "link_list",
+      "label": "Footer menu 1"
+    },
+    {
+      "id": "footer_menu_2",
+      "type": "link_list",
+      "label": "Footer menu 2"
+    }
 	],
     "presets": [
       {

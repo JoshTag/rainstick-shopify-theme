@@ -1,0 +1,185 @@
+<style>
+  .index-carousel__carousel {
+    /* height: 500px; */
+    /* padding-bottom: 50px; */
+    margin: 50px 0;
+  }
+  .index-carousel__title {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    width: 200px;
+    margin: 40px auto;
+  }
+  @media screen and (min-width: 375px) {
+    .carousel__title {
+      width: 370px;
+    }
+  }
+  .index-carousel__carousel-item {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #292827;
+    border-radius: 6px;
+  }
+  .index-carousel__carousel-inner {
+    /* padding: 20px 20px; */
+
+    height: fit-content;
+  }
+  .index-carousel__carousel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .index-carousel__carousel-name {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+  .index-carousel__carousel-name span {
+    display: block;
+  }
+  .index-carousel__carousel-name span:first-of-type {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .index-carousel__carousel-name span:last-of-type {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .index-carousel__carousel-quote {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    order: 1;
+  }
+  .index-carousel__carousel-stars {
+    order: 3
+  }
+  .index-carousel__carousel-stars svg {
+    width: 20px;
+  }
+  .index-carousel__carousel-img {
+    display: none;
+  }
+  .flickity-viewport {
+    transition: height 0.2s;
+  }
+  @media screen and (min-width: 768px) {
+    .index-carousel__carousel {
+      max-width: 900px;
+      margin: 50px auto;
+    }
+    .index-carousel__carousel-item {
+      width: 100%;
+      margin: 0;
+      padding: 50px;
+      border: none;
+    }
+    .index-carousel__carousel-inner {
+      display: flex;
+      flex-direction: row;
+    }
+    .index-carousel__carousel-text {
+      width: 50%;
+      justify-content: center;
+    }
+    .index-carousel__carousel-img {
+      display: block;
+      width: 50%;
+      padding: 0 50px;
+    }
+    .index-carousel__carousel-name {
+      order: 1;
+    }
+    .index-carousel__carousel-name span:first-of-type {
+      font-size: 30px;
+    }
+    .index-carousel__carousel-name span:last-of-type {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .index-carousel__carousel-quote {
+      order: 2;
+      font-size: 14px;
+      line-height: 30px;
+      margin: 0 0 40px;
+    }
+  }
+</style>
+
+<div>
+  <h2 class="index-carousel__title">{{ section.settings.header }}</h2>
+  <div class="index-carousel__carousel">
+    {% for block in section.blocks %}
+      <div class="index-carousel__carousel-item">
+        <div class="index-carousel__carousel-inner">
+          <div class="index-carousel__carousel-text">
+            <div class="index-carousel__carousel-name">
+              <span>{{ block.settings.name }}</span>
+              <span>{{ block.settings.role }}</span>
+            </div>
+            <p class="index-carousel__carousel-quote">{{ block.settings.quote }}</p>
+            <div class="index-carousel__carousel-stars">
+              {% include 'star' %}{% include 'star' %}{% include 'star' %}{% include 'star' %}{% include 'star' %}
+            </div>
+          </div>
+          <div class="index-carousel__carousel-img">
+            <img src="{{ block.settings.image | img_url: "700x700" }}" />
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Full Carousel",
+    "settings": [
+      {
+        "id": "header",
+        "type": "text",
+        "label": "Header"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Slide",
+        "name": "Slide",
+        "settings":
+        [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          },
+          {
+            "type": "text",
+            "id": "role",
+            "label": "Role"
+          },
+          {
+            "type": "textarea",
+            "id": "quote",
+            "label": "Quote"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+      "name": "Full Carousel"
+      }
+    ]
+  }
+{% endschema %}
