@@ -1,9 +1,21 @@
+{%- capture background_image -%}
+{%
+  include 'rimg',
+  img: section.settings.background,
+  size: image_size,
+  alt: "Rainstick shower at night",
+  background: true
+%}
+{%- endcapture -%}
+
+
+
 <div>
   <div>
     <h1>Careers</h1>
     <p>We’re Building a team that is dedicated to</p>
   </div>
-  <div>
+  <div {{ background_image }}>
 
   </div>
 </div>
@@ -17,6 +29,7 @@
 {% schema %}
   {
     "name": "Careers",
+	"class": "careers-container",
     "settings": [
       {
         "type": "image_picker",
