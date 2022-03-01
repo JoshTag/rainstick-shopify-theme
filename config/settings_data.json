@@ -607,91 +607,104 @@
             "type": "text",
             "settings": {
               "question": "Don’t we have a lot of water in North America? Why do we need to save it?",
-              "answer": "<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>"
+              "answer": "<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>",
+              "faq_category": "hygiene"
             }
           },
           "511018b6-dd0a-479c-ae46-b469fa3f9430": {
             "type": "text",
             "settings": {
               "question": "Is installing a RainStick more difficult than a traditional shower?",
-              "answer": "<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>"
+              "answer": "<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>",
+              "faq_category": "hygiene"
             }
           },
           "6a591f7e-88c6-4efb-ad5d-5c96a13d2082": {
             "type": "text",
             "settings": {
               "question": "When will I begin to see my ROI with my purchase of RainStick?",
-              "answer": "<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>"
+              "answer": "<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>",
+              "faq_category": "maintenence"
             }
           },
           "7670b859-3636-4453-9079-4c3e32cd064c": {
             "type": "text",
             "settings": {
               "question": "What is included with a RainStick purchase?",
-              "answer": "<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>"
+              "answer": "<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>",
+              "faq_category": "maintenence"
             }
           },
           "278d6670-0d94-41f3-952f-02d149ec2591": {
             "type": "text",
             "settings": {
               "question": "When is the best time to install a RainStick?",
-              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>"
+              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>",
+              "faq_category": "using_the_shower"
             }
           },
           "37979229-0873-4d83-bcbb-1fa407d3b300": {
             "type": "text",
             "settings": {
               "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>"
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>",
+              "faq_category": "using_the_shower"
             }
           },
           "66769442-1106-4dee-9865-c8ac7487806c": {
             "type": "text",
             "settings": {
               "question": "Can I still shower if something within the system needs attention or repair?",
-              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>"
+              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>",
+              "faq_category": "technology"
             }
           },
           "02df5142-b050-4866-8e4e-27fb4e7055d9": {
             "type": "text",
             "settings": {
               "question": "Do you have a solution for bathtubs?",
-              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>"
+              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>",
+              "faq_category": "technology"
             }
           },
           "ffc23857-06c9-4e5c-913a-9980643dd905": {
             "type": "text",
             "settings": {
               "question": "I like to turn off the tap between shampooing and soaping to conserve water. Does this mean I no longer have to do this with RainStick?",
-              "answer": "<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>"
+              "answer": "<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>",
+              "faq_category": "technology"
             }
           },
           "de64846a-c1e6-488b-a46d-535487e4c689": {
             "type": "text",
             "settings": {
               "question": "How do I know how much water I’m saving?",
-              "answer": "<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>"
+              "answer": "<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>",
+              "faq_category": "installation"
             }
           },
           "ca85ae65-0d30-401c-a8d7-50badf6081e8": {
             "type": "text",
             "settings": {
               "question": "Do you have a bathroom pro (trades) program?",
-              "answer": "<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>"
+              "answer": "<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>",
+              "faq_category": "installation"
             }
           },
           "05bfe0f4-e47f-47df-acca-37eb781f78a0": {
             "type": "text",
             "settings": {
               "question": "Do you also offer a handheld with RainStick?",
-              "answer": "<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>"
+              "answer": "<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>",
+              "faq_category": "support"
             }
           },
           "3784ba62-61d1-41ba-b63a-d96d42a975f0": {
             "type": "text",
             "settings": {
               "question": "When will my RainStick be delivered?",
-              "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>"
+              "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>",
+              "faq_category": "support"
             }
           }
         },
