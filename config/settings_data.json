@@ -215,7 +215,7 @@
       "static-header": {
         "type": "static-header",
         "settings": {
-          "menu": "main",
+          "menu": "main-menu",
           "header_sticky": true,
           "show_cart": true,
           "drawer_social_icons": false,
