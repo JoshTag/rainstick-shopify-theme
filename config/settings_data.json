@@ -1091,6 +1091,97 @@
         "settings": {
           "header": "We're Making A Splash"
         }
+      },
+      "b2b-hero": {
+        "type": "b2b-hero",
+        "settings": {
+        }
+      },
+      "b2b-intro": {
+        "type": "b2b-intro",
+        "settings": {
+        }
+      },
+      "b2b-nav-icons": {
+        "type": "b2b-nav-icons",
+        "settings": {
+        }
+      },
+      "b2b-how-it-works": {
+        "type": "b2b-how-it-works",
+        "settings": {
+        }
+      },
+      "b2b-why-become-a-bathroom-pro": {
+        "type": "b2b-why-become-a-bathroom-pro",
+        "settings": {
+          "header": "",
+          "paragraph_one": "",
+          "paragraph_two": ""
+        }
+      },
+      "b2b-technical-specs": {
+        "type": "b2b-technical-specs",
+        "blocks": {
+          "d689d875-65bb-408f-a914-ddf2bcb381c0": {
+            "type": "text",
+            "settings": {
+              "title": "Dimensions (Size)",
+              "content": "<b>Height:  81.75 inches (2075mm) <br>\n<b>Width: 7.8 inches (200mm)\n <br>\n<b>Depth: 3.78\" (96mm) <\/b><\/b><\/b>"
+            }
+          },
+          "423ff349-b415-40a0-9461-a0933f4c9b73": {
+            "type": "text",
+            "settings": {
+              "title": "Specifications",
+              "content": "<b>Water Flow Rate:<\/b> In circular mode, 11.4 LPM (3 GPM) - default mode\nIn conventional shower mode, 6.8 LPM (1.8 GPM)<br>\n<b>In-floor Reservoir:<\/b> Included with system<br>\n<b>Finishes:<\/b> Matte Black and Brushed Nickel<br>\n<b>Electrical Supply:<\/b> 120 Volt, 15 AMP GFCI<br>\n<b>Showerhead:<\/b> Rain shower head, 10 inch wide<br>\n<b>Handheld:<\/b> Optional, available as an add on feature<br>\n<b>RainStick app:<\/b> Available for android and IOS, system compatible with Google Home & Alexa<br>\n<b>Cleaning cycle:<\/b> Automatic<br>\n<b>Assembly:<\/b> RainStick comes pre-assembled with the exception of the pump."
+            }
+          },
+          "d383a5cc-77b1-41d6-9a78-b3ab98d5bb71": {
+            "type": "text",
+            "settings": {
+              "title": "Warranty",
+              "content": "2 years with extended warranty plan option"
+            }
+          },
+          "e42e0c30-79aa-476d-9884-4d915ef4211d": {
+            "type": "text",
+            "settings": {
+              "title": "What's Included",
+              "content": "RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<ul><\/ul>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "d689d875-65bb-408f-a914-ddf2bcb381c0",
+          "423ff349-b415-40a0-9461-a0933f4c9b73",
+          "d383a5cc-77b1-41d6-9a78-b3ab98d5bb71",
+          "e42e0c30-79aa-476d-9884-4d915ef4211d"
+        ],
+        "settings": {
+          "header": "Technical Specifications",
+          "image": "shopify:\/\/shop_images\/Technical-specs-shower_2x_1.png",
+          "image_small_left": "shopify:\/\/shop_images\/Matte-black-finish_2x_1.png",
+          "image_small_right": "shopify:\/\/shop_images\/brushed-nickel-finish_2x_1.png"
+        }
+      },
+      "b2b-installation-requirements": {
+        "type": "b2b-installation-requirements",
+        "settings": {
+        }
+      },
+      "b2b-distribution-relationship": {
+        "type": "b2b-distribution-relationship",
+        "settings": {
+          "header": "",
+          "paragraph_one": "",
+          "paragraph_two": ""
+        }
+      },
+      "b2b-full-width-img": {
+        "type": "b2b-full-width-img",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
