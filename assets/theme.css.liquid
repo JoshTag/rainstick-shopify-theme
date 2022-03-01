@@ -16338,3 +16338,46 @@ width: 90%;
     padding-top: 2rem;
 }}
   
+  
+  .blog-search {
+  padding: 0 10px 20px;
+}
+
+.blog-search__bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-search__bar input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 0 0 10px;
+}
+
+.blog-search__bar input::placeholder {
+  opacity: 1;
+  font-weight: 400;
+}
+
+.blog-search__bar button {
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 10px 0 0;
+}
+
+.blog-search__bar button svg {
+  width: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .blog-search {
+    width: 300px;
+    margin-left: auto;
+  }
+}
