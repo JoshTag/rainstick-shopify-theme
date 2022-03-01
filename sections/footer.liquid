@@ -91,12 +91,12 @@
     <div class="footer__menu-lists">
       <ul class="footer__list">
         {% for link in section.settings.footer_menu_1.links %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          <li class="list-margin-7"><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
       <ul class="footer__list">
         {% for link in section.settings.footer_menu_2.links %}
-          <li><a href="{% if link.url == '#installation' %}{{ settings.installation_gude }}{% else %}{{ link.url }}{% endif %}">{{ link.title }}</a></li>
+          <li class="list-margin-7"><a href="{% if link.url == '#installation' %}{{ settings.installation_gude }}{% else %}{{ link.url }}{% endif %}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
