@@ -1012,10 +1012,69 @@
       },
       "press-kit": {
         "type": "press-kit",
+        "blocks": {
+          "9abb0672-727d-4c0e-bc1f-501c515b57c7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Best_of_KBIS.jpg"
+            }
+          },
+          "1f196ecc-0fed-46ac-a235-c9145099ac27": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Business_Insider.png"
+            }
+          },
+          "73913263-e13f-44ce-8aff-43a12e852d9e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/CES.png"
+            }
+          },
+          "7546ec34-6b24-4c82-a613-8505ed53f026": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Forbes.jpg"
+            }
+          },
+          "011cf41d-fdce-4472-9c2c-1efdca1b1ed3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_2.png"
+            }
+          },
+          "8266f308-e6f6-44a6-8088-5d5d069c2c81": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2021-11-04_at_11.23.14_AM.png"
+            }
+          },
+          "4cba0824-58d8-4690-9272-ea8c9e294b6e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Style_at_Home.png"
+            }
+          },
+          "82960ce4-3cd1-441c-9f87-1a842871de78": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Toronto_Star.png"
+            }
+          }
+        },
+        "block_order": [
+          "9abb0672-727d-4c0e-bc1f-501c515b57c7",
+          "1f196ecc-0fed-46ac-a235-c9145099ac27",
+          "73913263-e13f-44ce-8aff-43a12e852d9e",
+          "7546ec34-6b24-4c82-a613-8505ed53f026",
+          "011cf41d-fdce-4472-9c2c-1efdca1b1ed3",
+          "8266f308-e6f6-44a6-8088-5d5d069c2c81",
+          "4cba0824-58d8-4690-9272-ea8c9e294b6e",
+          "82960ce4-3cd1-441c-9f87-1a842871de78"
+        ],
         "settings": {
           "blog": "news",
-          "logo_package": "",
-          "media_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Credibility_Boosting_LOGOS_-20220301T212313Z-001.zip?v=1646169822"
+          "logo_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Credibility_Boosting_LOGOS_-20220301T212313Z-001.zip?v=1646169822"
         }
       },
       "1645806243d64b1a99": {
