@@ -1,12 +1,41 @@
+<div class="reinvent-ctn">
+  
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Careers",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "URL"
+      },
+      {
+        "type": "text",
+        "id": "url_label",
+        "label": "Label"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Careers"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
