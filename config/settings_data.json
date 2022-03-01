@@ -1255,6 +1255,16 @@
         "type": "b2b-full-width-img",
         "settings": {
         }
+      },
+      "careers": {
+        "type": "careers",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/careers.png",
+          "header": "",
+          "paragraph": "",
+          "url": "",
+          "url_label": ""
+        }
       }
     },
     "content_for_index": [
