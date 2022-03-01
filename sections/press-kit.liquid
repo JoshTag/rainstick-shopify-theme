@@ -34,11 +34,11 @@
 <div class="press-kit__section">
   <h2 class="press-kit__header">Logos</h2>
   <div class="press-kit__logos-container">
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
+    {% for block in section.blocks %}
+      <div class="press-kit__logo-block">
+        <img src="{{ block.settings.image }}"/>
+      </div>
+    {% endfor %}
   </div>
   <a class="press-kit__logo-download" href="{{ section.settings.logo_package }}">DOWNLOAD LOGO PACKAGE</a>
 </div>
