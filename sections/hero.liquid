@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700px;
+/*   height: 700px; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
 }
 .hero__content--top h1,
 .hero__content--top p {
-  color: #fff;
+  color: #F7EDE2;
   text-align: center;
   width: 320px;
 }
@@ -71,10 +71,10 @@
   background-color: #02827B;
 }
 .hero__content--bottom p {
-  color: #fff;
+  color: #F7EDE2;
   text-align: center;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .hero__content--bottom p br {
   display: none;
@@ -82,14 +82,17 @@
 .hero__featured-logos {
   display: flex;
   justify-content: space-between;
-  max-width: 375px;
-  margin: 0 auto;
+  flex-wrap:wrap;
+}
+@media screen and (max-width:768px){
+  .hero__featured-logos{
+    background-color:rgb(0 0 0 / 68%);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__content--top {
     align-items: unset;
     width: 100%;
-    max-width: 1100px;
     margin: 0 auto;
     padding: 150px 60px 0;
   }
@@ -100,7 +103,7 @@
     text-align: left;
   }
   .hero__content--top > h1 {
-    font-size: 40px !important;
+    font-size: 60px !important;
     font-weight: 200;
   }
   .hero__content--top p {
@@ -122,8 +125,6 @@
     padding: 0 60px 20px;
     display: flex;
     flex-direction: row;
-    width: 1100px;
-    margin: auto auto 0;
   }
   .hero__content--bottom p {
     text-align: left;
@@ -141,7 +142,7 @@
 }
 @media screen and (min-width: 900px) {
   .hero__container {
-    height: 800px;
+    height:100vh;
   }
   .hero__content--top {
     padding: 200px 100px 0;
@@ -173,8 +174,14 @@
     <p>They Really<br> Like Us!</p>
     <div class="hero__featured-logos">
       {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'hero-logo' -%}
-      {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'hero-logo' -%}
-      {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Toronto Star', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Canie', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'hero-logo' -%}
+
+
+
     </div>
   </div>
 </div>

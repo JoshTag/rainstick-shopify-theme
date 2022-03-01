@@ -1,0 +1,70 @@
+<div class="background__black ctn-basic" style="position:relative">
+  <div class="blackwave"></div>
+  <div class="homepage-blob"></div>
+  <h2 class="homepage__heading-3">what makes us great</h2>
+
+  <div class="homepage__3-pillars">
+
+    {% for block in section.blocks %}
+      <div class="homepage__pillar-ctn">
+        <div class="homepage__pillar-img" style="background-image: url({{ block.settings.image | img_url: "700x700" }})"></div>
+        <h3 class="homepage__heading-3">{{ block.settings.title }}</h3>
+        <p class="homepage__pillars-text">
+          {{ block.settings.content }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div> 
+<div class="button__ctn-black">
+  <a href="/pages/select-destination" class="greenbutton">
+    ORDER NOW
+  </a>
+</div>
+
+{% schema %}
+  {
+    "name": "What Makes Us Great",
+    "settings": [
+	  {
+        "id": "bg-image",
+		"type": "image_picker",
+		"label": "Background image"
+      },
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Header"
+      }
+	],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": 
+          [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "textarea",
+              "id": "content",
+              "label": "Content"
+            }
+          ]
+      }
+    ],
+    "presets": [
+      {
+      "name": "What Makes Us Great"
+      }
+    ]
+  }
+{% endschema %}
