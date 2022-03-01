@@ -1013,9 +1013,9 @@
       "press-kit": {
         "type": "press-kit",
         "settings": {
-          "inquiries": "",
-          "header": "",
-          "blog": "news"
+          "blog": "news",
+          "logo_package": "",
+          "media_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Credibility_Boosting_LOGOS_-20220301T212313Z-001.zip?v=1646169822"
         }
       },
       "1645806243d64b1a99": {
