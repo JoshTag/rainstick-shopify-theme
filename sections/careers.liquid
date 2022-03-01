@@ -1,7 +1,7 @@
 {%- capture background_image -%}
 {%
   include 'rimg',
-  img: section.settings.background,
+  img: {{ 'careers.png' | asset_url: '500x500' }},
   size: image_size,
   alt: "Rainstick shower at night",
   background: true
