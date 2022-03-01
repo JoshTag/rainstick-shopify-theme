@@ -1108,6 +1108,7 @@
       "b2b-hero": {
         "type": "b2b-hero",
         "settings": {
+          "background": "shopify:\/\/shop_images\/B2B-Hero_2x_1.png"
         }
       },
       "b2b-intro": {
