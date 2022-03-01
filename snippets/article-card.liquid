@@ -11,9 +11,8 @@
 
 <article class="article-card__container {% if forloop.first == true  %}first-article{% endif %}" >
   {% if article.image %}
-    <div class="article-card__img-wrapper" {{ background_image_style }}>
-      
-    </div>
+    <a href="{{ article.url }}" class="article-card__img-wrapper" {{ background_image_style }}>
+    </a>
   {% endif %}
 
   <h2 class="article-card__title">
