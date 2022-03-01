@@ -1051,13 +1051,54 @@
         "settings": {
           "header": "Hello"
         }
+      },
+      "1646141465ff2ef6d9": {
+        "type": "index-full-carousel",
+        "blocks": {
+          "eef449de-d2ad-43f4-be06-df899b8bd718": {
+            "type": "Slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
+              "name": "Ron Miller",
+              "role": "Builder",
+              "quote": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
+            }
+          },
+          "96764cb6-3f2c-4195-ba3c-b026fc286fc2": {
+            "type": "Slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
+              "name": "Ron Millner",
+              "role": "Builder",
+              "quote": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose."
+            }
+          },
+          "9820cdd3-29b2-4011-8ba0-36fe326ecfc9": {
+            "type": "Slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
+              "name": "Don River",
+              "role": "Builder",
+              "quote": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations."
+            }
+          }
+        },
+        "block_order": [
+          "eef449de-d2ad-43f4-be06-df899b8bd718",
+          "96764cb6-3f2c-4195-ba3c-b026fc286fc2",
+          "9820cdd3-29b2-4011-8ba0-36fe326ecfc9"
+        ],
+        "settings": {
+          "header": "We're Making A Splash"
+        }
       }
     },
     "content_for_index": [
       "16458009295e4c83ed",
       "16298321281d2fb371",
       "1645806243d64b1a99",
-      "1645808455b2363609"
+      "1645808455b2363609",
+      "1646141465ff2ef6d9"
     ]
   },
   "presets": {
