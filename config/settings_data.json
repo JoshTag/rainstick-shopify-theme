@@ -29,6 +29,7 @@
     "social_youtube_url": "",
     "social_rss_url": "",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "installation_gude": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/favicon.png",
     "checkout_logo_position": "left",
@@ -534,7 +535,9 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "installation_guide": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"
+          "installation_guide": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804",
+          "footer_menu_1": "footer-menu-1",
+          "footer_menu_2": "footer-menu-2"
         }
       },
       "dimensions-details": {
@@ -583,8 +586,7 @@
       "installation-button": {
         "type": "installation-button",
         "settings": {
-          "label": "ACCESS THE RAINSTICK INSTALLATION CHECKLIST",
-          "install": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804"
+          "label": "ACCESS THE RAINSTICK INSTALLATION CHECKLIST"
         }
       },
       "product-page-columns": {
@@ -814,7 +816,6 @@
           "column_content_two": "RainStick offers a full-coverage rainshower experience that actually washes the shampoo out of your hair, while still providing up to 80% water savings.",
           "column_header_three": "Temperature",
           "column_content_three": "RainStick keeps you warm and comfortable for the duration of your shower. Whether you like to shower at 38°C\/100°F or 42°C\/106°F for example, the option is yours to pick your preferred temperature.",
-          "file": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804",
           "bottom_image": "shopify:\/\/shop_images\/howitworks-4.jpg",
           "stages_header": "Safe, circulated water.",
           "stages_content": "RainStick water goes through a 3-stage process that removes larger hair and debris, and even kills bacteria and viruses.",
