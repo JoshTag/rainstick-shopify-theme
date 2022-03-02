@@ -606,48 +606,48 @@
           "917e5c37-9047-4f3f-b165-383145459438": {
             "type": "text",
             "settings": {
-              "question": "Don’t we have a lot of water in North America? Why do we need to save it?",
-              "answer": "<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>",
-              "faq_category": "hygiene"
+              "question": "Does RainStick heat the water as it is recirculated?",
+              "answer": "<p>Yes, RainStick adds a small amount of heated fresh grid supplied water that refreshes the loop and keeps the heat warm as is circulates. <\/p>",
+              "faq_category": "using_the_shower"
             }
           },
           "511018b6-dd0a-479c-ae46-b469fa3f9430": {
             "type": "text",
             "settings": {
-              "question": "Is installing a RainStick more difficult than a traditional shower?",
-              "answer": "<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>",
-              "faq_category": "hygiene"
+              "question": "I usually turn off the tap between shampooing and soaping to conserve water. Will I no longer have to do this with my RainStick?",
+              "answer": "<p>RainStick uses over 80% less water per shower session. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water and RainStick uses approximately 15 liters. Because the system circulates and cleans in real time, you're less worried about turning off the tap while shampooing.Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>",
+              "faq_category": "using_the_shower"
             }
           },
           "6a591f7e-88c6-4efb-ad5d-5c96a13d2082": {
             "type": "text",
             "settings": {
-              "question": "When will I begin to see my ROI with my purchase of RainStick?",
-              "answer": "<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>",
+              "question": "Do I have to use WiFi?",
+              "answer": "<p>A WIFI Connection is not mandatory but we do recommend using WiFi for the full user experience of RainStick. When not connected to WiFi, some key features such as remote software updates, descaler replacement cycles and the ability to track water and energy savings will not be available.<\/p>",
               "faq_category": "maintenence"
             }
           },
           "7670b859-3636-4453-9079-4c3e32cd064c": {
             "type": "text",
             "settings": {
-              "question": "What is included with a RainStick purchase?",
-              "answer": "<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>",
+              "question": "What happens if the power goes off?",
+              "answer": "<p>A power connection is required in order to operate the RainStick Shower.<\/p>",
               "faq_category": "maintenence"
             }
           },
           "278d6670-0d94-41f3-952f-02d149ec2591": {
             "type": "text",
             "settings": {
-              "question": "When is the best time to install a RainStick?",
-              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>",
+              "question": "Do you have a solution for bathtubs?",
+              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\"><span style=\"text-decoration:underline\">here.<\/span><\/a><\/p>",
               "faq_category": "using_the_shower"
             }
           },
           "37979229-0873-4d83-bcbb-1fa407d3b300": {
             "type": "text",
             "settings": {
-              "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>",
+              "question": "Can I control temperature, flow and operations made by voice command?",
+              "answer": "<p>Yes, a virtual assistant (Alexa or Siri) allows you to turn RainStick on. Our RainStick app allows you to monitor maintenance, temperature control and water savings.<\/p>",
               "faq_category": "using_the_shower"
             }
           },
