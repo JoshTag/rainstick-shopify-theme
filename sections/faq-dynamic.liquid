@@ -237,6 +237,7 @@
     <span class="faq__sub-title">Your answer will appear below.</span>
     <div id="faq-answers">
       {% for category in categories %}
+      {{category}}
       <div class="dynamic-faq__answer" data-id="hygiene" style="display: block !important;">
         {% for block in section.blocks %}
           {% if block.settings.faq_category == category %}
