@@ -24079,6 +24079,13 @@ $(document).ready(function() {
 			adaptiveHeight: true,
 			cellAlign: 'center'
     });
+    
+    
+    $('a[href^="#shopify-section-b2b-how-it-works"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#shopify-section-b2b-how-it-works").offset().top
+      }, 2000);
+    });
 
 });
 
