@@ -1,4 +1,4 @@
-<style>
+{% style %}
   .installation-btn {
     display: block;
     align-items: center;
@@ -23,7 +23,7 @@
     color: #F4F2F1;
   }
   .button__background{
-    background:#F4F2F1;
+    background: {{ settings.body-background-color }};
     display: flex;
     justify-content: center;
     padding-top: 6rem;
@@ -38,7 +38,7 @@
       max-width: 900px;
     }
   }
-</style>
+{% endstyle %}
 <div id="installation-btn" class="button__background">
 <a href="{{ settings.installation_gude }}" class="installation-btn">{{ section.settings.label }}</a>
 </div>
