@@ -7,7 +7,7 @@
 </style>
 
 {% assign blog_index = false %}
-{% if template.name == 'blog' or template.name == 'article' %}
+{% if template.name == 'blog' %}
   {% assign blog_index = true %}
 {% endif %}
 
@@ -34,17 +34,15 @@
   {% endcomment %}
 
   <span class="post-article-date">{{ article.published_at | date: format: 'short_month' }}</span>
-  {% if blog_index and article.image %}
-    <div class="post-image-container">
-      {%
-        include 'rimg',
-        class: 'post-image',
-        img: article.image,
-        size: '700x700',
-        lazy: true
-      %}
-    </div>
-  {% endif %}
+  <div class="post-image-container">
+    {%
+      include 'rimg',
+      class: 'post-image',
+      img: article.image,
+      size: '700x700',
+      lazy: true
+    %}
+  </div>
 
   <div class="post-content rte">
     {% if blog_index %}
