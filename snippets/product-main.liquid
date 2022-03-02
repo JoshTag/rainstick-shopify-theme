@@ -185,7 +185,7 @@
   {%- endcapture -%}
 {% endif %}
 
-<div class="module-wrapper" style="background:#F4F2F1">
+<div class="module-wrapper" style="background: {{ settings.body-background-color}}">
   <div class="module module-product">
     <div class="product-details mobile">
       {{ product_title_markup | replace: '<h1', '<h2' | replace: '</h1', '</h2' }}
