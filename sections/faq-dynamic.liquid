@@ -227,7 +227,7 @@
     <!-- {% for block in section.blocks %}
       <li class="dynamic-faq__question" data-id="{{ block.id }}">{{ block.settings.question }}</li>
     {% endfor %} -->
-    {% assign categories = "hygiene,maintenence,using the shower,technology,installation,support" | split: ',' %}
+    {% assign categories = "using the shower,hygiene,purchase,installation,pro's and distribution,maintenance,delivery" | split: ',' %}
     {% for category in categories %}
       <li class="dynamic-faq__question {% if forloop.first == true %}active{% endif %}" data-id="{{ category | replace: " ", "_" }}">{{ category }}</li>
     {% endfor %}
