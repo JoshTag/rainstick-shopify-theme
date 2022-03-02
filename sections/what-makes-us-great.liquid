@@ -22,6 +22,22 @@
   </a>
 </div>
 
+
+<div class="background__white" style="position:relative">
+  <div class="homepage-blob"></div>
+  <div class="homepage__3-pillars">
+    {% for block in section.blocks %}
+      <div class="homepage__pillar-ctn">
+        <div class="homepage__pillar-img" style="background-image: url({{ block.settings.image | img_url: "700x700" }})"></div>
+        <h3 class="homepage__heading-3">{{ block.settings.header }}</h3>
+        <p class="homepage__pillars-text">
+          {{ block.settings.content }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div> 
+
 {% schema %}
   {
     "name": "What Makes Us Great",
