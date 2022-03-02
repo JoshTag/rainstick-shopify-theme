@@ -236,9 +236,10 @@
     <h3 class="faq__title">Answer</h3>
     <span class="faq__sub-title">Your answer will appear below.</span>
     <div id="faq-answers">
+      {% for category in categories %}
       <div class="dynamic-faq__answer" data-id="hygiene" style="display: block !important;">
         {% for block in section.blocks %}
-          {% if block.settings.faq_category == "hygiene" %}
+          {% if block.settings.faq_category == category %}
             <p class="dynamic-faq__answer-header">
               {{ block.settings.question  }}
             </p>
@@ -248,7 +249,8 @@
           {% endif %}
         {% endfor %}
       </div>
-      <div class="dynamic-faq__answer" data-id="maintenence">
+      {% endfor %}
+<!--       <div class="dynamic-faq__answer" data-id="maintenence">
         {% for block in section.blocks %}
           {% if block.settings.faq_category == "maintenence" %}
             <p class="dynamic-faq__answer-header">
@@ -307,7 +309,7 @@
             </div>
           {% endif %}
         {% endfor %}
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
