@@ -706,6 +706,190 @@
               "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>",
               "faq_category": "support"
             }
+          },
+          "587bcd51-4b04-4d2f-b0eb-ace5f54a1755": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "4728e973-0c3b-4aec-9617-d928ffbb6dc4": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "de50bd57-9977-4dc3-949e-956e22888ede": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "6877ae5b-4828-46c0-811e-7e5649a35bef": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "312134ae-9f13-4ac4-90b4-d447583f3311": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "fbd58e36-b4f9-46b4-b0c9-aa008b458cb1": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "88757608-e03f-4858-938f-4054b3e7fb16": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "0c1055c7-2fe0-466f-9145-c2b9c1733c5f": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "0d829cb6-f6f0-4132-84c5-03db53d7b16a": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "f5a1ed2c-86c6-41a8-89b8-6b1fa9fb4bb5": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "53a2f9cc-c2bb-46d1-939a-7021a0e1cd29": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "7f528b72-3a6a-4dc9-8910-a077298e8f2b": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "9e3632b0-6def-46be-bca3-3d64f8b7cd9a": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "c902c451-a1e6-4cd0-ab64-802d0cdd1fb3": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "300fed78-77a9-4ffc-951b-292097810674": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "c3e7cbed-b09d-48e2-a390-95403d180eb9": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "2fb9421b-03df-42ff-9ca4-5faf2a054acb": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "810ca413-0d9b-45a1-bc62-d90eaf0eb980": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "445b44e3-e48b-4aad-b295-03353feb6209": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "acdb3f51-01f1-4f92-8384-48c4e46d8c18": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "f021d176-95c0-4c51-9e92-35a5b4ddbef1": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "fb731e37-44aa-4789-b6a7-a05c0777e01b": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
           }
         },
         "block_order": [
@@ -721,7 +905,30 @@
           "de64846a-c1e6-488b-a46d-535487e4c689",
           "ca85ae65-0d30-401c-a8d7-50badf6081e8",
           "05bfe0f4-e47f-47df-acca-37eb781f78a0",
-          "3784ba62-61d1-41ba-b63a-d96d42a975f0"
+          "3784ba62-61d1-41ba-b63a-d96d42a975f0",
+          "587bcd51-4b04-4d2f-b0eb-ace5f54a1755",
+          "4728e973-0c3b-4aec-9617-d928ffbb6dc4",
+          "de50bd57-9977-4dc3-949e-956e22888ede",
+          "6877ae5b-4828-46c0-811e-7e5649a35bef",
+          "312134ae-9f13-4ac4-90b4-d447583f3311",
+          "fbd58e36-b4f9-46b4-b0c9-aa008b458cb1",
+          "88757608-e03f-4858-938f-4054b3e7fb16",
+          "0c1055c7-2fe0-466f-9145-c2b9c1733c5f",
+          "0d829cb6-f6f0-4132-84c5-03db53d7b16a",
+          "f5a1ed2c-86c6-41a8-89b8-6b1fa9fb4bb5",
+          "53a2f9cc-c2bb-46d1-939a-7021a0e1cd29",
+          "7f528b72-3a6a-4dc9-8910-a077298e8f2b",
+          "9e3632b0-6def-46be-bca3-3d64f8b7cd9a",
+          "c902c451-a1e6-4cd0-ab64-802d0cdd1fb3",
+          "300fed78-77a9-4ffc-951b-292097810674",
+          "c3e7cbed-b09d-48e2-a390-95403d180eb9",
+          "2fb9421b-03df-42ff-9ca4-5faf2a054acb",
+          "810ca413-0d9b-45a1-bc62-d90eaf0eb980",
+          "445b44e3-e48b-4aad-b295-03353feb6209",
+          "acdb3f51-01f1-4f92-8384-48c4e46d8c18",
+          "f021d176-95c0-4c51-9e92-35a5b4ddbef1",
+          "fb731e37-44aa-4789-b6a7-a05c0777e01b",
+          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0"
         ],
         "settings": {
         }
