@@ -624,7 +624,7 @@
             "settings": {
               "question": "Do I have to use WiFi?",
               "answer": "<p>A WIFI Connection is not mandatory but we do recommend using WiFi for the full user experience of RainStick. When not connected to WiFi, some key features such as remote software updates, descaler replacement cycles and the ability to track water and energy savings will not be available.<\/p>",
-              "faq_category": "maintenence"
+              "faq_category": "using_the_shower"
             }
           },
           "7670b859-3636-4453-9079-4c3e32cd064c": {
@@ -632,7 +632,7 @@
             "settings": {
               "question": "What happens if the power goes off?",
               "answer": "<p>A power connection is required in order to operate the RainStick Shower.<\/p>",
-              "faq_category": "maintenence"
+              "faq_category": "using_the_shower"
             }
           },
           "278d6670-0d94-41f3-952f-02d149ec2591": {
