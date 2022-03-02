@@ -2965,12 +2965,18 @@ img[data-rimg="loaded"] {
 .stories__section-3 {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 0;
     max-width: 1100px;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
   }
+@media screen and (min-width: 500px) {
+  .stories__section-3 {
+    width: 70%;
+    padding: 3rem;
+  }
+}
  
 .stories__section-4 {
     display: flex;
