@@ -24083,7 +24083,7 @@ $(document).ready(function() {
     
     $('a[href^="#shopify-section-b2b-how-it-works"]').click(function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: $("#shopify-section-b2b-how-it-works").offset('100px').top
+        scrollTop: $("#shopify-section-b2b-how-it-works").offset().top
       }, 1200);
     });
 
