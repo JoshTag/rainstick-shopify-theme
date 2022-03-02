@@ -1265,6 +1265,12 @@
           "url": "",
           "url_label": ""
         }
+      },
+      "164624203303cbbb3e": {
+        "type": "index-three-columns",
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
@@ -1272,7 +1278,8 @@
       "16298321281d2fb371",
       "1645806243d64b1a99",
       "1645808455b2363609",
-      "1646141465ff2ef6d9"
+      "1646141465ff2ef6d9",
+      "164624203303cbbb3e"
     ]
   },
   "presets": {
