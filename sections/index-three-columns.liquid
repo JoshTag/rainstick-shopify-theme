@@ -33,13 +33,47 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Three columns",
+    "settings": [
+	  {
+        "id": "bg-image",
+		"type": "image_picker",
+		"label": "Background image"
+      },
+	  {
+        "id": "header",
+		"type": "text",
+		"label": "Header"
+      }
+	],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": 
+          [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "textarea",
+              "id": "content",
+              "label": "Content"
+            }
+          ]
+      }
+    ],
+    "presets": [
+      {
+      "name": "Three columns"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
