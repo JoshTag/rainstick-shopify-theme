@@ -10,6 +10,7 @@
       </div>
     </form>
     <div class="module-header blog-header" style="padding: 50px 0 0">
+      {% comment %}
       <div class="module-title blog-title">
         <h1>
           {% if current_tags %}<a href="{{ blog.url }}">{% endif %}
@@ -18,6 +19,7 @@
           <!-- <a class="blog-rss" href="{{ blog.url }}.atom">&#xea9c</a> -->
         </h1>
       </div>
+      {% endcomment %}
       {% if linklists.blogs.links.size > 0 %}
       <div class="blog-menu">
         {% for link in linklists.blogs.links %}
