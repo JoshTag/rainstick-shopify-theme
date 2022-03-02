@@ -237,80 +237,20 @@
     <span class="faq__sub-title">Your answer will appear below.</span>
     <div id="faq-answers">
       {% for category in categories %}
-      <div class="dynamic-faq__answer" data-id="{{ category | replace: " ", "_" }}" style="display: block !important;">
-        {% for block in section.blocks %}
-          {% assign cat_no_space = category | replace: " ", "_" %}
-          {% if block.settings.faq_category == cat_no_space %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+        <div class="dynamic-faq__answer" data-id="{{ category | replace: " ", "_" }}" style="display: block !important;">
+          {% for block in section.blocks %}
+            {% assign cat_no_space = category | replace: " ", "_" %}
+            {% if block.settings.faq_category == cat_no_space %}
+              <p class="dynamic-faq__answer-header">
+                {{ block.settings.question  }}
+              </p>
+              <div class="dynamic-faq__answer-body">
+                {{ block.settings.answer  }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
       {% endfor %}
-<!--       <div class="dynamic-faq__answer" data-id="maintenence">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "maintenence" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="using_the_shower">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "using_the_shower" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="technology">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "technology" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="installation">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "installation" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="support">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "support" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div> -->
     </div>
   </div>
 </div>
