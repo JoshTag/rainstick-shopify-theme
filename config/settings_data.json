@@ -890,6 +890,30 @@
               "answer": "",
               "faq_category": "hygiene"
             }
+          },
+          "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "741cc882-4e35-412e-b20b-839cc8b25df1": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
+          },
+          "f013d37e-5370-4373-b156-d1ad4a689eb4": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "faq_category": "hygiene"
+            }
           }
         },
         "block_order": [
@@ -928,7 +952,10 @@
           "acdb3f51-01f1-4f92-8384-48c4e46d8c18",
           "f021d176-95c0-4c51-9e92-35a5b4ddbef1",
           "fb731e37-44aa-4789-b6a7-a05c0777e01b",
-          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0"
+          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0",
+          "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a",
+          "741cc882-4e35-412e-b20b-839cc8b25df1",
+          "f013d37e-5370-4373-b156-d1ad4a689eb4"
         ],
         "settings": {
         }
