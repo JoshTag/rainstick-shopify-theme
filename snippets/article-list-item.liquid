@@ -34,14 +34,15 @@
   {% endcomment %}
 
   <span class="post-article-date">{{ article.published_at | date: format: 'short_month' }}</span>
-  <div class="post-image-container">
+  <div class="post-image-container"
     {%
       include 'rimg',
       class: 'post-image',
       img: article.image,
       size: '700x700',
-      lazy: true
-    %}
+      lazy: true,
+      background: true
+    %}>
   </div>
 
   <div class="post-content rte">
