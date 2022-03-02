@@ -33,7 +33,7 @@
   </div>
   {% endcomment %}
 
-  <span>{{ article.published_at | date: format: 'short_month' }} {{blog_index}} {{article.image}}</span>
+  <span>{{ article.published_at | date: format: 'short_month' }} {{template.name}} {{article.image}}</span>
   {% if blog_index and article.image %}
     <div class="post-image-container">
       {%
