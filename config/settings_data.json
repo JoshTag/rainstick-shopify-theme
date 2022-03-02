@@ -654,8 +654,8 @@
           "66769442-1106-4dee-9865-c8ac7487806c": {
             "type": "text",
             "settings": {
-              "question": "Can I still shower if something within the system needs attention or repair?",
-              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>",
+              "question": "How does RainStick clean the water in real time?",
+              "answer": "<p>How does RainStick clean the water in real time?<\/p>",
               "faq_category": "technology"
             }
           },
