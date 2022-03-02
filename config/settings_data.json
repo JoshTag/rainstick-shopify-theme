@@ -662,73 +662,73 @@
           "02df5142-b050-4866-8e4e-27fb4e7055d9": {
             "type": "text",
             "settings": {
-              "question": "Do you have a solution for bathtubs?",
-              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>",
-              "faq_category": "technology"
+              "question": "What happens if someone pees during a shower?",
+              "answer": "<p>Firstly, stop peeing in the shower ;) RainStick has two modes (1) circular mode where water recirculates through the system and (2) traditional mode where water goes directly from the showerhead down the drain. In both modes, RainStick continues with 3-stage cleansing that includes UV treatment to address bacteria and viruses, a 200 micron pre-screen and continuous hot water to refresh the loop in real-time.<\/p>",
+              "faq_category": "hygiene"
             }
           },
           "ffc23857-06c9-4e5c-913a-9980643dd905": {
             "type": "text",
             "settings": {
-              "question": "I like to turn off the tap between shampooing and soaping to conserve water. Does this mean I no longer have to do this with RainStick?",
-              "answer": "<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>",
-              "faq_category": "technology"
+              "question": "Does RainStick use greywater?",
+              "answer": "<p>No, RainStick uses fresh grid supplied water for every shower. When your shower is done, water goes down the drain. RainStick does not store water in the system between sessions and the system automatically cleans itself in between sessions.<\/p>",
+              "faq_category": "hygiene"
             }
           },
           "de64846a-c1e6-488b-a46d-535487e4c689": {
             "type": "text",
             "settings": {
-              "question": "How do I know how much water I’m saving?",
-              "answer": "<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>",
-              "faq_category": "installation"
+              "question": "Am I using someone else's water?",
+              "answer": "<p>No! Every user gets fresh grid supplied water for their shower. Once you're done, the water goes down the drain and the system undergoes an automatic cleaning cycle that sets up for the next user. <\/p>",
+              "faq_category": "hygiene"
             }
           },
           "ca85ae65-0d30-401c-a8d7-50badf6081e8": {
             "type": "text",
             "settings": {
-              "question": "Do you have a bathroom pro (trades) program?",
-              "answer": "<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>",
-              "faq_category": "installation"
+              "question": "What are the finishes?",
+              "answer": "<p>For our limited 2022 production run we are offering a brushed nickel and matte black finish.<\/p>",
+              "faq_category": "purchase"
             }
           },
           "05bfe0f4-e47f-47df-acca-37eb781f78a0": {
             "type": "text",
             "settings": {
-              "question": "Do you also offer a handheld with RainStick?",
-              "answer": "<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>",
-              "faq_category": "support"
+              "question": "What's included with my RainStick purchase?",
+              "answer": "<p>RainStick arrives inclusive of all of the necessary components for a high-flow shower experience including the appliance, a shower head and a sub-floor reservoir.<\/p>",
+              "faq_category": "purchase"
             }
           },
           "3784ba62-61d1-41ba-b63a-d96d42a975f0": {
             "type": "text",
             "settings": {
-              "question": "When will my RainStick be delivered?",
-              "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>",
-              "faq_category": "support"
+              "question": "How often do I need to purchase the RainStick Original Cleaning Product?",
+              "answer": "<p>The RainStick Original Cleaning product will needed to be topped up on average monthly. We are providing 6 months worth with the purchase of your RainStick. <\/p>",
+              "faq_category": "purchase"
             }
           },
           "587bcd51-4b04-4d2f-b0eb-ace5f54a1755": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Where is RainStick availble for order?",
+              "answer": "<p>RainStick is available to pre-order in North America. If you're not in North America, be sure to sign up to our international waitlist found <a href=\"\/pages\/waitlist\" target=\"_blank\" title=\"waitlist\">here<\/a> and we'll be sure to let you know when RainStick is available in your region.   <\/p>",
+              "faq_category": "purchase"
             }
           },
           "4728e973-0c3b-4aec-9617-d928ffbb6dc4": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "I want a RainStick but it's not availlable near me, what can I do?",
+              "answer": "<p>We do have an international waitlit found <a href=\"\/pages\/waitlist\" target=\"_blank\" title=\"waitlist\">here<\/a> that you can join to be kept in the loop of when RainStick will be available near you.<\/p>",
+              "faq_category": "purchase"
             }
           },
           "de50bd57-9977-4dc3-949e-956e22888ede": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Do you have handheld option available for purchase?",
+              "answer": "<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. <\/p>",
+              "faq_category": "purchase"
             }
           },
           "6877ae5b-4828-46c0-811e-7e5649a35bef": {
