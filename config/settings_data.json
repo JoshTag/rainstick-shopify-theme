@@ -734,25 +734,25 @@
           "6877ae5b-4828-46c0-811e-7e5649a35bef": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Is installing a RainStick more difficult than a traditional shower?",
+              "answer": "<p>Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have.For special benefits, have your bathroom professional reach out to our team at pro@rainstickshower.com and we're happy to get them set up with our bathroom pro program. <\/p>",
+              "faq_category": "installation"
             }
           },
           "312134ae-9f13-4ac4-90b4-d447583f3311": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Can I install RainStick in my off-grid home?",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193\">here<\/a>.<\/p>",
+              "faq_category": "installation"
             }
           },
           "fbd58e36-b4f9-46b4-b0c9-aa008b458cb1": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Can I retrofit RainStick?",
+              "answer": "<p>RainStick is intended for a new build or renovation project. Join our newsletter <a href=\"#bottom\" title=\"#bottom\">here<\/a> to get all the latest updates on models to come.<\/p>",
+              "faq_category": "installation"
             }
           },
           "88757608-e03f-4858-938f-4054b3e7fb16": {
