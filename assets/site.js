@@ -24086,6 +24086,24 @@ $(document).ready(function() {
         scrollTop: ($("#shopify-section-b2b-how-it-works").offset().top - 100)
       }, 1200);
     });
+    
+    $('a[href^="#shopify-section-b2b-why-become-a-bathroom-pro"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-why-become-a-bathroom-pro").offset().top - 100)
+      }, 1200);
+    });
+    
+    $('a[href^="#shopify-section-b2b-technical-specs"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-technical-specs").offset().top - 100)
+      }, 1200);
+    });
+    
+    $('a[href^="#shopify-section-b2b-installation-requirements"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-installation-requirements").offset().top - 100)
+      }, 1200);
+    });
 
 });
 
