@@ -743,7 +743,7 @@
             "type": "text",
             "settings": {
               "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193\">here<\/a>.<\/p>",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"#installation\" target=\"_blank\" title=\"#installation\">here<\/a>.<\/p>",
               "faq_category": "installation"
             }
           },
@@ -758,161 +758,161 @@
           "88757608-e03f-4858-938f-4054b3e7fb16": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "When should I install my RainStick?",
+              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>",
+              "faq_category": "installation"
             }
           },
           "0c1055c7-2fe0-466f-9145-c2b9c1733c5f": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "What are the dimensions for the in-floor (or under the floor) collection system?",
+              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros\" target=\"_blank\" title=\"Bathroom Pros\">here<\/a>.<\/p>",
+              "faq_category": "installation"
             }
           },
           "0d829cb6-f6f0-4132-84c5-03db53d7b16a": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Do you have an installation guide?",
+              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"#installation\" target=\"_blank\" title=\"#installation\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
+              "faq_category": "installation"
             }
           },
           "f5a1ed2c-86c6-41a8-89b8-6b1fa9fb4bb5": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Does the shower floor need to be sloped toward the wall where the RainStick is mounted?",
+              "answer": "<p>Yes, there is a 2% sloped grade. The lowest point in the installation needs to be at the base of RainStick. That is where we pick up the water in the provided catchment reservoir as well as the drain stack. Please see our step-by-step installation guide <a href=\"#installation\" target=\"_blank\" title=\"#installation\">here<\/a> or reach out to us at pro@rainstickshower.com.<\/p>",
+              "faq_category": "installation"
             }
           },
           "53a2f9cc-c2bb-46d1-939a-7021a0e1cd29": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Is plumbing inside the unit or behind?",
+              "answer": "<p>Plumbing for the product is contained within the appliance itself.  Hot\/cold supply along with 120V electrical connection is all that's required at the back of RainStick. <\/p>",
+              "faq_category": "installation"
             }
           },
           "7f528b72-3a6a-4dc9-8910-a077298e8f2b": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "What certifications does RainStick have?",
+              "answer": "<p>The system has UL certification. Many of our sub components are also individually certified. <\/p>",
+              "faq_category": "installation"
             }
           },
           "9e3632b0-6def-46be-bca3-3d64f8b7cd9a": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Can I install RainStick if our home is built on a slab?",
+              "answer": "<p>If your house is built slab on grade, that shouldn't be a problem. When RainStick is installed, the drain or the \"sewer stack\" will need to be positioned at the foot of the appliance and the shower stall will require a curb.<\/p>",
+              "faq_category": "installation"
             }
           },
           "c902c451-a1e6-4cd0-ab64-802d0cdd1fb3": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Can I use my RainStick if I have a water softener system?",
+              "answer": "<p>Having a water software will not affect the functionality of your RainStick Shower.<\/p>",
+              "faq_category": "installation"
             }
           },
           "300fed78-77a9-4ffc-951b-292097810674": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Do you have a RainStick Bathroom Pro Program?",
+              "answer": "<p>Yes we do! Please reach out to us at pro@rainstickshower.com with the subject: “I’m a Bathroom Pro” for more information.<\/p>",
+              "faq_category": "pro's_and_distribution"
             }
           },
           "c3e7cbed-b09d-48e2-a390-95403d180eb9": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Who can I contact about purchasing large volume orders?",
+              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
+              "faq_category": "pro's_and_distribution"
             }
           },
           "2fb9421b-03df-42ff-9ca4-5faf2a054acb": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "How can I distribute RainStick in my area?",
+              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
+              "faq_category": "pro's_and_distribution"
             }
           },
           "810ca413-0d9b-45a1-bc62-d90eaf0eb980": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "I'm interested in carrying RainStick Shower in my showroom. Who should I speak with about this?",
+              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
+              "faq_category": "pro's_and_distribution"
             }
           },
           "445b44e3-e48b-4aad-b295-03353feb6209": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "What are the ongoing maintenance requirements?",
+              "answer": "<p>RainStick completes an automatic cleaning session after each use. Simply ensure there is RainStick Original Cleaning Product in the system. RainStick's cleaning product is both human and planet safe and has been designed to effectively optimize hygiene.<\/p>",
+              "faq_category": "maintenance"
             }
           },
           "acdb3f51-01f1-4f92-8384-48c4e46d8c18": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "How much does RainStick Original Cleaning Product cost?",
+              "answer": "<p>We ship out your RainStick with a 6-month supply of RainStick Original Cleaning Product. Additional 6-month supply is $50 CAD ($39 USD)<\/p>",
+              "faq_category": "maintenance"
             }
           },
           "f021d176-95c0-4c51-9e92-35a5b4ddbef1": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Is the RaInStick Original Cleaning Product safe for pets & the planet?",
+              "answer": "<p>RainStick's cleaning product is both human and planet safe and has been designed to effectively optimize hygiene.<\/p>",
+              "faq_category": "maintenance"
             }
           },
           "fb731e37-44aa-4789-b6a7-a05c0777e01b": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "How will I know if something needs cleaning or replacement?",
+              "answer": "<p>RainStick completes an automatic cleaning session after each use. RainStick also completes a deep clean (approx. quarterly), notified through the app, depending on use. <\/p>",
+              "faq_category": "maintenance"
             }
           },
           "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Can I still shower if something within the system needs attention or repair?",
+              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>",
+              "faq_category": "maintenance"
             }
           },
           "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "What is the warranty?",
+              "answer": "<p>The standard warranty is 2 years on system and lifetime on finish.<\/p>",
+              "faq_category": "maintenance"
             }
           },
           "741cc882-4e35-412e-b20b-839cc8b25df1": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "When will my Rainstick be delivered?",
+              "answer": "<p>If you are located in North America and have pre-ordered your system, delivery is intended for the end of 2022. Limited systems are available for pre-order and if you have not already pre-ordered you can do so for a limited time <a href=\"\/pages\/select-destination\" target=\"_blank\" title=\"Select Destination\">here<\/a>. <\/p>",
+              "faq_category": "delivery"
             }
           },
           "f013d37e-5370-4373-b156-d1ad4a689eb4": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
-              "faq_category": "hygiene"
+              "question": "Where is RainStick available for order?",
+              "answer": "<p>RainStick is available for order in North America. Join our international waitlist here to find out when RainStick is available near you.<\/p>",
+              "faq_category": "delivery"
             }
           }
         },
