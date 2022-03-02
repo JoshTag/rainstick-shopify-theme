@@ -239,8 +239,8 @@
       {% for category in categories %}
       <div class="dynamic-faq__answer" data-id="{{ category | replace: " ", "_" }}" style="display: block !important;">
         {% for block in section.blocks %}
-        {{block.settings.faq_category }} == {{category}}
-          {% if block.settings.faq_category == category %}
+          {% assign cat_no_space = category | replace: " ", "_" %}
+          {% if block.settings.faq_category == cat_no_space %}
             <p class="dynamic-faq__answer-header">
               {{ block.settings.question  }}
             </p>
