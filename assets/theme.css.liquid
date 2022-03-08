@@ -13353,7 +13353,11 @@ width: 90%;
       width: 100%;
     }
   }
-  
+  @media screen and (max-width: 768px){
+    .homepage__3image-ctn {
+      min-height:460px;
+    }
+  }
  .homepage__3image-ctn-img-1 {
     background-image: url({{ 'homepage--chunkimage.png' | asset_url }});
  }
@@ -13383,7 +13387,10 @@ width: 90%;
     min-height: 230px;
     border-radius: 5px;
   }
-  
+@media screen and (max-width:1024){
+    .chunk-ctn{
+      margin:2rem 1rem;
+    }}
   .homepage__pillar-img{
     height: 300px;
     width: 100%;
