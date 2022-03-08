@@ -14730,13 +14730,14 @@ width: 90%;
   }
   .hero-blob {
     background-image: url({{ 'blob-home-1.svg' | asset_url }});
-	width: 380px;
-    height: 561px;
+    width: 260px!important;
+    height: 361px;
     position: absolute;
-    top: -262px;
-    left: -250px;
+    bottom: -80%;
+    right: -120px;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1000000;
   }
   
   @media screen and (max-width: 1234px){
