@@ -29,12 +29,11 @@
         {% assign secondary_menu_id = navigation_id | append: '-menu-' | append: forloop.index %}
       {% endif %}
     
-      <li class="header-navigation-list-item primary-list-item {% if has_dropdown %}has-dropdown{% endif %}">
+      <li class="header-navigation-list-item primary-list-item {% if has_dropdown %}has-dropdown{% endif %}" style="max-width:200px">
         <a
           class="header-navigation-link primary-link {% if link.active %}header-navigation-current{% endif %}"
           {% if forloop.index == 5 %}id="gtag-shop-now"{% endif %}
           href="{{ link.url }}"
-          style="max-width:200px"
         >
           {{ link.title }}
         </a>
