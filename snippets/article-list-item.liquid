@@ -4,6 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;}
+  
+  .blog-back-btn {
+    text-align: left; 
+  }
+  .blog-back-btn a {
+	color: #000;
+  }
 </style>
 
 {% assign blog_index = false %}
@@ -11,7 +18,7 @@
   {% assign blog_index = true %}
 {% endif %}
 
-<div><a>&larr; Back</a></div>
+<div class="blog-back-btn"><a>&larr; Back</a></div>
 <article class="post">
   <header class="post-title">
     <h1>
