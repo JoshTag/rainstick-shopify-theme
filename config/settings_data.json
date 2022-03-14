@@ -1505,6 +1505,16 @@
         "settings": {
           "header": ""
         }
+      },
+      "dynamic-blog-posts": {
+        "type": "dynamic-blog-posts",
+        "settings": {
+          "blog": "",
+          "style": "default",
+          "posts-to-show": 3,
+          "title": "Related Articles",
+          "subtitle": ""
+        }
       }
     },
     "content_for_index": [
