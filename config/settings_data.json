@@ -1401,7 +1401,7 @@
       "b2b-hero": {
         "type": "b2b-hero",
         "settings": {
-          "background": "shopify:\/\/shop_images\/RS_R6_HueSat_122921_copy.jpg"
+          "background": "shopify:\/\/shop_images\/b2bhero.jpg"
         }
       },
       "b2b-intro": {
