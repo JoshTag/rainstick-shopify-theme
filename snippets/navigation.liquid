@@ -34,6 +34,7 @@
           class="header-navigation-link primary-link {% if link.active %}header-navigation-current{% endif %}"
           {% if forloop.index == 5 %}id="gtag-shop-now"{% endif %}
           href="{{ link.url }}"
+          style="max-width:200px"
         >
           {{ link.title }}
         </a>
