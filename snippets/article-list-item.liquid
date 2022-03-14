@@ -71,3 +71,4 @@
     </footer>
   {% endif %}
 </article>
+<div class="blog-back-btn"><a href="{% if blog.handle == "news" or blog.handle == "press"%}/blogs/press{% else %}{{ blog.url }}{% endif %}">&larr; Back to posts</a></div>
