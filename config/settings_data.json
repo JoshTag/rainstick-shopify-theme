@@ -767,7 +767,7 @@
             "type": "text",
             "settings": {
               "question": "What are the dimensions for the in-floor (or under the floor) collection system?",
-              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros\" target=\"_blank\" title=\"Bathroom Pros\">here<\/a>.<\/p>",
+              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a>.<\/p>",
               "faq_category": "installation"
             }
           },
@@ -775,7 +775,7 @@
             "type": "text",
             "settings": {
               "question": "Do you have an installation guide?",
-              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"#installation\" target=\"_blank\" title=\"#installation\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
+              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"#newsletter\" target=\"_blank\" title=\"#newsletter\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
               "faq_category": "installation"
             }
           },
