@@ -38,10 +38,10 @@
         <div class="blog-tags-wrapper">
           <!-- <span>{{ "blogs.blog.filter_by_tag" | t }}:</span> -->
           <div class="blog-tags-list">
+            <span class="blog-tags-list-item">{{ 'All' | link_to: blog.url }}</span>
             {% for tag in blog.all_tags %}
               <span class="blog-tags-list-item {% if current_tags.first == tag %}current{% endif %}">{{ tag | link_to_tag: tag }}</span>
             {% endfor %}
-            <span class="blog-tags-list-item">{{ 'All' | link_to: blog.url }}</span>
           </div>
         </div>
       {% endif %}
