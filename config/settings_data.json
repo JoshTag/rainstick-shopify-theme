@@ -775,7 +775,7 @@
             "type": "text",
             "settings": {
               "question": "Do you have an installation guide?",
-              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"#newsletter\" target=\"_blank\" title=\"#newsletter\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
+              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
               "faq_category": "installation"
             }
           },
