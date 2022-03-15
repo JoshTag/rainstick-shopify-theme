@@ -24123,4 +24123,11 @@ $(document).on('shopify:section:load', function(e){
 		adaptiveHeight: true,
 		cellAlign: 'center'
 	})
+    
+    
+    $("a#installation-requirements").click(function() {
+      event.preventDefault();
+      var offset = $("#installation-requirements").offset().top - 100;
+      $(window).scrollTop(offset);
+    }
 });
