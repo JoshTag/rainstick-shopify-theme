@@ -751,7 +751,7 @@
             "type": "text",
             "settings": {
               "question": "Can I retrofit RainStick?",
-              "answer": "<p>RainStick is intended for a new build or renovation project. Join our newsletter <a href=\"#bottom\" title=\"#bottom\">here<\/a> to get all the latest updates on models to come.<\/p>",
+              "answer": "<p>RainStick is intended for a new build or renovation project. Join our newsletter <a href=\"#newsletter\" title=\"#newsletter\">here<\/a> to get all the latest updates on models to come.<\/p>",
               "faq_category": "installation"
             }
           },
