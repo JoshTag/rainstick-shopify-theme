@@ -43,7 +43,7 @@
   </div>
   {% endcomment %}
 
-  <span class="post-article-date">{{ article.published_at | date: format: 'short_month' }}</span>
+  <span class="post-article-date">Date: {{ article.published_at | date: format: 'short_month' }}</span>
   <div class="post-image-container"
     {%
       include 'rimg',
