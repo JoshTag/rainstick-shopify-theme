@@ -743,7 +743,7 @@
             "type": "text",
             "settings": {
               "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a>.<\/p>",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a>.<\/p>",
               "faq_category": "installation"
             }
           },
@@ -767,7 +767,7 @@
             "type": "text",
             "settings": {
               "question": "What are the dimensions for the in-floor (or under the floor) collection system?",
-              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a>.<\/p>",
+              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a>.<\/p>",
               "faq_category": "installation"
             }
           },
@@ -775,7 +775,7 @@
             "type": "text",
             "settings": {
               "question": "Do you have an installation guide?",
-              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
+              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
               "faq_category": "installation"
             }
           },
@@ -783,7 +783,7 @@
             "type": "text",
             "settings": {
               "question": "Does the shower floor need to be sloped toward the wall where the RainStick is mounted?",
-              "answer": "<p>Yes, there is a 2% sloped grade. The lowest point in the installation needs to be at the base of RainStick. That is where we pick up the water in the provided catchment reservoir as well as the drain stack. Please see our step-by-step installation guide <a href=\"\/pages\/bathroom-pros#become-a-pro\" target=\"_blank\" title=\"\/pages\/bathroom-pros#become-a-pro\">here<\/a> or reach out to us at pro@rainstickshower.com.<\/p>",
+              "answer": "<p>Yes, there is a 2% sloped grade. The lowest point in the installation needs to be at the base of RainStick. That is where we pick up the water in the provided catchment reservoir as well as the drain stack. Please see our step-by-step installation guide <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a> or reach out to us at pro@rainstickshower.com.<\/p>",
               "faq_category": "installation"
             }
           },
