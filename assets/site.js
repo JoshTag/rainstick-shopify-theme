@@ -24125,9 +24125,9 @@ $(document).on('shopify:section:load', function(e){
 	})
     
     
-    $("#footer").click(function() {
+    $("#newsletter").click(function() {
       $([document.documentElement, document.body]).animate({
-        scrollTop: ($("#footer").offset())
+        scrollTop: ($("#newsletter").offset())
       }, 1200);
     })
     
