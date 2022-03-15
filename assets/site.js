@@ -24125,10 +24125,10 @@ $(document).on('shopify:section:load', function(e){
 	})
     
     
-    $("#newsletter").click(function() {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: ($("#newsletter").offset())
-      }, 1200);
-    })
+//     $("#newsletter").click(function() {
+//       $([document.documentElement, document.body]).animate({
+//         scrollTop: ($("#newsletter").offset())
+//       }, 1200);
+//     })
     
 });
