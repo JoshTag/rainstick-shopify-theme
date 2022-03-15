@@ -24063,7 +24063,7 @@ $(document).ready(function() {
     if (localStorage.getItem('countrySelect') === "Canada" || localStorage.getItem('countrySelect') === "United States" || localStorage.getItem('countrySelect') === "Mexico") {
       console.log('preorder')
       $('.product__step-description.international').html('PREORDER <br> NOW');
-      $('.product__step-text.international').text('Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in mid 2022.');
+      $('.product__step-text.international').text('Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in fall 2022.');
     } else {
       console.log('waitlist')
       $('.product__step-description.international').html("JOIN THE <br> WAITLIST");
