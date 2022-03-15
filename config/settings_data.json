@@ -639,7 +639,7 @@
             "type": "text",
             "settings": {
               "question": "Do you have a solution for bathtubs?",
-              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\"><span style=\"text-decoration:underline\">here.<\/span><\/a><\/p>",
+              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#footer\" title=\"https:\/\/rainstickshower.com\/#footer\"><span style=\"text-decoration:underline\">here.<\/span><\/a><\/p>",
               "faq_category": "using_the_shower"
             }
           },
