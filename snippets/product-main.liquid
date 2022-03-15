@@ -145,7 +145,7 @@
 {% capture product_price_markup %}
   <div class="product-price">
     <span class="price">
-      <span class="pre-order-msg" style="font-style: normal;">Early adopter price</span><br/>
+      <span class="pre-order-msg" style="font-style: normal;">Early adopter price until Aug. 31</span><br/>
       <span class="money money--bold" id="country-msrp"></span><br/>
       <p style="margin: 0; padding: 0;" class="pre-order-msg">Pre-order with {{ price | money_without_trailing_zeros }} <span class="money-currency"></span> refundable deposit</p>
       {% unless product.variants.size == 1 and product.compare_at_price_min <= selectedVariant.price %}
