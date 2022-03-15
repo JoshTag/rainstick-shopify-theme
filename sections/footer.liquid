@@ -83,6 +83,10 @@
       padding: 0 40px;
     }
   }
+  .footer__newsletter-header {
+    padding: 0 40px;
+    margin-top: 20px;
+  }
 </style>
 
 <footer class="footer__ctn">
@@ -103,7 +107,7 @@
       </ul>
     </div>
     <div class="footer__newsletter">
-      <h2>Stay in the loop</h2>
+      <h2 class="footer__newsletter-header">Stay in the loop</h2>
       <form class="newsletter__ctn-inner-2" action="{{ section.settings.newsletter_list }}" method="POST">
         <input type="hidden" name="g" value="Ud3is6" />
         <input required class="newsletter__button" type="text" name="first" placeholder="FIRST NAME"/>
