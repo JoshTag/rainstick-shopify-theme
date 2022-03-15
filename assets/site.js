@@ -24129,5 +24129,5 @@ $(document).on('shopify:section:load', function(e){
       event.preventDefault();
       var offset = $("#installation-requirements").offset().top - 100;
       $(window).scrollTop(offset);
-    }
+    })
 });
