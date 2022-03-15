@@ -24125,9 +24125,9 @@ $(document).on('shopify:section:load', function(e){
 	})
     
     
-    $(".footer-text#installation").click(function() {
-      $([document.documentElement, document.body]).animate({
-        scrollTop: ($("#installation-requirements").offset().top - 100)
-      }, 1200);
-    })
+//     $(".footer-text#installation").click(function() {
+//       $([document.documentElement, document.body]).animate({
+//         scrollTop: ($("#installation-requirements").offset().top - 100)
+//       }, 1200);
+//     })
 });
