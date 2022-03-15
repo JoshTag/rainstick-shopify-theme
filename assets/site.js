@@ -24125,7 +24125,7 @@ $(document).on('shopify:section:load', function(e){
 	})
     
     
-    $("a#installation-requirements").click(function() {
+    $("#installation-requirements").click(function() {
       $([document.documentElement, document.body]).animate({
         scrollTop: ($("#installation-requirements").offset().top - 100)
       }, 1200);
