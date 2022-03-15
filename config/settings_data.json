@@ -743,7 +743,7 @@
             "type": "text",
             "settings": {
               "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"\/bathroom-pros#installation\" target=\"_blank\" title=\"\/bathroom-pros#installation\">here<\/a>.<\/p>",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"\/pages\/bathroom-pros#installation\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation\">here<\/a>.<\/p>",
               "faq_category": "installation"
             }
           },
