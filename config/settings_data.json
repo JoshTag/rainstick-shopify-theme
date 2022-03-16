@@ -651,6 +651,14 @@
               "faq_category": "using_the_shower"
             }
           },
+          "f013d37e-5370-4373-b156-d1ad4a689eb4": {
+            "type": "text",
+            "settings": {
+              "question": "Where is RainStick available for order?",
+              "answer": "<p>RainStick is available for order in North America. Join our international waitlist here to find out when RainStick is available near you.<\/p>",
+              "faq_category": "delivery"
+            }
+          },
           "66769442-1106-4dee-9865-c8ac7487806c": {
             "type": "text",
             "settings": {
@@ -907,12 +915,12 @@
               "faq_category": "delivery"
             }
           },
-          "f013d37e-5370-4373-b156-d1ad4a689eb4": {
+          "952160a3-1271-4c34-b12e-54378031bfe8": {
             "type": "text",
             "settings": {
-              "question": "Where is RainStick available for order?",
-              "answer": "<p>RainStick is available for order in North America. Join our international waitlist here to find out when RainStick is available near you.<\/p>",
-              "faq_category": "delivery"
+              "question": "How do I order more RainStick Original Cleaning Product?",
+              "answer": "<p>All RainStick orders will come with 6 months worth of RainStick Original Cleaning Product. To purchase more please contact us at hello@rainstickshower.com and we'd be happy to assist.<\/p>",
+              "faq_category": "purchase"
             }
           }
         },
@@ -923,6 +931,7 @@
           "7670b859-3636-4453-9079-4c3e32cd064c",
           "278d6670-0d94-41f3-952f-02d149ec2591",
           "37979229-0873-4d83-bcbb-1fa407d3b300",
+          "f013d37e-5370-4373-b156-d1ad4a689eb4",
           "66769442-1106-4dee-9865-c8ac7487806c",
           "02df5142-b050-4866-8e4e-27fb4e7055d9",
           "ffc23857-06c9-4e5c-913a-9980643dd905",
@@ -955,7 +964,7 @@
           "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0",
           "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a",
           "741cc882-4e35-412e-b20b-839cc8b25df1",
-          "f013d37e-5370-4373-b156-d1ad4a689eb4"
+          "952160a3-1271-4c34-b12e-54378031bfe8"
         ],
         "settings": {
         }
