@@ -3,10 +3,44 @@
     display: block;
     text-align: left;
   }
+  .bathroom-pro-form__block input {
+    margin-top: 5px; 
+    background-color: rgba(255,255,255,0.8);
+  }
+  .bathroom-pro-form__block:last-of-type {
+    margin-top: 10px;  
+  }
   @media screen and (min-width: 768px) {
+    .bathroom-pro-form__block {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
     .bathroom-pro-form__block > div {
-	  width: 50%;
+	  width: 49%;
     }    
+  }
+  .bathroom-pro-form .select-wrapper {
+    height: 42px;
+    margin-top: 5px;
+    border: 2px solid #000; 
+    line-height: 0 !important;
+  }
+  .bathroom-pro-form .select-wrapper:after {
+    top: 20px;
+    color: #000;
+  }
+  .bathroom-pro-form .selected-text {
+    color: #000;
+    line-height: 40px !important;
+  }
+  .file-upload-btn {
+    display: block;
+    text-align: left;
+  }
+  .file-upload-text {
+    text-align: left; 
   }
   .bathroom-pro-form button {
     margin-top: 20px;
@@ -260,44 +294,52 @@
   </div>
 </div>
 <div class="bathroom-pro-form__block">
-<!--Email-->
-<label> Email 
-<em>*</em>
-</label>
-<input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="" />
-<!--Phone-->
-<label> Phone 
-<em>*</em>
-</label>
-<input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
+  <div>
+    <!--Email-->
+    <label> Email 
+    <em>*</em>
+    </label>
+    <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="" />
+  </div>
+  <div>
+    <!--Phone-->
+    <label> Phone 
+    <em>*</em>
+    </label>
+    <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
+  </div>
 </div>
 <!--Dropdown-->
 <label>Industry
 <em>*</em>
 </label>
-<select name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
+<select class="bathroom-pro-form__industry" name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
 <option value="Architect">Architect</option>
 <option value="Designer">Designer</option>
 <option value="Contractor">Contractor</option>
 <option value="Plumber">Plumber</option>
 </select>
 <div class="bathroom-pro-form__block">
-<!--Number-->
-<label> Years Experience 
-<em>*</em>
-</label>
-<input type="text" name="Number" value="" maxlength="18" placeholder="" />
-<!--Single Line-->
-<label> 
-Company Name 
-<em>*</em>
-</label>
-<input  type="text" name="SingleLine2" value="" fieldType=1 maxlength="255" placeholder="" />
+  <div>
+    <!--Number-->
+    <label> Years Experience 
+    <em>*</em>
+    </label>
+    <input type="text" name="Number" value="" maxlength="18" placeholder="" />
+  </div>
+  <div>
+    <!--Single Line-->
+    <label> 
+    Company Name 
+    <em>*</em>
+    </label>
+    <input  type="text" name="SingleLine2" value="" fieldType=1 maxlength="255" placeholder="" />
+  </div>
 </div>
 <!--File Upload-->
 <label>Proof of Industry Experience
 <em>*</em>
 </label>
-<input type="file"  name="FileUpload" checktype="c1"/>
-<p> We need to see proof of your industry experience such as certificates, degrees, proof of employment.</p>
+<input class="file-upload-btn" type="file"  name="FileUpload" checktype="c1"/>
+<p class="file-upload-text"> We need to see proof of your industry experience such as certificates, degrees, proof of employment.</p>
 <button type="submit"><em>Submit</em></button></form>
