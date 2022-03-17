@@ -1,10 +1,32 @@
+<style>
+  .bathroom-pro-form label {
+    display: block;
+    text-align: left;
+  }
+  .bathroom-pro-form__4block input {
+     width: 50%; 
+  }
+  .bathroom-pro-form button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background: #02827B;
+    border: 2px solid #02827B;
+    color: #F7EDE2;
+  }
+  .bathroom-pro-form button em {
+    font-style: normal;
+  }
+</style>
+
 <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-<form action='https://forms.zohopublic.com/pledgeresourcemanagersincdbara/form/BathroomPro/formperma/EdbNyyRhp8BHX4YQqBFtK2KcGEBx8m5z8sd-NzvDTZ8/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+<form class="bathroom-pro-form" action='https://forms.zohopublic.com/pledgeresourcemanagersincdbara/form/BathroomPro/formperma/EdbNyyRhp8BHX4YQqBFtK2KcGEBx8m5z8sd-NzvDTZ8/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
 <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
 <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
 <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
 <h2>Bathroom Pro</h2>
 <p>Thanks for your interest in the RainStick Bathroom Pro Program. Please fill out the details below and someone from our team will be in touch with you shortly.</p>
+<div class="bathroom-pro-form__4block">
 <!--Single Line-->
 <label> 
 First Name 
@@ -23,6 +45,7 @@ City
 <em>*</em>
 </label>
 <input  type="text" name="SingleLine3" value="" fieldType=1 maxlength="255" placeholder="" />
+</div>
 <!--Dropdown-->
 <label>Country
 <em>*</em>
@@ -234,7 +257,6 @@ City
 <em>*</em>
 </label>
 <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
-<label>Number</label>
 <!--Dropdown-->
 <label>Industry
 <em>*</em>
