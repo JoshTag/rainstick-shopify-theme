@@ -1518,21 +1518,27 @@
             "type": "column",
             "settings": {
               "title": "Got Questions?",
-              "content": "We’ve got answers. Check out our FAQ section"
+              "content": "We’ve got answers. Check out our FAQ section",
+              "link": "shopify:\/\/pages\/faq",
+              "link_label": "GO TO FAQ"
             }
           },
           "57a17511-7d85-4b2e-8b57-7e14deb8f67a": {
             "type": "column",
             "settings": {
-              "title": "GO TO FAQ",
-              "content": ""
+              "title": "Are you a bathroom professional?",
+              "content": "Learn more about our RainStick Pro Program",
+              "link": "shopify:\/\/pages\/bathroom-pros",
+              "link_label": "LEARN MORE"
             }
           },
           "cf4eea2f-c99b-477f-92cf-e55764be7ba2": {
             "type": "column",
             "settings": {
-              "title": "",
-              "content": ""
+              "title": "Do you have a project in mind?",
+              "content": "Let us help",
+              "link": "shopify:\/\/pages\/contact-us",
+              "link_label": "REACH OUR TO OUR TEAM"
             }
           }
         },
