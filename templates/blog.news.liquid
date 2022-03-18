@@ -26,13 +26,13 @@
         </div>
       </div>
 
-      <div id="latest-news-section" class="post-wrapper blogs" style="display: none;">
+      <div id="latest-news-section" class="post-wrapper blogs">
         {% for article in blog.articles %}
           {% include 'article-card' %}
         {% endfor %}
       </div>
 
-      <div id="press-kit-section" class="">
+      <div id="press-kit-section" class=""  style="display: none;">
         {% section 'press-kit' %}
       </div>
     </div>
