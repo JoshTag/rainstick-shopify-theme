@@ -1513,6 +1513,34 @@
       },
       "164624203303cbbb3e": {
         "type": "index-three-columns",
+        "blocks": {
+          "b1c016e3-359d-4535-b2db-d0afa6f978d7": {
+            "type": "column",
+            "settings": {
+              "title": "Got Questions?",
+              "content": "We’ve got answers. Check out our FAQ section"
+            }
+          },
+          "57a17511-7d85-4b2e-8b57-7e14deb8f67a": {
+            "type": "column",
+            "settings": {
+              "title": "GO TO FAQ",
+              "content": ""
+            }
+          },
+          "cf4eea2f-c99b-477f-92cf-e55764be7ba2": {
+            "type": "column",
+            "settings": {
+              "title": "",
+              "content": ""
+            }
+          }
+        },
+        "block_order": [
+          "b1c016e3-359d-4535-b2db-d0afa6f978d7",
+          "57a17511-7d85-4b2e-8b57-7e14deb8f67a",
+          "cf4eea2f-c99b-477f-92cf-e55764be7ba2"
+        ],
         "settings": {
           "header": ""
         }
