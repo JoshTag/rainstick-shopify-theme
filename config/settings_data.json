@@ -1420,6 +1420,9 @@
       "b2b-intro": {
         "type": "b2b-intro",
         "settings": {
+          "header": "",
+          "subheader": "Below you’ll find all of the materials you need to get going on your indoor or outdoor shower remodel. At any time you can reach out to us at <span class=\"link-green\">pro@rainstickshower.com<\/span> and we’ll be happy to help.",
+          "subheader_two": "Make sure you check out the details <a href=\"#shopify-section-b2b-installation-requirements\" class=\"link-green\">here<\/a>."
         }
       },
       "b2b-nav-icons": {
