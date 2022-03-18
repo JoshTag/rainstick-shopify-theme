@@ -1,14 +1,16 @@
 <div class="background__grey" style="position:relative">
   <div class="homepage__3-images">
+    {% for block in section.blocks %}
       <div class="homepage__3image-ctn homepage__3image-ctn-img-1">
         <div class='chunk-ctn' style="text-align:center">
-        <h3 class="subheading_chunk-ctn">Got Questions?</h3>
-        <p class="body__black-thin">
-          We’ve got answers. Check out our FAQ section
-        </p>
-        <a href="pages/faq" class='greenoutline-button'>GO TO FAQ</a>
-       </div>
+          <h3 class="subheading_chunk-ctn">Got Questions?</h3>
+          <p class="body__black-thin">
+            We’ve got answers. Check out our FAQ section
+          </p>
+          <a href="pages/faq" class='greenoutline-button'>GO TO FAQ</a>
+        </div>
       </div>
+    {% endfor %}
       <div class="homepage__3image-ctn homepage__3image-ctn-img-1">
         <div class='chunk-ctn' style="text-align:center">
         <h3 class="subheading_chunk-ctn">Are you a bathroom professional?</h3>
@@ -65,6 +67,16 @@
               "type": "textarea",
               "id": "content",
               "label": "Content"
+            },
+            {
+              "type": "url",
+              "id": "link",
+              "label": "Link"
+            },
+            {
+              "type": "text",
+              "id": "link_label",
+              "label": "Link label"
             }
           ]
       }
