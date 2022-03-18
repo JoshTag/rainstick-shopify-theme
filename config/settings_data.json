@@ -1250,7 +1250,9 @@
       "16458009295e4c83ed": {
         "type": "hero",
         "settings": {
-          "background": "shopify:\/\/shop_images\/IndustrialMinimal_Mod_2X_030222_c7208ee0-2738-413c-82f7-bceb53ef4fc4.png"
+          "background": "shopify:\/\/shop_images\/IndustrialMinimal_Mod_2X_030222_c7208ee0-2738-413c-82f7-bceb53ef4fc4.png",
+          "header": "Shower better today,<br>For a better tomorrow",
+          "subheader": "Saving you 80% water and 80% energy with 2X the flow rate.<br>       A shower experience like no other."
         }
       },
       "press-kit": {
