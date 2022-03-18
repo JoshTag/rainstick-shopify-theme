@@ -1437,6 +1437,10 @@
       "b2b-how-it-works": {
         "type": "b2b-how-it-works",
         "settings": {
+          "content": "RainStick began because (like most of us) we loved long, \n          hot showers but felt guilty about wasting water. \n          The only option at the time was a low-flow compromise, \n          which would negatively impact our shower experience. \n          So we started to re-imagine the status-quo and invented an impressive, \n          high flow shower system that saves 80% water and up to 80% energy",
+          "video": "<iframe style=\"width:100%\" src=\"https:\/\/www.youtube.com\/embed\/Nb2oXiaOjt0\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+          "link": "shopify:\/\/pages\/how-it-works",
+          "link_label": "LEARN OUR STORY"
         }
       },
       "b2b-why-become-a-bathroom-pro": {
