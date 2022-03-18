@@ -171,8 +171,8 @@
 <div class="hero__container" {{ background_image }}>
   <div class="hero__content--top" style="position:relative;">
       <div class="hero-blob"></div>
-    <h1>Shower better today,<br>For a better tomorrow </h1>
-    <p>Saving you 80% water and 80% energy with 2X the flow rate.<br>
+    <h1>{{ section.settings.header }}Shower better today,<br>For a better tomorrow </h1>
+    <p>{{ section.settings.subheader }}Saving you 80% water and 80% energy with 2X the flow rate.<br>
       A shower experience like no other.</p>
     <div class="hero__buttons">
       <a href="/pages/select-destination">ORDER NOW</a>
@@ -197,9 +197,19 @@
     "name": "Hero",
     "settings": [
 	  {
-      "id": "background",
-      "type": "image_picker",
-      "label": "Background image"
+        "id": "background",
+        "type": "image_picker",
+        "label": "Background image"
+      },
+	  {
+        "id": "header",
+        "type": "text",
+        "label": "Header"
+      },
+	  {
+        "id": "subheader",
+        "type": "text",
+        "label": "subheader"
       }
 	],
     "presets": [
