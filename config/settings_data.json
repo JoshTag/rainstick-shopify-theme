@@ -1428,6 +1428,10 @@
       "b2b-nav-icons": {
         "type": "b2b-nav-icons",
         "settings": {
+          "header_one": "How it <br>Works",
+          "header_two": "Bathroom<br>Pro Program",
+          "header_three": "Technical<br>Specifications",
+          "header_four": "Installation<br>Requirements"
         }
       },
       "b2b-how-it-works": {
