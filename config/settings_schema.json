@@ -284,9 +284,20 @@
     "settings": [
       {
         "type": "textarea",
-        "id": "installation_gude",
+        "id": "installation_guide",
         "label": "Installation guide",
         "info": "Upload guide to files then paste url into here"
+      }
+    ]
+  },
+  {
+    "name": "Technical Document",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "technical_document",
+        "label": "Technical Document",
+        "info": "Upload doc to files then paste url into here"
       }
     ]
   }
