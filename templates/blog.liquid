@@ -47,13 +47,16 @@
       {% endif %}
 
       <div class="post-wrapper blogs">
-        {% for article in blog.articles %}
-          {% include 'article-card' %}
-        {% else %}
+        {% paginate blog.articles by 5 %}
+          {% for article in blog.articles %}
+            {% include 'article-card' %}
+          {% else %}
+        
           <div class="empty">
             <p>{{ "blogs.blog.empty" | t }}</p>
           </div>
         {% endfor %}
+        {% endpaginate %}
       </div>
     </div>
   </div>
