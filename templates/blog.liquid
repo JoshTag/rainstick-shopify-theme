@@ -46,17 +46,16 @@
         </div>
       {% endif %}
 
-      <div class="post-wrapper blogs">
-        {% paginate blog.articles by 5 %}
+      {% paginate blog.articles by 5 %}
+        <div class="post-wrapper blogs">
           {% for article in blog.articles %}
-              {% include 'article-card' %}
-            {% else %}
-
+            {% include 'article-card' %}
+          {% else %}
             <div class="empty">
               <p>{{ "blogs.blog.empty" | t }}</p>
             </div>
           {% endfor %}
-        
+        </div>
         <div class="blog-pagination">
           {% if paginate.previous.is_link %}
             <a href="{{ paginate.previous.url }}">{{ paginate.previous.title }}</a>
@@ -66,9 +65,7 @@
             <a href="{{ paginate.next.url }}">{{ paginate.next.title }}</a>
           {% endif %}
         </div>
-        
-        {% endpaginate %}
-      </div>
+      {% endpaginate %}
     </div>
   </div>
 </div>
