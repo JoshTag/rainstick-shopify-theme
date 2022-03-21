@@ -1388,6 +1388,7 @@
           },
           "9820cdd3-29b2-4011-8ba0-36fe326ecfc9": {
             "type": "Slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
               "name": "Lisa Zebra",
@@ -1397,6 +1398,7 @@
           },
           "eef449de-d2ad-43f4-be06-df899b8bd718": {
             "type": "Slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
               "name": "Ron Miller",
