@@ -26,11 +26,22 @@
         </div>
       </div>
 
-      <div id="latest-news-section" class="post-wrapper blogs">
-        {% for article in blog.articles %}
-          {% include 'article-card' %}
-        {% endfor %}
-      </div>
+      {% paginate blog.articles by 5 %}
+        <div id="latest-news-section" class="post-wrapper blogs">
+          {% for article in blog.articles %}
+            {% include 'article-card' %}
+          {% endfor %}
+        </div>
+        <div class="blog-pagination">
+          {% if paginate.previous.is_link %}
+          <a href="{{ paginate.previous.url }}">{{ paginate.previous.title }}</a>
+          {% endif %}
+          <div>page {{ paginate.current_page }} of {{paginate.pages}}</div>
+          {% if paginate.next.is_link %}
+          <a href="{{ paginate.next.url }}">{{ paginate.next.title }}</a>
+          {% endif %}
+        </div>
+      {% endpaginate %}
 
       <div id="press-kit-section" class=""  style="display: none;">
         {% section 'press-kit' %}
