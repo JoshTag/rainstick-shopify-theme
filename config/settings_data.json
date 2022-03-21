@@ -29,7 +29,8 @@
     "social_youtube_url": "",
     "social_rss_url": "",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "installation_gude": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193",
+    "technical_document": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RAINSTICK_SHOWER-TECHNICAL_DOCUMENT-2.pdf?v=1647873767",
+    "pre_installation_checklist": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_03.11.pdf?v=1647873753",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/favicon.png",
     "checkout_logo_position": "left",
@@ -44,6 +45,7 @@
     "checkout_accent_color": "#02827b",
     "checkout_button_color": "#02827b",
     "checkout_error_color": "#e32c2b",
+    "installation_gude": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193",
     "theme-primary-color-hover": "#0288b5",
     "sections": {
       "static-slideshow": {
