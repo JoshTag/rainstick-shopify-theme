@@ -1321,7 +1321,10 @@
         ],
         "settings": {
           "blog": "news",
-          "logo_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Credibility_Boosting_LOGOS_-20220301T212313Z-001.zip?v=1646169822"
+          "logo_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Credibility_Boosting_LOGOS_-20220301T212313Z-001.zip?v=1646169822",
+          "logo_one": "shopify:\/\/shop_images\/Logomark_-_Black_--01.png",
+          "logo_two": "shopify:\/\/shop_images\/Logomark_-_Black_--02.png",
+          "logo_three": "shopify:\/\/shop_images\/Logomark_-_Black_--03.png"
         }
       },
       "1645806243d64b1a99": {
