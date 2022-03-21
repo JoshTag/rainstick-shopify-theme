@@ -300,5 +300,16 @@
         "info": "Upload doc to files then paste url into here"
       }
     ]
+  },
+  {
+    "name": "Pre-Installation checklist",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "pre_installation_checklist",
+        "label": "Pre-Installation checklist",
+        "info": "Upload doc to files then paste url into here"
+      }
+    ]
   }
 ]
