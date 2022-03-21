@@ -61,12 +61,14 @@ window.onload = function() {
   let newsSection = document.getElementById('latest-news-section');
   let pressTrigger = document.getElementById('press-kit-trigger');
   let pressSection = document.getElementById('press-kit-section');
+  let pagination = document.querySelector('.blog-pagination');
 
   newsTrigger.addEventListener('click', function(){
     this.classList.add("active");
     pressTrigger.classList.remove("active");
     newsSection.style.display = "grid";
     pressSection.style.display = "none";
+    pagination.style.display = "none";
   })
 
   pressTrigger.addEventListener('click', function(){
@@ -74,6 +76,7 @@ window.onload = function() {
     newsTrigger.classList.remove("active");
     newsSection.style.display = "none";
     pressSection.style.display = "block";
+     pagination.style.display = "flex";
   })
 
 
