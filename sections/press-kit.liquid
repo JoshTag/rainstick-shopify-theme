@@ -6,16 +6,16 @@
   <h2 class="press-kit__header">Featured In</h2>
   <div class="press-kit__logo-container">
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'press-kit__logo' -%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      <img src="{{ section.settings.logo_one }}" />
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'press-kit__logo'%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      <img src="{{ section.settings.logo_two }}" />
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'press-kit__logo' -%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      <img src="{{ section.settings.logo_three }}" />
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
   </div>
 </div>
@@ -71,21 +71,21 @@
       "label": "Logo package",
       "info": "Upload guide to files then paste url into here"
     },
-	  {
-        "id": "logo_one",
-		"type": "image_picker",
-		"label": "Logo one"
-      },
-	  {
-        "id": "logo_two",
-		"type": "image_picker",
-		"label": "Logo two"
-      },
-	  {
-        "id": "logo_three",
-		"type": "image_picker",
-		"label": "Logo three"
-      }
+    {
+      "id": "logo_one",
+      "type": "image_picker",
+      "label": "Logo one"
+    },
+    {
+      "id": "logo_two",
+      "type": "image_picker",
+      "label": "Logo two"
+    },
+    {
+      "id": "logo_three",
+      "type": "image_picker",
+      "label": "Logo three"
+    }
   ],
   "blocks": [
     {
