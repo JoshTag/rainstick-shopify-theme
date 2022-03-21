@@ -61,7 +61,7 @@
           {% if paginate.previous.is_link %}
             <a href="{{ paginate.previous.url }}">{{ paginate.previous.title }}</a>
           {% endif %}
-          {{ paginate.current_page }} - {{paginate.pages}}
+            <div>{{ paginate.current_page }} - {{paginate.pages}}</div>
           {% if paginate.next.is_link %}
             <a href="{{ paginate.next.url }}">{{ paginate.next.title }}</a>
           {% endif %}
