@@ -6,15 +6,15 @@
   <h2 class="press-kit__header">Featured In</h2>
   <div class="press-kit__logo-container">
     <div class="press-kit__logo-item">
-      <img src="{{ section.settings.logo_one | img_url: '300x300' }}" />
+      {%- render 'rainstick-media-logos', name: 'Wall Street Journal', icon_class: 'press-kit__logo' -%}
 <!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      <img src="{{ section.settings.logo_two | img_url: '300x300' }}" />
+      {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'press-kit__logo'%}
 <!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      <img src="{{ section.settings.logo_three | img_url: '300x300' }}" />
+      {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'press-kit__logo' -%}
 <!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
   </div>
