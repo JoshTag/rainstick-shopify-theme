@@ -22,7 +22,12 @@
   </h2>
 
   <div class="article-card__excerpt rte">
-    {{ article.excerpt_or_content | truncate: 200  }}
+    {% if forloop.first == true  %}
+      {{ article.excerpt_or_content | truncate: 300  }}
+    {% else %}
+      {{ article.excerpt_or_content | truncate: 200  }}
+    {% endif %}
+    
   </div>
 
   <a class="article-card__read-more" href="{{ article.url }}">
