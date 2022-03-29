@@ -5,7 +5,7 @@
     "heading-text-color": "#2a2725",
     "body-text-color": "#2a2725",
     "border-color": "rgba(0,0,0,0)",
-    "body-background-color": "#f7ede2",
+    "body-background-color": "#f8f6f6",
     "font_body": "poppins_n3",
     "font_headings": "poppins_n5",
     "font_buttons": "poppins_n6",
@@ -29,8 +29,6 @@
     "social_youtube_url": "",
     "social_rss_url": "",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "technical_document": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RAINSTICK_SHOWER-TECHNICAL_DOCUMENT-2.pdf?v=1647873767",
-    "pre_installation_checklist": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_03.11.pdf?v=1647873753",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/favicon.png",
     "checkout_logo_position": "left",
@@ -45,7 +43,6 @@
     "checkout_accent_color": "#02827b",
     "checkout_button_color": "#02827b",
     "checkout_error_color": "#e32c2b",
-    "installation_gude": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193",
     "theme-primary-color-hover": "#0288b5",
     "sections": {
       "static-slideshow": {
@@ -217,7 +214,7 @@
       "static-header": {
         "type": "static-header",
         "settings": {
-          "menu": "main-menu",
+          "menu": "main",
           "header_sticky": true,
           "show_cart": true,
           "drawer_social_icons": false,
@@ -537,9 +534,7 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "installation_guide": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Pro_Guide_1.pdf?v=1636399804",
-          "footer_menu_1": "footer-menu-1",
-          "footer_menu_2": "footer-menu-2"
+          "installation_guide": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_1.pdf?v=1646480468"
         }
       },
       "dimensions-details": {
@@ -549,7 +544,7 @@
             "type": "text",
             "settings": {
               "title": "Dimensions (Size)",
-              "content": "<b>Height: 81.75 inches (2075mm) <br>\n<b>Width: 7.8 inches (200mm)<br>\n<b>Depth: 3.78 inches (96mm)<\/b><\/b><\/b>"
+              "content": "<b>Height:  81.75 inches (2075mm) <br>\n<b>Width: 7.8 inches (200mm)\n <br>\n<b>Depth: 3.78\" (96mm) <\/b><\/b><\/b>"
             }
           },
           "13f5169e-229a-45b3-9c52-7ba6be489cfb": {
@@ -570,7 +565,7 @@
             "type": "text",
             "settings": {
               "title": "What's Included",
-              "content": "RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<li>6-months supply of RainStick Original Cleaning Product<\/li>\n<ul><\/ul>\n<\/ul>"
+              "content": "RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<ul><\/ul>\n<\/ul>"
             }
           }
         },
@@ -588,7 +583,8 @@
       "installation-button": {
         "type": "installation-button",
         "settings": {
-          "label": "ACCESS THE RAINSTICK INSTALLATION CHECKLIST"
+          "label": "ACCESS THE RAINSTICK INSTALLATION CHECKLIST",
+          "install": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_7e5faefe-6a12-4e51-8521-463c540a0c65.pdf?v=1645625193"
         }
       },
       "product-page-columns": {
@@ -596,8 +592,8 @@
         "settings": {
           "header_one": "CHECK YOUR BATHROOM",
           "content_one": "To start, check your bathroom set up to ensure you have (or will have) (1) a tiled bathroom surface and (2) a shower stall as RainStick is not compatible with bathtub inserts or shower floor plates.",
-          "header_two": "ORDER NOW<br>",
-          "content_two": "Secure your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will ship in November 2022.",
+          "header_two": "PREORDER <br> NOW",
+          "content_two": "Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in mid 2022.",
           "header_three": "INSTALL &<br> ENJOY",
           "content_three": "You will receive a RainStick system inclusive of all parts and sub-floor reservoir, ready for installation by your preferred bathroom professional."
         }
@@ -608,321 +604,92 @@
           "917e5c37-9047-4f3f-b165-383145459438": {
             "type": "text",
             "settings": {
-              "question": "Does RainStick heat the water as it is recirculated?",
-              "answer": "<p>Yes, RainStick adds a small amount of heated fresh grid supplied water that refreshes the loop and keeps the heat warm as is circulates. <\/p>",
-              "faq_category": "using_the_shower"
+              "question": "Don’t we have a lot of water in North America? Why do we need to save it?",
+              "answer": "<p>There are many reasons to save water! Water infrastructure in cities is outdated and is not built to support population growth and urbanization, which will likely lead to higher water taxes and water supply shortages in the future.<\/p><p>The environmental impact brought on by climate change in recent years has affected our water supply, already creating shortages in some areas. Saving water also cuts down on energy consumption, energy production emissions, and the use of chemicals for water treatments.<\/p>"
             }
           },
           "511018b6-dd0a-479c-ae46-b469fa3f9430": {
             "type": "text",
             "settings": {
-              "question": "I usually turn off the tap between shampooing and soaping to conserve water. Will I no longer have to do this with my RainStick?",
-              "answer": "<p>RainStick uses over 80% less water per shower session. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water and RainStick uses approximately 15 liters. Because the system circulates and cleans in real time, you're less worried about turning off the tap while shampooing.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>",
-              "faq_category": "using_the_shower"
+              "question": "Is installing a RainStick more difficult than a traditional shower?",
+              "answer": "<p>Not at all! Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have. <\/p>"
             }
           },
           "6a591f7e-88c6-4efb-ad5d-5c96a13d2082": {
             "type": "text",
             "settings": {
-              "question": "Do I have to use WiFi?",
-              "answer": "<p>A WIFI Connection is not mandatory but we do recommend using WiFi for the full user experience of RainStick. When not connected to WiFi, some key features such as remote software updates, descaler replacement cycles and the ability to track water and energy savings will not be available.<\/p>",
-              "faq_category": "using_the_shower"
+              "question": "When will I begin to see my ROI with my purchase of RainStick?",
+              "answer": "<p>With RainStick’s technology, an average family of five sees a return on investment (ROI) in 3-5 years depending on your local water and energy costs. Calculate your ROI <a href=\"https:\/\/rainstickshower.com\/#saving-calc-page\" target=\"_blank\" title=\"Savings calc\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong> <\/strong><\/a><\/p>"
             }
           },
           "7670b859-3636-4453-9079-4c3e32cd064c": {
             "type": "text",
             "settings": {
-              "question": "What happens if the power goes off?",
-              "answer": "<p>A power connection is required in order to operate the RainStick Shower.<\/p>",
-              "faq_category": "using_the_shower"
+              "question": "What is included with a RainStick purchase?",
+              "answer": "<p>Everything you need for an effective installation and elevated shower experience! RainStick arrives as a packaged system inclusive of all of the necessary components for a high-flow shower experience and a straightforward installation. <\/p>"
             }
           },
           "278d6670-0d94-41f3-952f-02d149ec2591": {
             "type": "text",
             "settings": {
-              "question": "Do you have a solution for bathtubs?",
-              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"#newsletter\" title=\"#newsletter\"><span style=\"text-decoration:underline\">here.<\/span><\/a><\/p>",
-              "faq_category": "using_the_shower"
+              "question": "When is the best time to install a RainStick?",
+              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>"
             }
           },
           "37979229-0873-4d83-bcbb-1fa407d3b300": {
             "type": "text",
             "settings": {
-              "question": "Can I control temperature, flow and operations made by voice command?",
-              "answer": "<p>Yes, a virtual assistant (Alexa or Siri) allows you to turn RainStick on. Our RainStick app allows you to monitor maintenance, temperature control and water savings.<\/p>",
-              "faq_category": "using_the_shower"
-            }
-          },
-          "f013d37e-5370-4373-b156-d1ad4a689eb4": {
-            "type": "text",
-            "settings": {
-              "question": "Where is RainStick available for order?",
-              "answer": "<p>RainStick is available for order in North America. Join our international waitlist here to find out when RainStick is available near you.<\/p>",
-              "faq_category": "delivery"
+              "question": "Can I install RainStick in my off-grid home?",
+              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"https:\/\/rainstickshower.com\/products\/rainstick-shower\/#installation-btn\" target=\"_blank\" title=\"Installation Guide\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><strong>.<\/strong><\/a><\/p>"
             }
           },
           "66769442-1106-4dee-9865-c8ac7487806c": {
             "type": "text",
             "settings": {
-              "question": "How does RainStick clean the water in real time?",
-              "answer": "<p>RainStick water goes through a 3-stage process that removes larger hair and debris, and even kills bacteria and viruses.<br\/><br\/>The 3 Stages<br\/><br\/>1. Through the use of a micron filter, larger debris, including hair and dirt, is removed.<br\/>2. RainStick continuously refreshes with a tiny amount of hot water to cleanse the loop of shampoo and soap.<br\/>3. For redundancy purposes, an intense, long-life UV-LED is used, which disinfects water from any bacteria or viruses from the shower. The system does not store water in-between sessions. <br\/><br\/>At any time, you can also select the traditional shower mode if cleaning the shower stall or washing a pet for example.<br\/><br\/>Learn more about how RainStick Works <a href=\"\/pages\/how-it-works\" target=\"_blank\" title=\"How It Works\">here<\/a><\/p>",
-              "faq_category": "hygiene"
+              "question": "Can I still shower if something within the system needs attention or repair?",
+              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>"
             }
           },
           "02df5142-b050-4866-8e4e-27fb4e7055d9": {
             "type": "text",
             "settings": {
-              "question": "What happens if someone pees during a shower?",
-              "answer": "<p>Firstly, stop peeing in the shower ;) RainStick has two modes (1) circular mode where water recirculates through the system and (2) traditional mode where water goes directly from the showerhead down the drain. In both modes, RainStick continues with 3-stage cleansing that includes UV treatment to address bacteria and viruses, a 200 micron pre-screen and continuous hot water to refresh the loop in real-time.<\/p>",
-              "faq_category": "hygiene"
+              "question": "Do you have a solution for bathtubs?",
+              "answer": "<p>Not yet, but we are looking into making different versions for different applications. Stay tuned to see what is coming in the future. Be among the first to know, sign up for our newsletter <a href=\"https:\/\/rainstickshower.com\/#newsletter-ctn\" target=\"_blank\" title=\"rainstick newsletter signup\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span>.<\/a><\/p>"
             }
           },
           "ffc23857-06c9-4e5c-913a-9980643dd905": {
             "type": "text",
             "settings": {
-              "question": "Does RainStick use greywater?",
-              "answer": "<p>No, RainStick uses fresh grid supplied water for every shower. When your shower is done, water goes down the drain. RainStick does not store water in the system between sessions and the system automatically cleans itself in between sessions.<\/p>",
-              "faq_category": "hygiene"
+              "question": "I like to turn off the tap between shampooing and soaping to conserve water. Does this mean I no longer have to do this with RainStick?",
+              "answer": "<p>RainStick is designed to use a fixed 5-8L of water. To put that number into perspective, a traditional 10-minute shower in North America uses approximately 100L of water. Because the system circulates and cleans in real time, you no longer have the requirement of turning off the tap to conserve water.<\/p><p>Additionally, because of circulation we are also not dependent on what the grid supplies and can boost the flow rate. A traditional shower has a flow rate of 1.8-2.2 GPM (depending on the municipality) and RainStick's is approximately 3 GPM.<\/p>"
             }
           },
           "de64846a-c1e6-488b-a46d-535487e4c689": {
             "type": "text",
             "settings": {
-              "question": "Am I using someone else's water?",
-              "answer": "<p>No! Every user gets fresh grid supplied water for their shower. Once you're done, the water goes down the drain and the system undergoes an automatic cleaning cycle that sets up for the next user. <\/p>",
-              "faq_category": "hygiene"
+              "question": "How do I know how much water I’m saving?",
+              "answer": "<p>After every shower session, the savings are visualized on the digital control. The usage data is also sent to the cloud so that you can view your water and energy savings on the web and on the app.<\/p>"
             }
           },
           "ca85ae65-0d30-401c-a8d7-50badf6081e8": {
             "type": "text",
             "settings": {
-              "question": "What are the finishes?",
-              "answer": "<p>For our limited 2022 production run we are offering a brushed nickel and matte black finish.<\/p>",
-              "faq_category": "purchase"
+              "question": "Do you have a bathroom pro (trades) program?",
+              "answer": "<p>Yes we do! Please reach out to us at <a href=\"mailto:hello@rainstickshower.com\"><span style=\"text-decoration:underline\">hello@rainstickshower.com<\/span><\/a> with the subject: “I’m a Bathroom Pro” for more information.<\/p>"
             }
           },
           "05bfe0f4-e47f-47df-acca-37eb781f78a0": {
             "type": "text",
             "settings": {
-              "question": "What's included with my RainStick purchase?",
-              "answer": "<p>RainStick arrives inclusive of all of the necessary components for a high-flow shower experience including the appliance, a shower head and a sub-floor reservoir.<\/p>",
-              "faq_category": "purchase"
+              "question": "Do you also offer a handheld with RainStick?",
+              "answer": "<p>Yes, you have the option of purchasing a RainStick handheld to go with your system. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. More details will be available when RainStick is ready to ship in 2022.<\/p>"
             }
           },
           "3784ba62-61d1-41ba-b63a-d96d42a975f0": {
             "type": "text",
             "settings": {
-              "question": "How often do I need to purchase the RainStick Original Cleaning Product?",
-              "answer": "<p>The RainStick Original Cleaning product will needed to be topped up on average monthly. We are providing 6 months worth with the purchase of your RainStick. <\/p>",
-              "faq_category": "purchase"
-            }
-          },
-          "587bcd51-4b04-4d2f-b0eb-ace5f54a1755": {
-            "type": "text",
-            "settings": {
-              "question": "Where is RainStick availble for order?",
-              "answer": "<p>RainStick is available to pre-order in North America. If you're not in North America, be sure to sign up to our international waitlist found <a href=\"\/pages\/waitlist\" target=\"_blank\" title=\"waitlist\">here<\/a> and we'll be sure to let you know when RainStick is available in your region.   <\/p>",
-              "faq_category": "purchase"
-            }
-          },
-          "4728e973-0c3b-4aec-9617-d928ffbb6dc4": {
-            "type": "text",
-            "settings": {
-              "question": "I want a RainStick but it's not availlable near me, what can I do?",
-              "answer": "<p>We do have an international waitlit found <a href=\"\/pages\/waitlist\" target=\"_blank\" title=\"waitlist\">here<\/a> that you can join to be kept in the loop of when RainStick will be available near you.<\/p>",
-              "faq_category": "purchase"
-            }
-          },
-          "de50bd57-9977-4dc3-949e-956e22888ede": {
-            "type": "text",
-            "settings": {
-              "question": "Do you have handheld option available for purchase?",
-              "answer": "<p>Yes, RainStick comes with an optional handheld. We’ve found from speaking with a lot of people, some people use handhelds while others do not. The choice is yours to include a handheld with your RainStick purchase. <\/p>",
-              "faq_category": "purchase"
-            }
-          },
-          "6877ae5b-4828-46c0-811e-7e5649a35bef": {
-            "type": "text",
-            "settings": {
-              "question": "Is installing a RainStick more difficult than a traditional shower?",
-              "answer": "<p>Any bathroom professional can follow our manual to install RainStick in your home. Our team is readily available to answer any questions you may have.For special benefits, have your bathroom professional reach out to our team at pro@rainstickshower.com and we're happy to get them set up with our bathroom pro program. <\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "312134ae-9f13-4ac4-90b4-d447583f3311": {
-            "type": "text",
-            "settings": {
-              "question": "Can I install RainStick in my off-grid home?",
-              "answer": "<p>Yes you can, assuming you fulfil the installation requirements, found <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a>.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "fbd58e36-b4f9-46b4-b0c9-aa008b458cb1": {
-            "type": "text",
-            "settings": {
-              "question": "Can I retrofit RainStick?",
-              "answer": "<p>RainStick is intended for a new build or renovation project. Join our newsletter <a href=\"#newsletter\" title=\"#newsletter\">here<\/a> to get all the latest updates on models to come.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "88757608-e03f-4858-938f-4054b3e7fb16": {
-            "type": "text",
-            "settings": {
-              "question": "When should I install my RainStick?",
-              "answer": "<p>Any time you like! But we typically see our customers install RainStick Showers during a bathroom renovation, remodel, or new build project.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "0c1055c7-2fe0-466f-9145-c2b9c1733c5f": {
-            "type": "text",
-            "settings": {
-              "question": "What are the dimensions for the in-floor (or under the floor) collection system?",
-              "answer": "<p>The dimensions: 20\"\" x 8.89\"\" x 1.25\"\"  (508mm x 225.8mm x 31.75mm). More information about the installation process can be found <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a>.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "0d829cb6-f6f0-4132-84c5-03db53d7b16a": {
-            "type": "text",
-            "settings": {
-              "question": "Do you have an installation guide?",
-              "answer": "<p>Yes, the RainStick installation guide can be downloaded <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a> or we would be happy to provide more information. You an contact us at hello@rainstickshower.com<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "f5a1ed2c-86c6-41a8-89b8-6b1fa9fb4bb5": {
-            "type": "text",
-            "settings": {
-              "question": "Does the shower floor need to be sloped toward the wall where the RainStick is mounted?",
-              "answer": "<p>Yes, there is a 2% sloped grade. The lowest point in the installation needs to be at the base of RainStick. That is where we pick up the water in the provided catchment reservoir as well as the drain stack. Please see our step-by-step installation guide <a href=\"\/pages\/bathroom-pros#installation-requirements\" target=\"_blank\" title=\"\/pages\/bathroom-pros#installation-requirements\">here<\/a> or reach out to us at pro@rainstickshower.com.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "53a2f9cc-c2bb-46d1-939a-7021a0e1cd29": {
-            "type": "text",
-            "settings": {
-              "question": "Is plumbing inside the unit or behind?",
-              "answer": "<p>Plumbing for the product is contained within the appliance itself.  Hot\/cold supply along with 120V electrical connection is all that's required at the back of RainStick. <\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "7f528b72-3a6a-4dc9-8910-a077298e8f2b": {
-            "type": "text",
-            "settings": {
-              "question": "What certifications does RainStick have?",
-              "answer": "<p>The system has UL certification. Many of our sub components are also individually certified. <\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "9e3632b0-6def-46be-bca3-3d64f8b7cd9a": {
-            "type": "text",
-            "settings": {
-              "question": "Can I install RainStick if our home is built on a slab?",
-              "answer": "<p>If your house is built slab on grade, that shouldn't be a problem. When RainStick is installed, the drain or the \"sewer stack\" will need to be positioned at the foot of the appliance and the shower stall will require a curb.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "c902c451-a1e6-4cd0-ab64-802d0cdd1fb3": {
-            "type": "text",
-            "settings": {
-              "question": "Can I use my RainStick if I have a water softener system?",
-              "answer": "<p>Having a water software will not affect the functionality of your RainStick Shower.<\/p>",
-              "faq_category": "installation"
-            }
-          },
-          "300fed78-77a9-4ffc-951b-292097810674": {
-            "type": "text",
-            "settings": {
-              "question": "Do you have a RainStick Bathroom Pro Program?",
-              "answer": "<p>Yes we do! Please reach out to us at pro@rainstickshower.com with the subject: “I’m a Bathroom Pro” for more information.<\/p>",
-              "faq_category": "pro's_and_distribution"
-            }
-          },
-          "c3e7cbed-b09d-48e2-a390-95403d180eb9": {
-            "type": "text",
-            "settings": {
-              "question": "Who can I contact about purchasing large volume orders?",
-              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
-              "faq_category": "pro's_and_distribution"
-            }
-          },
-          "2fb9421b-03df-42ff-9ca4-5faf2a054acb": {
-            "type": "text",
-            "settings": {
-              "question": "How can I distribute RainStick in my area?",
-              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
-              "faq_category": "pro's_and_distribution"
-            }
-          },
-          "810ca413-0d9b-45a1-bc62-d90eaf0eb980": {
-            "type": "text",
-            "settings": {
-              "question": "I'm interested in carrying RainStick Shower in my showroom. Who should I speak with about this?",
-              "answer": "<p>Please contact our team hello@rainstickshower.com for more information.<\/p>",
-              "faq_category": "pro's_and_distribution"
-            }
-          },
-          "445b44e3-e48b-4aad-b295-03353feb6209": {
-            "type": "text",
-            "settings": {
-              "question": "What are the ongoing maintenance requirements?",
-              "answer": "<p>RainStick completes an automatic cleaning session after each use. Simply ensure there is RainStick Original Cleaning Product in the system. RainStick's cleaning product is both human and planet safe and has been designed to effectively optimize hygiene.<\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "acdb3f51-01f1-4f92-8384-48c4e46d8c18": {
-            "type": "text",
-            "settings": {
-              "question": "How much does RainStick Original Cleaning Product cost?",
-              "answer": "<p>We ship out your RainStick with a 6-month supply of RainStick Original Cleaning Product. Additional 6-month supply is $50 CAD ($39 USD)<\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "f021d176-95c0-4c51-9e92-35a5b4ddbef1": {
-            "type": "text",
-            "settings": {
-              "question": "Is the RaInStick Original Cleaning Product safe for pets & the planet?",
-              "answer": "<p>RainStick's cleaning product is both human and planet safe and has been designed to effectively optimize hygiene.<\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "fb731e37-44aa-4789-b6a7-a05c0777e01b": {
-            "type": "text",
-            "settings": {
-              "question": "How will I know if something needs cleaning or replacement?",
-              "answer": "<p>RainStick completes an automatic cleaning session after each use. RainStick also completes a deep clean (approx. quarterly), notified through the app, depending on use. <\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0": {
-            "type": "text",
-            "settings": {
-              "question": "Can I still shower if something within the system needs attention or repair?",
-              "answer": "<p>Yes, your showers are uninterrupted, even in the rare case when something within the system needs attention. Because of our smart technology, the system notifies you immediately. If a non-essential component fails, the shower will continue to operate with a slightly reduced functionality. If a part of the system that enables circulation fails, the recirculating function will be turned off and RainStick will go into conventional showering mode.<\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a": {
-            "type": "text",
-            "settings": {
-              "question": "What is the warranty?",
-              "answer": "<p>The standard warranty is 2 years on system and lifetime on finish.<\/p>",
-              "faq_category": "maintenance"
-            }
-          },
-          "741cc882-4e35-412e-b20b-839cc8b25df1": {
-            "type": "text",
-            "settings": {
-              "question": "When will my Rainstick be delivered?",
-              "answer": "<p>If you are located in North America and have pre-ordered your system, delivery is intended for the end of 2022. Limited systems are available for pre-order and if you have not already pre-ordered you can do so for a limited time <a href=\"\/pages\/select-destination\" target=\"_blank\" title=\"Select Destination\">here<\/a>. <\/p>",
-              "faq_category": "delivery"
-            }
-          },
-          "952160a3-1271-4c34-b12e-54378031bfe8": {
-            "type": "text",
-            "settings": {
-              "question": "How do I order more RainStick Original Cleaning Product?",
-              "answer": "<p>All RainStick orders will come with 6 months worth of RainStick Original Cleaning Product. To purchase more please contact us at hello@rainstickshower.com and we'd be happy to assist.<\/p>",
-              "faq_category": "purchase"
+              "question": "When will my RainStick be delivered?",
+              "answer": "<p>If you're located in the US or Canada, the estimated delivery time for RainStick is 2022. More details will be provided shortly with the launch of our pre-orders.<\/p>"
             }
           }
         },
@@ -933,40 +700,13 @@
           "7670b859-3636-4453-9079-4c3e32cd064c",
           "278d6670-0d94-41f3-952f-02d149ec2591",
           "37979229-0873-4d83-bcbb-1fa407d3b300",
-          "f013d37e-5370-4373-b156-d1ad4a689eb4",
           "66769442-1106-4dee-9865-c8ac7487806c",
           "02df5142-b050-4866-8e4e-27fb4e7055d9",
           "ffc23857-06c9-4e5c-913a-9980643dd905",
           "de64846a-c1e6-488b-a46d-535487e4c689",
           "ca85ae65-0d30-401c-a8d7-50badf6081e8",
           "05bfe0f4-e47f-47df-acca-37eb781f78a0",
-          "3784ba62-61d1-41ba-b63a-d96d42a975f0",
-          "587bcd51-4b04-4d2f-b0eb-ace5f54a1755",
-          "4728e973-0c3b-4aec-9617-d928ffbb6dc4",
-          "de50bd57-9977-4dc3-949e-956e22888ede",
-          "6877ae5b-4828-46c0-811e-7e5649a35bef",
-          "312134ae-9f13-4ac4-90b4-d447583f3311",
-          "fbd58e36-b4f9-46b4-b0c9-aa008b458cb1",
-          "88757608-e03f-4858-938f-4054b3e7fb16",
-          "0c1055c7-2fe0-466f-9145-c2b9c1733c5f",
-          "0d829cb6-f6f0-4132-84c5-03db53d7b16a",
-          "f5a1ed2c-86c6-41a8-89b8-6b1fa9fb4bb5",
-          "53a2f9cc-c2bb-46d1-939a-7021a0e1cd29",
-          "7f528b72-3a6a-4dc9-8910-a077298e8f2b",
-          "9e3632b0-6def-46be-bca3-3d64f8b7cd9a",
-          "c902c451-a1e6-4cd0-ab64-802d0cdd1fb3",
-          "300fed78-77a9-4ffc-951b-292097810674",
-          "c3e7cbed-b09d-48e2-a390-95403d180eb9",
-          "2fb9421b-03df-42ff-9ca4-5faf2a054acb",
-          "810ca413-0d9b-45a1-bc62-d90eaf0eb980",
-          "445b44e3-e48b-4aad-b295-03353feb6209",
-          "acdb3f51-01f1-4f92-8384-48c4e46d8c18",
-          "f021d176-95c0-4c51-9e92-35a5b4ddbef1",
-          "fb731e37-44aa-4789-b6a7-a05c0777e01b",
-          "f9b62542-0bc3-4b00-b0d0-7c94e4795fd0",
-          "1f1a8a01-d593-4eb7-96cf-bdc0d414de7a",
-          "741cc882-4e35-412e-b20b-839cc8b25df1",
-          "952160a3-1271-4c34-b12e-54378031bfe8"
+          "3784ba62-61d1-41ba-b63a-d96d42a975f0"
         ],
         "settings": {
         }
@@ -1001,19 +741,80 @@
           "html_area": ""
         }
       },
+      "1630014244d329a912": {
+        "type": "large-text-box",
+        "settings": {
+          "bg-image": "shopify:\/\/shop_images\/homepage-1.jpg",
+          "header": "We’re re-inventing the way people shower",
+          "content": "Today, every 10-minute, shower in North America uses approximately 100L of heated water. That’s equivalent to 200 water bottles worth of water used during each shower, not only incredibly wasteful and carbon intensive but also expensive. RainStick solves the problem of water and energy waste in the home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing 2X the flow rate compared to a low flow option."
+        }
+      },
+      "1630015189ed7a1adf": {
+        "type": "three-column",
+        "blocks": {
+          "fca78c75-4e08-4f96-9f2d-ae3774aff165": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/homepage_pillar1.jpg",
+              "title": "",
+              "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
+            }
+          },
+          "919837e6-599c-4c55-945f-37755bcd3ccd": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/column2.png",
+              "title": "Innovating showers and water conservation faster than you can say “tech savvy”",
+              "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently. You can also monitor your shower length and maintenance requirements. Heck, Siri and Alexa will even turn your shower on for you."
+            }
+          },
+          "c65430c1-704b-4647-a956-21dac64068a0": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/homepage-pillar3.jpg",
+              "title": "Up to 80% savings. Need we say more?",
+              "content": "RainStick’s circular shower system saves up to 80% energy and water while providing almost 2X the flow rate. You’ll save money without lowering your expectations. A real-time cleaning process ensures refreshed water with each shower experience. You can also simply select the traditional shower mode, at any time."
+            }
+          }
+        },
+        "block_order": [
+          "fca78c75-4e08-4f96-9f2d-ae3774aff165",
+          "919837e6-599c-4c55-945f-37755bcd3ccd",
+          "c65430c1-704b-4647-a956-21dac64068a0"
+        ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "163032686198856d8e": {
+        "type": "featured-media",
+        "settings": {
+          "header": "",
+          "subheader": ""
+        }
+      },
+      "16303271997046505a": {
+        "type": "text-block-with-image",
+        "settings": {
+          "quote": "As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!",
+          "name": "Bruce Hicks",
+          "location": "Homeowner, Haliburton, Canada",
+          "image": "shopify:\/\/shop_images\/haliburton-family-photographer-small_b661bea0-d8aa-45db-840a-17921775d8a1.jpg"
+        }
+      },
       "featured-story": {
         "type": "featured-story",
         "settings": {
-          "article": "our-stories\/how-to-prepare-for-your-shower-remodel-project"
+          "article": "our-stories\/top-interior-design-trends-2022"
         }
       },
       "story-columns": {
         "type": "story-columns",
         "settings": {
-          "title": "You May Also Like",
-          "blog_one": "our-stories\/road-to-ces-2022-the-nominees-were-most-excited-to-see",
-          "blog_two": "our-stories\/start-saving-water-and-energy-with-these-bathroom-shower-ideas",
-          "blog_three": "our-stories\/everything-you-need-to-know-about-recirculating-showers",
+          "title": "Our Stories",
+          "blog_one": "our-stories\/how-to-prepare-for-your-shower-remodel-project",
+          "blog_two": "our-stories\/road-to-ces-2022-the-nominees-were-most-excited-to-see",
+          "blog_three": "our-stories\/start-saving-water-and-energy-with-these-bathroom-shower-ideas",
           "url": "shopify:\/\/blogs\/our-stories"
         }
       },
@@ -1039,7 +840,7 @@
       "image-compare": {
         "type": "image-compare",
         "settings": {
-          "section_title": "A Shower That Can Do Both",
+          "section_title": "RainStick Vs. Traditional Showers",
           "gpmone": "3 GPM",
           "modeone": "Mode 1: Circular Shower",
           "contentone": "Never before has it been possible to shower with up to 80% less water, and still get a high-flow experience—all from the comfort of your own home.\n\nThis is the default mode for RainStick, using the drop up to 6X before it heads down the drain.",
@@ -1051,8 +852,8 @@
       "how-it-works": {
         "type": "how-it-works",
         "settings": {
-          "header": "The Simple Explanation",
-          "paragraph_one": "RainStick is the best investment you’ll make in a bathroom new-build or shower remodel project. It will provide an attractive ROI (return on investment) by saving an average $500-$700 on an annual basis.",
+          "header": "How the RainStick <br>Shower works for you.",
+          "paragraph_one": "RainStick is the best investment you’ll make in a bathroom new-build or remodel project. It will provide an attractive ROI (return on investment) by paying back in 5 years or less.",
           "paragraph_two": "Just like your current shower, RainStick starts with fresh grid-supplied water. Except, instead of going down the drain, RainStick captures, circulates, and cleans the water, all in real-time to avoid waste.",
           "image": "shopify:\/\/shop_images\/howitworks-1.jpg"
         }
@@ -1074,19 +875,20 @@
           "column_content_two": "RainStick offers a full-coverage rainshower experience that actually washes the shampoo out of your hair, while still providing up to 80% water savings.",
           "column_header_three": "Temperature",
           "column_content_three": "RainStick keeps you warm and comfortable for the duration of your shower. Whether you like to shower at 38°C\/100°F or 42°C\/106°F for example, the option is yours to pick your preferred temperature.",
-          "bottom_image": "shopify:\/\/shop_images\/Screen_Shot_2022-03-17_at_9.56.08_AM.png",
-          "stages_header": "The Process",
-          "stages_content": "RainStick goes through a 3-stage cleaning process that removes larger hair and debris, and even bacteria and viruses.",
+          "file": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/RainStick_Installation_Guide_020922_1.pdf?v=1646480468",
+          "bottom_image": "shopify:\/\/shop_images\/howitworks-4.jpg",
+          "stages_header": "Safe, circulated water.",
+          "stages_content": "RainStick water goes through a 3-stage process that removes larger hair and debris, and even kills bacteria and viruses.",
           "list_one": "Through the use of a micron filter, larger debris, including hair and dirt, is removed.",
           "list_two": "RainStick continuously refreshes with a tiny amount of hot water to cleanse the loop of shampoo and soap.",
           "list_three": "For redundancy purposes, an intense, long-life UV-LED is used, which disinfects water from any bacteria or viruses from the shower.",
-          "stages_content_two": "The shower system does not store water in-between sessions. At any time, you can also select the traditional shower mode if cleaning the shower stall or washing a pet for example."
+          "stages_content_two": "The system does not store water in-between sessions. At any time, you can also select the traditional shower mode if cleaning the shower stall or washing a pet for example."
         }
       },
       "about-hero": {
         "type": "about-hero",
         "settings": {
-          "header": "Re-Inventing The Way You Shower.",
+          "header": "Re-inventing the way you shower.",
           "content": "<p>RainStick began because (like most of us) we loved long, hot showers but felt guilty about wasting water. The only option at the time was a low-flow compromise, which would negatively impact our shower experience, a change we weren’t willing to consider. So we started to re-imagine status-quo and the way that we showered.<br\/><\/p><p>In 2019, we invented RainStick Shower – a WiFi-enabled shower system that not only saves up 80% energy and 80% water, and is  low maintenance, but also increases the flow rate by 2X compared to a traditional shower.<\/p>",
           "image": "shopify:\/\/shop_images\/howitworks-top.jpg"
         }
@@ -1248,351 +1050,14 @@
         "settings": {
           "header": "Wonderful! Thanks for letting us know. Since you <span>care most about sustainable living<\/span>, you may be really interested in the following:"
         }
-      },
-      "16458009295e4c83ed": {
-        "type": "hero",
-        "settings": {
-          "background": "shopify:\/\/shop_images\/IndustrialMinimal_Mod_031722.png",
-          "header": "Shower Better Today,<br>For a Better Tomorrow",
-          "subheader": "Saving you 80% water and 80% energy with 2X the flow rate.<br>       A shower experience like no other."
-        }
-      },
-      "press-kit": {
-        "type": "press-kit",
-        "blocks": {
-          "9abb0672-727d-4c0e-bc1f-501c515b57c7": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Best_of_KBIS.jpg"
-            }
-          },
-          "1f196ecc-0fed-46ac-a235-c9145099ac27": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Business_Insider.png"
-            }
-          },
-          "73913263-e13f-44ce-8aff-43a12e852d9e": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/CES.png"
-            }
-          },
-          "7546ec34-6b24-4c82-a613-8505ed53f026": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Forbes.jpg"
-            }
-          },
-          "011cf41d-fdce-4472-9c2c-1efdca1b1ed3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/image_2.png"
-            }
-          },
-          "8266f308-e6f6-44a6-8088-5d5d069c2c81": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Screen_Shot_2021-11-04_at_11.23.14_AM.png"
-            }
-          },
-          "4cba0824-58d8-4690-9272-ea8c9e294b6e": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Style_at_Home.png"
-            }
-          },
-          "82960ce4-3cd1-441c-9f87-1a842871de78": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Toronto_Star.png"
-            }
-          }
-        },
-        "block_order": [
-          "9abb0672-727d-4c0e-bc1f-501c515b57c7",
-          "1f196ecc-0fed-46ac-a235-c9145099ac27",
-          "73913263-e13f-44ce-8aff-43a12e852d9e",
-          "7546ec34-6b24-4c82-a613-8505ed53f026",
-          "011cf41d-fdce-4472-9c2c-1efdca1b1ed3",
-          "8266f308-e6f6-44a6-8088-5d5d069c2c81",
-          "4cba0824-58d8-4690-9272-ea8c9e294b6e",
-          "82960ce4-3cd1-441c-9f87-1a842871de78"
-        ],
-        "settings": {
-          "blog": "news",
-          "logo_package": "https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/1028\/2140\/files\/Logo_Pack.zip?v=1647884534",
-          "logo_one": "shopify:\/\/shop_images\/Logomark_-_Black_--01.png",
-          "logo_two": "shopify:\/\/shop_images\/Logomark_-_Black_--02.png",
-          "logo_three": "shopify:\/\/shop_images\/Logomark_-_Black_--03.png"
-        }
-      },
-      "1645806243d64b1a99": {
-        "type": "index-text-with-image",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/slideshow3.png",
-          "header": "Re-Invent The Way You Shower",
-          "paragraph": "In North America, your 10-minute shower uses 100L of heated water. That’s equivalent to 200 water bottles worth of water used each shower, not only incredibly wasteful and carbon intensive but also expensive.<br>\n<br>\nRainStick solves the problem of water and energy waste in your home. Our WiFi-enabled circular shower system saves up to 80% energy and 80% water while providing you with almost 2X the flow rate of a low flow option.",
-          "url": "shopify:\/\/pages\/how-it-works",
-          "url_label": "HOW IT WORKS"
-        }
-      },
-      "1645808455b2363609": {
-        "type": "what-makes-us-great",
-        "blocks": {
-          "bc4f406e-d339-4508-8f97-2d197e77b946": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/RainStick_Sandstone_Image.png",
-              "title": "Exquisite Design",
-              "content": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes your relationship to water without compromising on design, performance, or your expectations. A future-forward design that complements any exceptional space."
-            }
-          },
-          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/wifienabled.jpg",
-              "title": "Wifi Enabled",
-              "content": "RainStick’s WiFi-enabled, smart tech allows you to track your water and energy savings quickly and conveniently using your RainStick app. The app also notifies you when RainStick Original Cleaning Product needs to go into the system and allows you to turn RainStick on remotely. Heck, Siri and Alexa will even turn your shower on for you."
-            }
-          },
-          "6596eee9-a684-49d4-a09f-bc34120c58bd": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/RS_R5_122921.jpg",
-              "title": "Sweet Savings",
-              "content": "Our circular shower system saves 80% water and up to 80% energy while providing almost 2X the flow rate. You’ll save money without lowering your expectations, which means $500-$700 per year. Imagine what you could do with all of those savings. Calculate your savings below."
-            }
-          }
-        },
-        "block_order": [
-          "bc4f406e-d339-4508-8f97-2d197e77b946",
-          "b92c2e1f-fc7c-4400-9e14-1e60ec7ab270",
-          "6596eee9-a684-49d4-a09f-bc34120c58bd"
-        ],
-        "settings": {
-          "header": "Why RainStick Washes Away the Rest"
-        }
-      },
-      "1646141465ff2ef6d9": {
-        "type": "index-full-carousel",
-        "blocks": {
-          "96764cb6-3f2c-4195-ba3c-b026fc286fc2": {
-            "type": "Slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/haliburton-family-photographer-small.jpg",
-              "name": "Bruce Hicks",
-              "role": "Homeowner, Haliburton, Canada",
-              "quote": "As parents and now grandparents, we always think about how we can leave the world a better place. RainStick helps us do our part, leave a legacy....and doesn't make us compromise on a great shower!"
-            }
-          },
-          "9820cdd3-29b2-4011-8ba0-36fe326ecfc9": {
-            "type": "Slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
-              "name": "Lisa Zebra",
-              "role": "Builder",
-              "quote": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations."
-            }
-          },
-          "eef449de-d2ad-43f4-be06-df899b8bd718": {
-            "type": "Slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/5_Slider_3_of_3_1.png",
-              "name": "Ron Miller",
-              "role": "Builder",
-              "quote": "You deserve a shower experience that is parallel to the way you live your life – smart and with purpose. RainStick Shower revolutionizes our relationship to water without compromising on design, performance, or your expectations. Encased in utter and pure beauty, it complements any exceptional design."
-            }
-          }
-        },
-        "block_order": [
-          "96764cb6-3f2c-4195-ba3c-b026fc286fc2",
-          "9820cdd3-29b2-4011-8ba0-36fe326ecfc9",
-          "eef449de-d2ad-43f4-be06-df899b8bd718"
-        ],
-        "settings": {
-          "header": "We're Making A Splash"
-        }
-      },
-      "b2b-hero": {
-        "type": "b2b-hero",
-        "settings": {
-          "background": "shopify:\/\/shop_images\/b2bhero.jpg",
-          "header": "Impressive Shower,<br>Smooth Install",
-          "subheader": "2x the flow rate with 80% water and energy savings. The first shower<br> of its kind in North America that your clients can’t wait to experience."
-        }
-      },
-      "b2b-intro": {
-        "type": "b2b-intro",
-        "settings": {
-          "header": "Find What You’re Looking For",
-          "subheader": "Below you’ll find all of the materials you need to get going on your indoor or outdoor shower remodel. At any time you can reach out to us at <span class=\"link-green\">pro@rainstickshower.com<\/span> and we’ll be happy to help.",
-          "subheader_two": "Make sure you check out the details <a href=\"#shopify-section-b2b-installation-requirements\" class=\"link-green\">here<\/a>."
-        }
-      },
-      "b2b-nav-icons": {
-        "type": "b2b-nav-icons",
-        "settings": {
-          "header_one": "How it <br>Works",
-          "header_two": "Bathroom<br>Pro Program",
-          "header_three": "Technical<br>Specifications",
-          "header_four": "Installation<br>Requirements"
-        }
-      },
-      "b2b-how-it-works": {
-        "type": "b2b-how-it-works",
-        "settings": {
-          "content": "RainStick began because (like most of us) we loved long, \n          hot showers but felt guilty about wasting water. \n          The only option at the time was a low-flow compromise, \n          which would negatively impact our shower experience. \n          So we started to re-imagine the status-quo and invented an impressive, \n          high flow shower system that saves 80% water and up to 80% energy",
-          "video": "<iframe style=\"width:100%\" src=\"https:\/\/www.youtube.com\/embed\/Nb2oXiaOjt0\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
-          "link": "shopify:\/\/pages\/how-it-works",
-          "link_label": "LEARN OUR STORY"
-        }
-      },
-      "b2b-why-become-a-bathroom-pro": {
-        "type": "b2b-why-become-a-bathroom-pro",
-        "settings": {
-          "header": "Become a RainStick Pro",
-          "paragraph_one": "We created RainStick to pack a punch while being minimal so that any certified pro can install our systems.",
-          "paragraph_two": "If you're a bathroom professional (Interior designer, contractor, architect, builder etc.) and want to install a RainStick shower in your upcoming project, RainStick wants to help your work stand out like never before with our Pro Program.",
-          "paragraph_three": "The RainStick Bathroom Pro Program allows certified professionals specific program perks, leads and credibility in your industry. We're actively building up our bathroom pro program network and invite you to join us.",
-          "paragraph_four": "How to Join & Next Steps:\n<br>\n<br>\n(1) Fill out our interest form <a href=\"\/pages\/bathroom-pro-form\">here<\/a><br>\n(2) Our team will then set up an intro call with your team to answer any questions you may have and verify eligibility.<br>\n(3) Once verified, you'll be entered into our RainStick Bathroom Pro Program\n<br>\n<br> \nThat's it! You're all set.",
-          "link": "shopify:\/\/pages\/bathroom-pro-form",
-          "link_label": "Become A Pro"
-        }
-      },
-      "b2b-technical-specs": {
-        "type": "b2b-technical-specs",
-        "blocks": {
-          "d689d875-65bb-408f-a914-ddf2bcb381c0": {
-            "type": "text",
-            "settings": {
-              "title": "Dimensions (Size)",
-              "content": "<b>Height:  81.75 inches (2075mm) <br>\n<b>Width: 7.8 inches (200mm)\n <br>\n<b>Depth: 3.78\" (96mm) <\/b><\/b><\/b>"
-            }
-          },
-          "423ff349-b415-40a0-9461-a0933f4c9b73": {
-            "type": "text",
-            "settings": {
-              "title": "Specifications",
-              "content": "<b>Water Flow Rate:<\/b> In circular mode, 11.4 LPM (3 GPM) - default mode\nIn conventional shower mode, 6.8 LPM (1.8 GPM)<br>\n<b>In-floor Reservoir:<\/b> Included with system<br>\n<b>Finishes:<\/b> Matte Black and Brushed Nickel<br>\n<b>Electrical Supply:<\/b> 120 Volt, 15 AMP GFCI<br>\n<b>Showerhead:<\/b> Rain shower head, 10 inch wide<br>\n<b>Handheld:<\/b> Optional, available as an add on feature<br>\n<b>RainStick app:<\/b> Available for android and IOS, system compatible with Google Home & Alexa<br>\n<b>Cleaning cycle:<\/b> Automatic<br>\n<b>Assembly:<\/b> RainStick comes pre-assembled with the exception of the pump."
-            }
-          },
-          "d383a5cc-77b1-41d6-9a78-b3ab98d5bb71": {
-            "type": "text",
-            "settings": {
-              "title": "Warranty",
-              "content": "2 years with extended warranty plan option"
-            }
-          },
-          "e42e0c30-79aa-476d-9884-4d915ef4211d": {
-            "type": "text",
-            "settings": {
-              "title": "What's Included",
-              "content": "RainStick is ideal for new builds and remodel projects and comes pre-assembled with the exception of a provided reservoir that requires installation into a tiled shower floor. Your RainStick Shower will be delivered complete with everything you need to get started, including:\n<ul>\n<li>System<\/li>\n<li>Shower head & (optional if purchased) handheld shower <\/li>\n<li>Phone & email installation support<\/li>\n<li>RainStick Care Instructions<\/li>\n<ul><\/ul>\n<\/ul>"
-            }
-          }
-        },
-        "block_order": [
-          "d689d875-65bb-408f-a914-ddf2bcb381c0",
-          "423ff349-b415-40a0-9461-a0933f4c9b73",
-          "d383a5cc-77b1-41d6-9a78-b3ab98d5bb71",
-          "e42e0c30-79aa-476d-9884-4d915ef4211d"
-        ],
-        "settings": {
-          "header": "Technical Specifications",
-          "image": "shopify:\/\/shop_images\/Technical-specs-shower_2x_1.png",
-          "image_small_left": "shopify:\/\/shop_images\/Matte-black-finish_2x_1.png",
-          "image_small_right": "shopify:\/\/shop_images\/brushed-nickel-finish_2x_1.png"
-        }
-      },
-      "b2b-installation-requirements": {
-        "type": "b2b-installation-requirements",
-        "settings": {
-        }
-      },
-      "b2b-distribution-relationship": {
-        "type": "b2b-distribution-relationship",
-        "settings": {
-          "header": "",
-          "paragraph_one": "",
-          "paragraph_two": ""
-        }
-      },
-      "b2b-full-width-img": {
-        "type": "b2b-full-width-img",
-        "settings": {
-        }
-      },
-      "careers": {
-        "type": "careers",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/careers.png",
-          "header": "",
-          "paragraph": "",
-          "url": "",
-          "url_label": ""
-        }
-      },
-      "164624203303cbbb3e": {
-        "type": "index-three-columns",
-        "blocks": {
-          "b1c016e3-359d-4535-b2db-d0afa6f978d7": {
-            "type": "column",
-            "settings": {
-              "title": "Got Questions?",
-              "content": "We’ve got answers. Check out our FAQ section",
-              "link": "shopify:\/\/pages\/faq",
-              "link_label": "GO TO FAQ"
-            }
-          },
-          "57a17511-7d85-4b2e-8b57-7e14deb8f67a": {
-            "type": "column",
-            "settings": {
-              "title": "Are you a bathroom professional?",
-              "content": "Learn more about our RainStick Pro Program",
-              "link": "shopify:\/\/pages\/bathroom-pros",
-              "link_label": "LEARN MORE"
-            }
-          },
-          "cf4eea2f-c99b-477f-92cf-e55764be7ba2": {
-            "type": "column",
-            "settings": {
-              "title": "Do you have a project in mind?",
-              "content": "Let us help",
-              "link": "shopify:\/\/pages\/contact-us",
-              "link_label": "REACH OUR TO OUR TEAM"
-            }
-          }
-        },
-        "block_order": [
-          "b1c016e3-359d-4535-b2db-d0afa6f978d7",
-          "57a17511-7d85-4b2e-8b57-7e14deb8f67a",
-          "cf4eea2f-c99b-477f-92cf-e55764be7ba2"
-        ],
-        "settings": {
-          "header": ""
-        }
-      },
-      "dynamic-blog-posts": {
-        "type": "dynamic-blog-posts",
-        "settings": {
-          "blog": "",
-          "style": "default",
-          "posts-to-show": 3,
-          "title": "Related Articles",
-          "subtitle": ""
-        }
       }
     },
     "content_for_index": [
-      "16458009295e4c83ed",
-      "1645806243d64b1a99",
-      "1645808455b2363609",
-      "1646141465ff2ef6d9",
-      "16298321281d2fb371",
-      "164624203303cbbb3e"
+      "1630014244d329a912",
+      "1630015189ed7a1adf",
+      "163032686198856d8e",
+      "16303271997046505a",
+      "16298321281d2fb371"
     ]
   },
   "presets": {

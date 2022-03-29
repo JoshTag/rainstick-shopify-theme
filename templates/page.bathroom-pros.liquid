@@ -1,12 +1,14 @@
 <div class="module-wrapper">
-  {% section 'b2b-hero' %}
-  {% section 'b2b-intro' %}
-  {% section 'b2b-nav-icons' %}
-  {% section 'b2b-how-it-works' %}
-  {% section 'b2b-why-become-a-bathroom-pro' %}
-  {% section 'b2b-technical-specs'%}
-  {% section 'b2b-installation-requirements' %}
-  {% section 'b2b-distribution-relationship' %}
-  {% section 'b2b-full-width-img' %}
+  <div class="module module-default-page">
+    <div class="module-header page-header">
+      <div class="module-title page-title">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+    {% unless page.content == blank %}
+      <div class="module-body page-body rte">
+        {{ page.content }}
+      </div>
+    {% endunless %}
+  </div>
 </div>
-	
