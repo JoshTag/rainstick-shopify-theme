@@ -1,4 +1,4 @@
-<div class="background__black padding-top-4 padding-bottom-6" style="position:relative">
+<div id="become-a-pro" class="background__black padding-top-4 padding-bottom-6-desktop" style="position:relative">
   <div class="blackwave"></div>
 <div class="b2b__inner-ctn padding-top-4">
   <div class="howitworks__img-ctn-1">
@@ -6,21 +6,21 @@
     </div>
   </div>
   <div class="b2bpro__ctn-inner">
-    <h3 class="mainheading_white-thin-large">Why Become A Bathroom Pro</h3>
+    <h1 class="mainheading_white-thin-large align-left-mobile">{{ section.settings.header }}</h1>
     <p class="subheading__white-thin">
-      Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod.
+      {{ section.settings.paragraph_one }}
     </p>
     <p class="body__white-thin">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-      At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-      no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-      consetetur sadipscing elitr, sed diam.
+      {{ section.settings.paragraph_two }}
     </p>
-     <a class="greenbutton-black">Become A Pro</a>
+    <p class="body__white-thin">
+      {{ section.settings.paragraph_three }}
+    </p>
+    <p class="body__white-thin">
+      {{ section.settings.paragraph_four }}
+    </p>
+     <a href="{{ section.settings.link }}" class="greenbutton-black">{{ section.settings.link_label }}</a>
   </div>
-     
-
 </div>
 
 </div>
@@ -43,6 +43,26 @@
         "id": "paragraph_two",
 		"type": "textarea",
 		"label": "Paragraph Two"
+      },
+	  {
+        "id": "paragraph_three",
+		"type": "textarea",
+		"label": "Paragraph Three"
+      },
+	  {
+        "id": "paragraph_four",
+		"type": "textarea",
+		"label": "Paragraph Four"
+      },
+      {
+        "id": "link",
+        "type": "url",
+        "label": "Link"
+      },
+      {
+        "id": "link_label",
+        "type": "text",
+        "label": "link label"
       },
 	  {
         "id": "image",

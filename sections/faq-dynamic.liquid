@@ -15,7 +15,7 @@
     }}
   
 .dynamic-faq {
-  background-color: #121211;
+  background-color: #F7EDE2;
   position:relative;
 }
   
@@ -26,7 +26,7 @@
 .dynamic-faq__question {
   font-size: 20px;
   margin: 20px 0;
-  color: #F7EDE2;
+  color: #121212;
   text-transform: capitalize;
 }
 .dynamic-faq__question.active {
@@ -41,15 +41,18 @@
   left: 0;
   height: 2px;
   width: 0;
-  background: #fff;
+  background: #121212;
   transition: 0.3s;
 }
 .dynamic-faq__question.active:after {
   width: 100%;
 }
 .dynamic-faq__answer >  * {
-  font-size: 14px;
-  color: #F7EDE2;
+  font-size: 15px;
+  color: #121212;
+}
+.dynamic-faq__answer > .dynamic-faq__answer-header:first-of-type {
+  padding-top: 0;
 }
 .dynamic-faq__question:hover {
   cursor: pointer;
@@ -57,7 +60,7 @@
 .faq__title {
   font-size: 20px !important;
   text-align: left !important;
-  color: #F7EDE2;
+  color: #121212;
 }
 @media screen and (max-width: 1024px){
   .faq__title{
@@ -74,7 +77,7 @@
   margin-bottom: 10px;
   font-weight: 300;
   display: block;
-  color: #F7EDE2;
+  color: #121212;
 }
 .faq__content {
   margin: 20px 1rem 40px;
@@ -180,7 +183,7 @@
     text-align: left;
     margin-top: 15px;
     font-weight: 500;
-    color: #F7EDE2;
+    color: #000;
   }
   .zoho-faq-form__name-container {
     display: flex;
@@ -190,8 +193,9 @@
     margin-top: 20px;
     padding: 10px 30px;
     border-radius: 6px;
-    background: #09c6c6;
-    border: 2px solid #2a2725;
+    background: #02827B;
+    border: 2px solid #02827B;
+    color: #F7EDE2;
   }
   .zoho-faq-form button em {
     font-style: normal;
@@ -214,10 +218,13 @@
   .dynamic-faq__answer-body p:nth-of-type(2) {
     margin-bottom: 20px;
   }
+  .dynamic-faq__answer-body a {
+    color: #02827B !important; 
+  }
 </style>
 
 
-<div class="black-wave"></div>
+<div class="black-wave" style="opacity:0"></div>
 <div>
   <h2 class="faq__title" style="padding-top: 40px;">Frequently Asked Questions</h2>
   <span class="faq__sub-title">Pick a question below.</span>
@@ -227,87 +234,29 @@
     <!-- {% for block in section.blocks %}
       <li class="dynamic-faq__question" data-id="{{ block.id }}">{{ block.settings.question }}</li>
     {% endfor %} -->
-    {% assign categories = "hygiene,maintenence,using the shower,technology,installation,support" | split: ',' %}
+    {% assign categories = "using the shower,hygiene,purchase,installation,pro's and distribution,maintenance,delivery" | split: ',' %}
     {% for category in categories %}
       <li class="dynamic-faq__question {% if forloop.first == true %}active{% endif %}" data-id="{{ category | replace: " ", "_" }}">{{ category }}</li>
     {% endfor %}
   </ul>
   <div class="faq__answers">
-    <h3 class="faq__title">Answer</h3>
-    <span class="faq__sub-title">Your answer will appear below.</span>
+<!--     <h3 class="faq__title">Answer</h3> -->
     <div id="faq-answers">
-      <div class="dynamic-faq__answer" data-id="hygiene" style="display: block !important;">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "hygiene" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="maintenence">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "maintenence" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="using_the_shower">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "using_the_shower" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="technology">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "technology" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="installation">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "installation" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="dynamic-faq__answer" data-id="support">
-        {% for block in section.blocks %}
-          {% if block.settings.faq_category == "support" %}
-            <p class="dynamic-faq__answer-header">
-              {{ block.settings.question  }}
-            </p>
-            <div class="dynamic-faq__answer-body">
-              {{ block.settings.answer  }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% for category in categories %}
+        <div class="dynamic-faq__answer" data-id="{{ category | replace: " ", "_" }}" style="display: block !important;">
+          {% for block in section.blocks %}
+            {% assign cat_no_space = category | replace: " ", "_" %}
+            {% if block.settings.faq_category == cat_no_space %}
+              <p class="dynamic-faq__answer-header">
+                {{ block.settings.question  }}
+              </p>
+              <div class="dynamic-faq__answer-body">
+                {{ block.settings.answer  }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -372,28 +321,32 @@
             "label": "Category",
             "options": [
               {
-                "value": "hygiene",
-                "label": "Hygiene"
-              },
-              {
-                "value": "maintenence",
-                "label": "Maintenence"
-              },
-              {
                 "value": "using_the_shower",
                 "label": "Using the Shower"
               },
               {
-                "value": "technology",
-                "label": "Technology"
+                "value": "hygiene",
+                "label": "Hygiene"
+              },
+              {
+                "value": "purchase",
+                "label": "Purchase"
               },
               {
                 "value": "installation",
                 "label": "Installation"
               },
               {
-                "value": "support",
-                "label": "Support"
+                "value": "pro's_and_distribution",
+                "label": "Pro's and Distribution"
+              },
+              {
+                "value": "maintenance",
+                "label": "Maintenance"
+              },
+              {
+                "value": "delivery",
+                "label": "Delivery"
               }
             ],
             "default": "hygiene"

@@ -280,13 +280,25 @@
     ]
   },
   {
-    "name": "Installtion Guide",
+    "name": "Installtion Guide Downloads",
     "settings": [
       {
         "type": "textarea",
-        "id": "installation_gude",
+        "id": "installation_guide",
         "label": "Installation guide",
         "info": "Upload guide to files then paste url into here"
+      },
+      {
+        "type": "textarea",
+        "id": "technical_document",
+        "label": "Technical Document",
+        "info": "Upload doc to files then paste url into here"
+      },
+      {
+        "type": "textarea",
+        "id": "pre_installation_checklist",
+        "label": "Pre-Installation checklist",
+        "info": "Upload doc to files then paste url into here"
       }
     ]
   }

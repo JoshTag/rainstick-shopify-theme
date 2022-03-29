@@ -22,7 +22,7 @@
   </h2>
 
   <div class="article-card__excerpt rte">
-    {{ article.excerpt_or_content }}
+    {{ article.excerpt_or_content | truncatewords : 30  }}
   </div>
 
   <a class="article-card__read-more" href="{{ article.url }}">

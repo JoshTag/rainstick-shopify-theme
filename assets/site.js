@@ -24062,8 +24062,8 @@ $(document).ready(function() {
 
     if (localStorage.getItem('countrySelect') === "Canada" || localStorage.getItem('countrySelect') === "United States" || localStorage.getItem('countrySelect') === "Mexico") {
       console.log('preorder')
-      $('.product__step-description.international').html('PREORDER <br> NOW');
-      $('.product__step-text.international').text('Pre-Order your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will Ship in mid 2022.');
+      $('.product__step-description.international').html('ORDER <br> NOW');
+      $('.product__step-text.international').text('Secure your RainStick now with a $100 refundable deposit. We will contact you once it’s time to pay the remainder of your bill. At that time you will also be able to select the finish of your RainStick. RainStick will ship in November 2022.');
     } else {
       console.log('waitlist')
       $('.product__step-description.international').html("JOIN THE <br> WAITLIST");
@@ -24078,6 +24078,31 @@ $(document).ready(function() {
 			pageDots: false,
 			adaptiveHeight: true,
 			cellAlign: 'center'
+    });
+    
+    
+    $('a[href^="#shopify-section-b2b-how-it-works"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-how-it-works").offset().top - 100)
+      }, 1200);
+    });
+    
+    $('a[href^="#shopify-section-b2b-why-become-a-bathroom-pro"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-why-become-a-bathroom-pro").offset().top - 100)
+      }, 1200);
+    });
+    
+    $('a[href^="#shopify-section-b2b-technical-specs"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-technical-specs").offset().top - 100)
+      }, 1200);
+    });
+    
+    $('a[href^="#shopify-section-b2b-installation-requirements"]').click(function() {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: ($("#shopify-section-b2b-installation-requirements").offset().top - 100)
+      }, 1200);
     });
 
 });
@@ -24098,4 +24123,12 @@ $(document).on('shopify:section:load', function(e){
 		adaptiveHeight: true,
 		cellAlign: 'center'
 	})
+    
+    
+//     $("#newsletter").click(function() {
+//       $([document.documentElement, document.body]).animate({
+//         scrollTop: ($("#newsletter").offset())
+//       }, 1200);
+//     })
+    
 });

@@ -4,6 +4,10 @@
     padding: 0 3rem;
     color: #fff;
   }
+@media screen and (max-width: 768px){
+    .calc-ctn {
+    padding:0.5rem;
+}}
   .calc-ctn > h2 {
     font-size: 24px;
     padding-top: 60px;
@@ -52,6 +56,20 @@
     display: block;
   }
 </style>
+
+<div id="saving-calc-page" class="saving-calc-page">
+  <div class="blackwave"></div>
+  <div>
+  <div id="saving-calc" class="calc-ctn">
+    <h2>Save Some Green, Get Some Green.</h2>
+    <p>Calculate your cost savings here.</p>
+    <p>
+      Curious about your impact, future household savings, and ROI (return on investment)? Click away. 
+    </p>
+  </div>
+  <div id="savings-calculator"></div>
+</div>
+</div>
 
 <a href="{{section.settings.featured_article.url  }}" id="saving-calc">
   <div class="saving-calc__blog-img" style="background-image: url({{ section.settings.featured_article.image.src | img_url: '500x' }})" >

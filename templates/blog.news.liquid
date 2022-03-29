@@ -9,6 +9,7 @@
         </button>
       </div>
     </form>
+    {% comment %}
     <div class="module-header blog-header" style="padding: 50px 0 0">
       <div class="module-title blog-title">
         <h1>
@@ -16,21 +17,33 @@
         </h1>
       </div>
     </div>
+    {% endcomment %}
     <div class="module-body press">
       <div class="blog-tags-wrapper">
         <div class="blog-tags-list">
-          <span id="press-kit-trigger" class="press-blog__triggers active">Press Kit</span>
-          <span id="latest-news-trigger" class="press-blog__triggers">Latest News</span>
+          <span id="latest-news-trigger" class="press-blog__triggers active">Latest News</span>
+          <span id="press-kit-trigger" class="press-blog__triggers">Press Kit</span>
         </div>
       </div>
 
-      <div id="latest-news-section" class="post-wrapper blogs" style="display: none;">
-        {% for article in blog.articles %}
-          {% include 'article-card' %}
-        {% endfor %}
-      </div>
+      {% paginate blog.articles by 5 %}
+        <div id="latest-news-section" class="post-wrapper blogs">
+          {% for article in blog.articles %}
+            {% include 'article-card' %}
+          {% endfor %}
+        </div>
+        <div class="blog-pagination">
+          {% if paginate.previous.is_link %}
+          <a href="{{ paginate.previous.url }}">{{ paginate.previous.title }}</a>
+          {% endif %}
+          <div>page {{ paginate.current_page }} of {{paginate.pages}}</div>
+          {% if paginate.next.is_link %}
+          <a href="{{ paginate.next.url }}">{{ paginate.next.title }}</a>
+          {% endif %}
+        </div>
+      {% endpaginate %}
 
-      <div id="press-kit-section" class="">
+      <div id="press-kit-section" class=""  style="display: none;">
         {% section 'press-kit' %}
       </div>
     </div>
@@ -48,12 +61,14 @@ window.onload = function() {
   let newsSection = document.getElementById('latest-news-section');
   let pressTrigger = document.getElementById('press-kit-trigger');
   let pressSection = document.getElementById('press-kit-section');
+  let pagination = document.querySelector('.blog-pagination');
 
   newsTrigger.addEventListener('click', function(){
     this.classList.add("active");
     pressTrigger.classList.remove("active");
     newsSection.style.display = "grid";
     pressSection.style.display = "none";
+    pagination.style.display = "flex";
   })
 
   pressTrigger.addEventListener('click', function(){
@@ -61,6 +76,7 @@ window.onload = function() {
     newsTrigger.classList.remove("active");
     newsSection.style.display = "none";
     pressSection.style.display = "block";
+     pagination.style.display = "none";
   })
 
 

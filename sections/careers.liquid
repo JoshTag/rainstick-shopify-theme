@@ -1,0 +1,115 @@
+{%- capture background_image -%}
+{%
+  include 'rimg',
+  img: section.settings.image,
+  size: image_size,
+  alt: "Mountain sunset"
+%}
+{%- endcapture -%}
+
+<style>
+  .careers-container {
+   	max-width: 400px;
+    margin: 0 auto;
+  }
+  .careers-hero {
+    margin: 0 0 60px;
+  }
+  .careers-hero__header h1 {
+    text-align: left !important;
+    font-weight: 300;
+    font-size: 34px !important; 
+  }
+  .careers-hero__header p {
+    text-align: left !important;
+  }
+  .careers-hero__img {
+  }
+  .careers-openings__header {
+    text-align: left !important;
+    font-weight: 300;
+    font-size: 34px !important; 
+  }
+  .careers-openings__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .careers-openings__opening {
+     text-align: left;
+  }
+  .careers-openings__opening-title {
+    font-size: 16px !important; 
+    text-align: left !important;
+    font-weight: 400;
+  }
+  .careers-openings__opening-location-title {
+    font-size: 15px;
+    text-align: left;
+  }
+  .careers-openings__opening-type-title {
+    
+  }
+</style>
+
+<div class="careers-hero">
+  <div class="careers-hero__header">
+    <h1>Careers</h1>
+    <p>Careers page coming soon. In the mean time email us at <a style="color: #02827B" href="/pages/contact-us">hello@rainstickshower.com</a></p>
+  </div>
+  <div class="careers-hero__img">
+	{{ background_image }}
+  </div>
+</div>
+{% comment %}
+<div>
+  <h2 class="careers-openings__header">Current Openings</h2>
+  <div class="careers-openings__list">
+    <div class="careers-openings__opening">
+   	  <h3 class="careers-openings__opening-title">Senior Plant Scientist, Biological R&D</h3>
+      <p class="careers-openings__opening-location-title">Location</p>
+      <p class="careers-openings__opening-location">Vancouver, British Columbia</p>
+      <p class="careers-openings__opening-type-title">Type</p>
+      <p class="careers-openings__opening-type">Full-Time</p>
+    </div>
+  </div>
+</div>
+{% endcomment %}
+
+{% schema %}
+  {
+    "name": "Careers",
+	"class": "careers-container",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "URL"
+      },
+      {
+        "type": "text",
+        "id": "url_label",
+        "label": "Label"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Careers"
+      }
+    ]
+  }
+{% endschema %}

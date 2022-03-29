@@ -75,6 +75,9 @@
   text-align: center;
   font-size: 18px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero__content--bottom p br {
   display: none;
@@ -83,12 +86,15 @@
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
+  padding:0;
 }
-@media screen and (max-width:768px){
-  .hero__featured-logos{
+.hero__featured-logos{
     background-color:rgb(0 0 0 / 68%);
   }
-}
+@media screen and (max-width: 768px) {
+  .hero__featured-logos{
+    padding:1rem;
+  }}
 @media screen and (min-width: 768px) {
   .hero__content--top {
     align-items: unset;
@@ -103,8 +109,10 @@
     text-align: left;
   }
   .hero__content--top > h1 {
-    font-size: 60px !important;
+    font-size: calc(1em + 2vw) !important;
     font-weight: 200;
+    line-height: 60px;
+    padding-bottom: 1rem;
   }
   .hero__content--top p {
     padding: 5px 0;
@@ -119,16 +127,16 @@
     width: 200px;
   }
   .hero__buttons a:last-of-type {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .hero__content--bottom {
-    padding: 0 60px 20px;
     display: flex;
     flex-direction: row;
   }
   .hero__content--bottom p {
     text-align: left;
     width: 150px;
+    padding-left: 1rem;
   }
   .hero__content--bottom p br {
     display: block;
@@ -145,7 +153,7 @@
     height:100vh;
   }
   .hero__content--top {
-    padding: 200px 100px 0;
+    padding: 200px 80px 0;
   }
 }
 </style>
@@ -161,27 +169,24 @@
 {%- endcapture -%}
 
 <div class="hero__container" {{ background_image }}>
-  <div class="hero__content--top">
-    <h1>More Showers,<br> Less Guilt</h1>
-    <p>2x the flow rate with 80% water and<br>
-      energy savings. Now that is guilt free comfort!</p>
+  <div class="hero__content--top" style="position:relative;">
+      <div class="hero-blob"></div>
+    <h1>{{ section.settings.header }}</h1>
+    <p>{{ section.settings.subheader }}</p>
     <div class="hero__buttons">
-      <a href="#">ORDER NOW</a>
-      <a href="#">MEET RAINSTICK</a>
+      <a href="/pages/select-destination">ORDER NOW</a>
+      <a href="/pages/how-it-works">MEET RAINSTICK</a>
     </div>
   </div>
   <div class="hero__content--bottom">
     <p>They Really<br> Like Us!</p>
     <div class="hero__featured-logos">
       {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'hero-logo' -%}
-      {%- render 'rainstick-media-logos', name: 'Toronto Star', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Wall Street Journal', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'KBIS', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'hero-logo' -%}
-      {%- render 'rainstick-media-logos', name: 'Canie', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'hero-logo' -%}
-
-
-
     </div>
   </div>
 </div>
@@ -191,9 +196,19 @@
     "name": "Hero",
     "settings": [
 	  {
-      "id": "background",
-      "type": "image_picker",
-      "label": "Background image"
+        "id": "background",
+        "type": "image_picker",
+        "label": "Background image"
+      },
+	  {
+        "id": "header",
+        "type": "text",
+        "label": "Header"
+      },
+	  {
+        "id": "subheader",
+        "type": "text",
+        "label": "subheader"
       }
 	],
     "presets": [

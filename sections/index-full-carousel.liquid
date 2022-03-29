@@ -1,26 +1,26 @@
 <style>
   .index-carousel__carousel {
-    /* height: 500px; */
+    height: 500px;
     /* padding-bottom: 50px; */
     margin: 50px 0;
   }
   .index-carousel__title {
-    font-size: 30px !important;
+    font-size: 26pt !important;
     font-weight: 400 !important;
     width: 200px;
     margin: 40px auto;
+    text-align:center!important;;
+    margin-top:6rem!important;;
   }
   @media screen and (min-width: 375px) {
     .index-carousel__title {
-      width: 375px;
+      width: 415px;
     }
   }
   .index-carousel__carousel-item {
     width: 90%;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #292827;
-    border-radius: 6px;
   }
   .index-carousel__carousel-inner {
     /* padding: 20px 20px; */
@@ -89,9 +89,10 @@
       justify-content: center;
     }
     .index-carousel__carousel-img {
-      display: block;
+      display: flex;
       width: 50%;
-      padding: 0 50px;
+      margin-left: 60px;
+      align-items: center;
     }
     .index-carousel__carousel-name {
       order: 1;
@@ -109,6 +110,30 @@
       line-height: 30px;
       margin: 0 0 40px;
     }
+  }
+  .index-carousel__carousel .flickity-button {
+        background: hsla(0,0%,100%,0%);
+  }
+    .index-carousel__carousel .flickity-prev-next-button .flickity-button-icon {
+        width:33%;
+  }
+	@media screen and (min-width: 768px){
+  .index-carousel__carousel {
+    padding:0rem 2rem;
+  }}
+
+    @media screen and (max-width: 768px){
+         .index-carousel__carousel .flickity-prev-next-button {
+              top: 60%;
+        }}
+    @media screen and (max-width: 768px){
+         .index-carousel__carousel .flickity-prev-next-button.previous {
+              left:25px;
+        }}
+
+  .index-carousel__carousel-img img {
+/*     max-width: unset;
+    height: 100%; */
   }
 </style>
 

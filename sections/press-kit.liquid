@@ -6,16 +6,16 @@
   <h2 class="press-kit__header">Featured In</h2>
   <div class="press-kit__logo-container">
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'press-kit__logo' -%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      {%- render 'rainstick-media-logos', name: 'Wall Street Journal', icon_class: 'press-kit__logo' -%}
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'press-kit__logo'%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'press-kit__logo'%}
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
     <div class="press-kit__logo-item">
-      {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'press-kit__logo' -%}
-      <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p>
+      {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'press-kit__logo' -%}
+<!--       <p class="press-kit__media-text">Canadian Clean Technology Company, RainStick Releases Limited Run of RainStick Shower’s</p> -->
     </div>
   </div>
 </div>
@@ -34,25 +34,29 @@
 <div class="press-kit__section">
   <h2 class="press-kit__header">Logos</h2>
   <div class="press-kit__logos-container">
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
+    {% comment %}
+    {% for block in section.blocks %}
+      <div class="press-kit__logo-block">
+        <img src="{{ block.settings.image | img_url }}"/>
+      </div>
+    {% endfor %}
+    {% endcomment %}
   </div>
-  <a class="press-kit__logo-download">DOWNLOAD LOGO PACKAGE</a>
+  <a class="press-kit__logo-download" href="{{ section.settings.logo_package }}">DOWNLOAD LOGO PACKAGE</a>
 </div>
+{% comment %}
 <div class="press-kit__section">
   <h2 class="press-kit__header">Media</h2>
   <div class="press-kit__logos-container">
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
-    <div class="press-kit__logo-block"></div>
+    {% for block in section.blocks %}
+    	<div class="press-kit__logo-block">
+    		<img src="{{ block.settings.image }}"/>
+    	</div>
+    {% endfor %}
   </div>
-  <a class="press-kit__logo-download">DOWNLOAD LOGO PACKAGE</a>
+  <a class="press-kit__logo-download" href="{{ section.settings.media_package }}">DOWNLOAD LOGO PACKAGE</a>
 </div>
+{% endcomment %}
 
 {% schema %}
 {
@@ -62,6 +66,41 @@
       "type": "blog",
       "id": "blog",
       "label": "Press Blog"
+    },
+    {
+      "type": "textarea",
+      "id": "logo_package",
+      "label": "Logo package",
+      "info": "Upload guide to files then paste url into here"
+    },
+    {
+      "id": "logo_one",
+      "type": "image_picker",
+      "label": "Logo one"
+    },
+    {
+      "id": "logo_two",
+      "type": "image_picker",
+      "label": "Logo two"
+    },
+    {
+      "id": "logo_three",
+      "type": "image_picker",
+      "label": "Logo three"
+    }
+  ],
+  "blocks": [
+    {
+    "type": "image",
+	"name": "Logo",
+    "settings": 
+      [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo"
+        }
+      ]
     }
   ]
 }

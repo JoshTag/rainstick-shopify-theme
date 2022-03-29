@@ -1,8 +1,13 @@
 <style>
 .hero-b2b__container {
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: auto 100%;
   background-position: right -90px center;
+=======
+  background-size: cover;
+  background-position: top!important;
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
   position: relative;
   display: flex;
   flex-direction: column;
@@ -67,6 +72,11 @@
   text-align: center;
   font-size: 18px;
   font-weight: 600;
+<<<<<<< HEAD
+=======
+  background-color: rgb(0 0 0 / 68%);
+  padding-left: 1rem;
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
 }
 .hero-b2b__content--bottom p br {
   display: none;
@@ -76,11 +86,25 @@
   justify-content: space-between;
   flex-wrap:wrap;
 }
+<<<<<<< HEAD
 @media screen and (max-width:768px){
   .hero-b2b__featured-logos{
     background-color:rgb(0 0 0 / 68%);
   }
 }
+=======
+  @media screen and (max-width: 768px){
+.align-left-mobile{
+  text-align:left!important;
+}}
+.hero-b2b__featured-logos{
+    background-color:rgb(0 0 0 / 68%);
+}
+  @media screen and (max-width: 768px){
+.hero-b2b__featured-logos{
+  padding:1rem;
+}}
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
 @media screen and (min-width: 768px) {
   .hero-b2b__content--top {
     align-items: unset;
@@ -97,6 +121,11 @@
   .hero-b2b__content--top > h1 {
     font-size: 60px !important;
     font-weight: 200;
+<<<<<<< HEAD
+=======
+    line-height: 74px;
+    padding-bottom: 1rem;
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
   }
   .hero-b2b__content--top p {
     padding: 5px 0;
@@ -111,7 +140,6 @@
     width: 200px;
   }
   .hero-b2b__content--bottom {
-    padding: 0 60px 20px;
     display: flex;
     flex-direction: row;
   }
@@ -153,21 +181,35 @@
 
 <div class="hero-b2b__container" {{ background_image }}>
   <div class="hero-b2b__content--top">
+<<<<<<< HEAD
     <h1>Impressive Shower,<br>Easy Install</h1>
     <p>2x the flow rate with 80% water and<br>
       energy savings. Now that is guilt free comfort!</p>
     <div class="hero-b2b__buttons">
       <a href="#">BECOME A PRO</a>
+=======
+    <h1>{{ section.settings.header }}</h1>
+    <p>{{ section.settings.subheader }}</p>
+    <div class="hero-b2b__buttons">
+      <a href="#become-a-pro">BECOME A PRO</a>
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
     </div>
   </div>
   <div class="hero-b2b__content--bottom">
     <p>They Really<br> Like Us!</p>
     <div class="hero-b2b__featured-logos">
       {%- render 'rainstick-media-logos', name: 'CES', icon_class: 'hero-logo' -%}
+<<<<<<< HEAD
       {%- render 'rainstick-media-logos', name: 'Toronto Star', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'hero-logo' -%}
       {%- render 'rainstick-media-logos', name: 'Canie', icon_class: 'hero-logo' -%}
+=======
+      {%- render 'rainstick-media-logos', name: 'Wall Street Journal', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'KBIS', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'Forbes', icon_class: 'hero-logo' -%}
+      {%- render 'rainstick-media-logos', name: 'IDS', icon_class: 'hero-logo' -%}
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
       {%- render 'rainstick-media-logos', name: 'Style at Home', icon_class: 'hero-logo' -%}
     </div>
   </div>
@@ -177,12 +219,31 @@
   {
     "name": "B2B Hero",
     "settings": [
+<<<<<<< HEAD
     {
       "id": "background",
       "type": "image_picker",
       "label": "Background image"
       }
   ],
+=======
+      {
+        "id": "background",
+        "type": "image_picker",
+        "label": "Background image"
+      },
+      {
+        "id": "header",
+        "type": "text",
+        "label": "Header"
+      },
+      {
+        "id": "subheader",
+        "type": "text",
+        "label": "subheader"
+      }
+  	],
+>>>>>>> 01a51c6c143c5f1afa5c6ce287808c30f3599ff3
     "presets": [
       {
       "name": "B2B Hero"

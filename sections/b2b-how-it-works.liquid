@@ -3,24 +3,73 @@
   .howitworks__video-ctn-inner .embed-container iframe {
     height: 100%;
   }
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */  
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
+
 
 <div class="background__beige ctn-basic" style="position:relative">
   <div class="homepage-blob"></div>
-  <h2 class="mainheading_black-thin-large">How It Works</h2>
+  <h2 class="mainheading_black">How It Works</h2>
 
-<div class="b2b__video-ctn margin-btm-4">
-    <div class="howitworks__video-ctn-inner">
-      <div class='embed-container' style="width:100%"><iframe style="width:100%" src='https://www.youtube.com/embed/Nb2oXiaOjt0' frameborder='0' allowfullscreen></iframe></div>
+<div class="b2b__video-ctn margin-btm-10">
+  <div class='embed-container' style="width:100%">
+    {{ section.settings.video }}
+  </div>
+    <div class='b2b__video-info-ctn'>
+      <div class='b2b__info-1'>
+        <p style='padding:5px 0px'class="subheading_black">About Rainstick</p>
+      </div>
+      <div class='b2b__info-2'>
+        <p style='padding:5px 0px'>
+          {{ section.settings.content }}
+        </p>
+        <a href="{{ section.settings.link }}" style='padding:5px 0px' class="b2b-storylink">{{ section.settings.link_label }}</a>
+      </div>
     </div>
-</div>
+  </div> 
 </div> 
 
 
 {% schema %}
   {
     "name": "b2b How It Works",
-    "settings": []
+    "settings": [
+      {
+        "id": "background",
+        "type": "image_picker",
+        "label": "Background image"
+      },
+      {
+        "id": "content",
+        "type": "textarea",
+        "label": "Content"
+      },
+      {
+        "id": "video",
+        "type": "html",
+        "label": "Video"
+      },
+      {
+        "id": "link",
+        "type": "url",
+        "label": "Link"
+      },
+      {
+        "id": "link_label",
+        "type": "text",
+        "label": "link label"
+      }
+	]
   }
 {% endschema %}
 
