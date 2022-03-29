@@ -105,7 +105,38 @@
               <div class="list {{ page_list_class }}">
                 {% for item in search.results %}
                   {% unless item.price %}
-                    <div class="list-item list-item-inline">
+                  {%- capture background_image_style -%}
+                  {%
+                    include 'rimg',
+                    class: 'article-card__image',
+                    img: item.image,
+                    size: '700x700',
+                    lazy: true,
+                    background: true
+                  %}
+                  {%- endcapture -%}
+
+                  <article class="article-card__container {% if forloop.first == true  %}first-article{% endif %}" >
+                    {% if item.image %}
+                      <a href="{{ item.url }}" class="article-card__img-wrapper" {{ background_image_style }}>
+                      </a>
+                    {% endif %}
+
+                    <h2 class="article-card__title">
+                      <a href="{{ item.url }}">
+                        {{ item.title }}
+                      </a>
+                    </h2>
+
+                    <div class="article-card__excerpt rte">
+                      {{ item.excerpt_or_content }}
+                    </div>
+
+                    <a class="article-card__read-more" href="{{ item.url }}">
+                      {{ 'blogs.article_item.read_more' | t }}
+                    </a>
+                  </article>
+                    <!-- <div class="list-item list-item-inline">
                       <div class="list-container">
                         <div class="list-text-wrapper">
                           <div class="list-title">
@@ -122,7 +153,7 @@
                     </div>
                     {% assign clear = page_column %}
                     {% assign group = 'page_found' %}
-                    {% include 'clear' %}
+                    {% include 'clear' %} -->
                   {% endunless %}
                 {% endfor %}
               </div>

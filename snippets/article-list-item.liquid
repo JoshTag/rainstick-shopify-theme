@@ -19,6 +19,7 @@
       {% if blog_index %}</a>{% endif %}
     </h1>
   </header>
+  {% comment %}
   <div class="post-subtitle post-meta">
     <span>{{ article.published_at | date: format: 'short_month' }}</span>
       <span>{{ 'blogs.article_item.posted_by' | t }}: {{ article.author }}</span>
@@ -30,7 +31,9 @@
       </span>
     {% endif %}
   </div>
+  {% endcomment %}
 
+  <span>{{ article.published_at | date: format: 'short_month' }}</span>
   {% if blog_index and article.image %}
     <div class="post-image-container">
       {%

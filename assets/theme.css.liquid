@@ -6148,7 +6148,7 @@ img[data-rimg="loaded"] {
 }
 
 .header-navigation-link.header-navigation-current {
-  color: #0AC7C7;
+  color: #02827B;
   position: relative;
 }
 
@@ -6159,7 +6159,7 @@ img[data-rimg="loaded"] {
   bottom: -9px;
   width: 60%;
   height: 2px;
-  background-color: #0AC7C7;
+  background-color: #02827B;
   z-index: -1;
 }
   
@@ -12850,13 +12850,13 @@ width: 90%;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 2px;
-  background: #09c6c6!important;
+  background: #02827B!important;
   text-align: center;
   text-transform: none;
   vertical-align: top;
   cursor: pointer;
-  background-color: transparent;
-  border: 2px solid #09c6c6;
+  background-color: #02827B;
+  border: 2px solid #02827B;
   display: flex;
   justify-content: center;
   margin: 6px 0 0 auto;
@@ -15102,7 +15102,7 @@ width: 90%;
     color: #121212;
     font-size: 12pt;
     padding-bottom: 0rem;
-    padding-top 0rem;
+    padding-top: 0rem;
   }
   
   
@@ -15975,6 +15975,13 @@ width: 90%;
     font-weight: 400;
   }
 
+  .press-kit__content a {
+    color: #2a2725;
+  }
+  .press-kit__content a:hover {
+    color: #0AC7C7;
+  }
+
   .press-kit__logo-container {
     margin-top: 30px;
   }
@@ -15982,6 +15989,20 @@ width: 90%;
   .press-kit__logo-item {
     margin: 20px auto;
     max-width: 375px;
+  }
+
+  .press-kit__logo {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .press-kit__logo svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .press-kit__logo svg path {
+    fill: #000;
   }
 
   .press-kit__media-text {
@@ -16312,4 +16333,46 @@ width: 90%;
     margin-right: 0;
     padding-top: 2rem;
 }}
-  
+
+.blog-search {
+  padding: 0 10px 20px;
+}
+
+.blog-search__bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-search__bar input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 0 0 10px;
+}
+
+.blog-search__bar input::placeholder {
+  opacity: 1;
+  font-weight: 400;
+}
+
+.blog-search__bar button {
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 10px 0 0;
+}
+
+.blog-search__bar button svg {
+  width: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .blog-search {
+    width: 300px;
+    margin-left: auto;
+  }
+}

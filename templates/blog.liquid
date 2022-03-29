@@ -1,5 +1,14 @@
 <div class="module-wrapper">
   <div class="module blog">
+    <form class="blog-search" action="/search" method="get" role="search">
+      <input type="hidden" name="type" value="article" />
+      <div class="blog-search__bar">
+        <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="search" aria-label="search">
+        <button type="submit" >
+          <span >{% include 'search' %}</span>
+        </button>
+      </div>
+    </form>
     <div class="module-header blog-header" style="padding: 50px 0 0">
       <div class="module-title blog-title">
         <h1>

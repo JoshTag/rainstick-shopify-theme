@@ -60,7 +60,8 @@
       "no_results": "Your search for '{{ search_terms }}' has returned no results.",
       "results_text": "Search for '{{ search_terms }}' returned {{ results_count }} {{ results }}",
       "submit": "Search",
-      "read_more": "Read more"
+      "read_more": "Read more",
+      "results": "results"
     },
     "pagination": {
       "summary": "Page {{ current_page }} of {{ pages }}",

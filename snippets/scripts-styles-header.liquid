@@ -259,7 +259,7 @@
   }
 </style>
 {% style %}
-{% if request.page_type == "index" %}
+{% if request.page_type == "index" or page.handle == "bathroom-pros" %}
 .main-content {
   top: -100px;
   margin-bottom: -100px;
